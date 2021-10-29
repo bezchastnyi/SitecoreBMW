@@ -1,0 +1,28 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+    var homeItem = Sitecore.Context.Database.Items.GetItem("{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}");
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Montserrat" rel="stylesheet">
+    <title>@Html.Sitecore().Field("Title", homeItem)</title>
+</head>
+
+<body>
+    <div>
+        CARS
+    </div>
+
+    <div>
+      @Html.Sitecore().Placeholder("footer")
+    </div>
+</body>
+</html>

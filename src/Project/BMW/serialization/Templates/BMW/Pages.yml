@@ -1,0 +1,14 @@
+﻿---
+ID: "58626504-ac34-42c8-a7c9-5ae99c32c3f1"
+Parent: "f4eea611-2b56-4262-a3e9-938daa2c120c"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Project/BMW/Pages
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211029T152658Z

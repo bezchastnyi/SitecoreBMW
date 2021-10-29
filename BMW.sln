@@ -1,0 +1,122 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{2AB2FE7E-F066-4454-A471-5EA1E69CC567}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\.gitkeep = src\Feature\.gitkeep
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{55DA7155-2961-4CB6-A782-F348BE57629A}"
+	ProjectSection(SolutionItems) = preProject
+		src\Foundation\.gitkeep = src\Foundation\.gitkeep
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{27812473-F0F3-4985-BEDA-74A3C6231283}"
+	ProjectSection(SolutionItems) = preProject
+		src\Project\.gitkeep = src\Project\.gitkeep
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution", "_Solution", "{3D2C54A0-295F-4B0B-A781-836A551741FA}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		nuget.config = nuget.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Build", "_Build", "{3721F7AA-5827-4406-B885-67D7D0CB64B3}"
+	ProjectSection(SolutionItems) = preProject
+		_build\AssemblyBindings.config = _build\AssemblyBindings.config
+		Default.Properties.props.user = Default.Properties.props.user
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "props", "props", "{A7EEBAD2-161D-4F77-94E7-72B827F90FCF}"
+	ProjectSection(SolutionItems) = preProject
+		_build\props\_NetFramework.PublishProfile.props = _build\props\_NetFramework.PublishProfile.props
+		_build\props\_NetFramework.References.props = _build\props\_NetFramework.References.props
+		_build\props\_SitecoreHost.Client.props = _build\props\_SitecoreHost.Client.props
+		_build\props\_SitecoreRoleType.props = _build\props\_SitecoreRoleType.props
+		_build\props\_TestProject.props = _build\props\_TestProject.props
+		_build\props\Default.Compiler.props = _build\props\Default.Compiler.props
+		_build\props\Default.ProjectContent.props = _build\props\Default.ProjectContent.props
+		_build\props\Default.Properties.props = _build\props\Default.Properties.props
+		_build\props\Default.Publishing.props = _build\props\Default.Publishing.props
+		_build\props\Identity.Publishing.props = _build\props\Identity.Publishing.props
+		_build\props\Identity.References.props = _build\props\Identity.References.props
+		_build\props\Website.Publishing.props = _build\props\Website.Publishing.props
+		_build\props\Website.References.props = _build\props\Website.References.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "targets", "targets", "{0969548C-F1BC-4624-8B0B-BCF530D45D54}"
+	ProjectSection(SolutionItems) = preProject
+		_build\targets\AutoPublish.targets = _build\targets\AutoPublish.targets
+		_build\targets\InvokeWebPublish.targets = _build\targets\InvokeWebPublish.targets
+		_build\targets\PublishSingleItem.targets = _build\targets\PublishSingleItem.targets
+		_build\targets\RemoveFilesFromPublish.targets = _build\targets\RemoveFilesFromPublish.targets
+		_build\targets\TouchConfig.targets = _build\targets\TouchConfig.targets
+		_build\targets\TransformXml.targets = _build\targets\TransformXml.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{67DD80A2-30B6-44B2-91F5-EF7280F16CBD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foundation.Serialization", "src\Foundation\Serialization\code\Foundation.Serialization.csproj", "{76B4C7C4-C8F5-46D7-AE7C-DDCA904E2CB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Header", "Header", "{9F2993B8-884D-471B-9A48-5B73AB1996D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Footer", "Footer", "{BBEBAF65-196D-4EA8-97EF-E8504475287E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feature.Header", "src\Feature\Header\code\Feature.Header.csproj", "{EF62388A-A938-496C-9061-351523A5587E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feature.Footer", "src\Feature\Footer\code\Feature.Footer.csproj", "{B20FF878-CC19-4E14-B5AC-9932569D0E49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BMW", "BMW", "{1781688B-59D2-4C6B-A7A0-BB265AEBB248}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.BMW", "src\Project\BMW\code\Project.BMW.csproj", "{E06B3B6C-6ECF-4DBE-B859-AAB33CE4807F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76B4C7C4-C8F5-46D7-AE7C-DDCA904E2CB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B4C7C4-C8F5-46D7-AE7C-DDCA904E2CB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B4C7C4-C8F5-46D7-AE7C-DDCA904E2CB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B4C7C4-C8F5-46D7-AE7C-DDCA904E2CB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF62388A-A938-496C-9061-351523A5587E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF62388A-A938-496C-9061-351523A5587E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF62388A-A938-496C-9061-351523A5587E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF62388A-A938-496C-9061-351523A5587E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B20FF878-CC19-4E14-B5AC-9932569D0E49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B20FF878-CC19-4E14-B5AC-9932569D0E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B20FF878-CC19-4E14-B5AC-9932569D0E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B20FF878-CC19-4E14-B5AC-9932569D0E49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E06B3B6C-6ECF-4DBE-B859-AAB33CE4807F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E06B3B6C-6ECF-4DBE-B859-AAB33CE4807F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E06B3B6C-6ECF-4DBE-B859-AAB33CE4807F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E06B3B6C-6ECF-4DBE-B859-AAB33CE4807F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7EEBAD2-161D-4F77-94E7-72B827F90FCF} = {3721F7AA-5827-4406-B885-67D7D0CB64B3}
+		{0969548C-F1BC-4624-8B0B-BCF530D45D54} = {3721F7AA-5827-4406-B885-67D7D0CB64B3}
+		{67DD80A2-30B6-44B2-91F5-EF7280F16CBD} = {55DA7155-2961-4CB6-A782-F348BE57629A}
+		{76B4C7C4-C8F5-46D7-AE7C-DDCA904E2CB6} = {67DD80A2-30B6-44B2-91F5-EF7280F16CBD}
+		{9F2993B8-884D-471B-9A48-5B73AB1996D2} = {2AB2FE7E-F066-4454-A471-5EA1E69CC567}
+		{BBEBAF65-196D-4EA8-97EF-E8504475287E} = {2AB2FE7E-F066-4454-A471-5EA1E69CC567}
+		{EF62388A-A938-496C-9061-351523A5587E} = {9F2993B8-884D-471B-9A48-5B73AB1996D2}
+		{B20FF878-CC19-4E14-B5AC-9932569D0E49} = {BBEBAF65-196D-4EA8-97EF-E8504475287E}
+		{1781688B-59D2-4C6B-A7A0-BB265AEBB248} = {27812473-F0F3-4985-BEDA-74A3C6231283}
+		{E06B3B6C-6ECF-4DBE-B859-AAB33CE4807F} = {1781688B-59D2-4C6B-A7A0-BB265AEBB248}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CBD387A-C788-4E28-9F1A-AC0FDCDEA796}
+	EndGlobalSection
+EndGlobal

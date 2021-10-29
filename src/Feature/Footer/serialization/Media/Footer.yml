@@ -1,0 +1,14 @@
+﻿---
+ID: "0c56169d-476b-4a02-92be-79fc6f8a2f0b"
+Parent: "16e6ae72-9453-4dca-93bb-fc07ec50a846"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Project/BMW/Footer
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211029T110603Z

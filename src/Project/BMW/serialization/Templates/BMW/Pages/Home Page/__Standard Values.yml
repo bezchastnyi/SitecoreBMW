@@ -1,0 +1,36 @@
+﻿---
+ID: "89de6d5b-a99e-4e7b-8d00-35272543fe8a"
+Parent: "f947c786-a97f-4499-b6c8-60b58d8dd311"
+Template: "f947c786-a97f-4499-b6c8-60b58d8dd311"
+Path: /sitecore/templates/Project/BMW/Pages/Home Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{8C24FCA0-7C25-4ADA-AEB1-468B3461A05C}">
+        <p
+          uid="{49EEC8E3-853F-466D-993A-BFAF6D856428}"
+          key="footer"
+          md="{471D30E8-EDE1-44A1-A43E-EF64D892C48F}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211029T153019Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "a1be3570-9aa9-44cd-aca1-7e28105d0bbf"
+      Hint: Title
+      Value: $name
