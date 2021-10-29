@@ -4,6 +4,10 @@ Parent: "da61ad50-8fdb-4252-a68f-b4470b1c9fe8"
 Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
 Path: /sitecore/layout/Renderings/Feature/Footer
 DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/arrow_down.png
 Languages:
 - Language: en
   Versions:

@@ -17,6 +17,10 @@ SharedFields:
           uid="{49EEC8E3-853F-466D-993A-BFAF6D856428}"
           key="footer"
           md="{471D30E8-EDE1-44A1-A43E-EF64D892C48F}" />
+        <p
+          uid="{AB846514-18E7-4A00-9443-AED43E2E9ECA}"
+          key="header"
+          md="{05F4DC93-186A-4589-B79B-41DD45DEBBA0}" />
       </d>
     </r>
 Languages:

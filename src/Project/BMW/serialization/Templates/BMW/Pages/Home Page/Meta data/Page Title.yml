@@ -2,7 +2,7 @@
 ID: "a1be3570-9aa9-44cd-aca1-7e28105d0bbf"
 Parent: "eba5e0be-a1e5-4375-b278-e55e0a2941c7"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Project/BMW/Pages/Home Page/Meta data/Title
+Path: /sitecore/templates/Project/BMW/Pages/Home Page/Meta data/Page Title
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"

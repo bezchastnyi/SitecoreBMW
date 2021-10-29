@@ -5,7 +5,4 @@
     <AssemblyName>Feature.Footer</AssemblyName>
     <SitecoreRoleType>website</SitecoreRoleType>
   </PropertyGroup>
-  <ItemGroup>
-    <None Remove="Views\Feature\Footer\footer2.cshtml" />
-  </ItemGroup>
 </Project>

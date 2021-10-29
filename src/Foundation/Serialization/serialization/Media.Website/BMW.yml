@@ -4,6 +4,10 @@ Parent: "8c7913a8-61bf-49ac-8be8-f270e03fa892"
 Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
 Path: /sitecore/media library/Project/BMW
 DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: apps/32x32/car.png
 Languages:
 - Language: en
   Versions:

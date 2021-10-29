@@ -4,6 +4,10 @@ Parent: "16e6ae72-9453-4dca-93bb-fc07ec50a846"
 Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
 Path: /sitecore/media library/Project/BMW/Footer
 DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/32x32/arrow_down.png
 Languages:
 - Language: en
   Versions:
