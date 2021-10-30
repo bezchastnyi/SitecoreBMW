@@ -2,7 +2,7 @@
 @using Sitecore.Mvc.Presentation
 @model RenderingModel
 @{
-    var homeItem = Sitecore.Context.Database.Items.GetItem("{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}");
+    var productsItem = Sitecore.Context.Database.Items.GetItem("{2D930278-80FB-4176-B092-A94FCD6B8DA6}");
 }
 
 <!DOCTYPE html>
@@ -12,7 +12,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>@Html.Sitecore().Field("Page Title", homeItem, new { DisableWebEdit = true })</title>
+    <title>@Html.Sitecore().Field("Page Title", productsItem, new { DisableWebEdit = true })</title>
+
     <style>
     /* header */
     .header {
@@ -40,26 +41,6 @@
       top: 50%;
       transform: translateY(-50%);
     }
-    
-    /* banner */
-      .banner {
-      position: relative;
-      text-align: center;
-    }
-
-    .banner-image {
-      width: 100%;
-      height: 100%;
-    }
-
-    .banner-text {
-      font-size: 20pt;
-      color: black;
-      position: absolute;
-      top: 46%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
 
 /* footer */
 .footer {
@@ -81,10 +62,6 @@
 <body>
     <div class="header">
       @Html.Sitecore().Rendering("{D67FE4A6-F41D-4A5D-8D04-2E728C22E1FF}")
-    </div>
-
-    <div class="banner">
-        @Html.Sitecore().Rendering("{CA72E5F8-3531-4E7C-B293-2EA8792A0751}")
     </div>
 
     <div class="footer">

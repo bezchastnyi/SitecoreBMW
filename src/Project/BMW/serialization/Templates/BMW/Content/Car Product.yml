@@ -1,20 +1,20 @@
 ﻿---
-ID: "702fbd1d-64ee-4846-a2c8-bd4b268a8ce2"
-Parent: "58626504-ac34-42c8-a7c9-5ae99c32c3f1"
+ID: "12f55aa2-8338-4715-9d0c-fd67d066f45c"
+Parent: "da8a4163-b1b1-453d-b18c-92678a7ee645"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Project/BMW/Pages/Home Page
+Path: /sitecore/templates/Project/BMW/Content/Car Product
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: network/16x16/home.png
+  Value: Apps/32x32/Car.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Type: tree list
-  Value: "{186BB82F-DD6E-43E1-AE27-2ED0A83247DC}"
+  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
-  Value: "{7D389839-77DB-4CE7-901C-05DCF0B8164B}"
+  Value: "{A3140D4A-2D50-4355-9485-0EC58DCEA47D}"
 Languages:
 - Language: en
   Versions:
@@ -22,4 +22,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20211030T080345Z
+      Value: 20211030T080746Z

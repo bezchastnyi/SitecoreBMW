@@ -1,0 +1,14 @@
+﻿---
+ID: "a3140d4a-2d50-4355-9485-0ec58dcea47d"
+Parent: "12f55aa2-8338-4715-9d0c-fd67d066f45c"
+Template: "12f55aa2-8338-4715-9d0c-fd67d066f45c"
+Path: /sitecore/templates/Project/BMW/Content/Car Product/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211030T080753Z

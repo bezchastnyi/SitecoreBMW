@@ -1,0 +1,21 @@
+﻿---
+ID: "356c1042-e89f-484e-9d34-5094e718fcd4"
+Parent: "186bb82f-dd6e-43e1-ae27-2ed0a83247dc"
+Template: "186bb82f-dd6e-43e1-ae27-2ed0a83247dc"
+Path: /sitecore/templates/Project/BMW/Basic/Page Foundation/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0851f200-3cf2-4438-850b-92fc9bf178a1"
+      Hint: Page Title
+      Value: $name
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211030T075855Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
