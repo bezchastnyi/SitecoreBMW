@@ -5,6 +5,9 @@ Template: "702fbd1d-64ee-4846-a2c8-bd4b268a8ce2"
 Path: /sitecore/templates/Project/BMW/Pages/Home Page/__Standard Values
 DB: master
 SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout
@@ -22,3 +25,6 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20211030T080354Z
+    - ID: "bb54908c-9bb4-4084-9acf-694b7287a67c"
+      Hint: Banner Title
+      Value: $name

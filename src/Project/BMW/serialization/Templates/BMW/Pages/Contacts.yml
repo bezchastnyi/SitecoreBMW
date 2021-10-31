@@ -1,0 +1,28 @@
+﻿---
+ID: "f6d32222-3920-49ff-9013-89ae1cc65d06"
+Parent: "58626504-ac34-42c8-a7c9-5ae99c32c3f1"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/BMW/Pages/Contacts
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Business/16x16/message.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{186BB82F-DD6E-43E1-AE27-2ED0A83247DC}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{3215CC0A-1C89-4F52-8E80-DA1E0E77C188}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211031T124631Z

@@ -1,8 +1,31 @@
-﻿<header class="footer">
-  <div class="wrapper">
-    <div class="logo">
-      <img src="..\..\wwwroot\bmw_logo.png" alt="a logo">
-    </div>
-    <div class="footer-text"> &copy; 2021 BMW Ltd. </div>
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+    var master = Sitecore.Configuration.Factory.GetDatabase("master");
+
+    var homeItem = master.GetItem("/sitecore/Content/BMW/Home");
+    var homeItemUrl = Sitecore.Links.LinkManager.GetItemUrl(homeItem);
+
+    var productsItem = master.GetItem("/sitecore/Content/BMW/Products");
+    var productsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(productsItem);
+
+    var contactsItem = master.GetItem("/sitecore/Content/BMW/Contacts");
+    var contactsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(contactsItem);
+}
+
+<header class="footer">
+  <div class="footer-container">
+    <div class="footer-logo"> @Html.Sitecore().Field("Footer Logo") </div>
+    <div class="footer-context"> @Html.Sitecore().Field("Footer Text") </div>
+
+    <nav class="header-navigation">
+      <ul class="navigation-bar">
+        <li><a href="@homeItemUrl"> @Html.Sitecore().Field("__Display Name", homeItem)</a></li>
+        <li><a href="@productsItemUrl"> @Html.Sitecore().Field("__Display Name", productsItem)</a></li>
+        <li><a href="@contactsItemUrl"> @Html.Sitecore().Field("__Display Name", contactsItem)</a></li>
+      </ul>
+    </nav>
   </div>
+  <hr/>
 </header>

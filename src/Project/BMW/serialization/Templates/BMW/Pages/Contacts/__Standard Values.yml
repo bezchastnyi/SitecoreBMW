@@ -1,0 +1,29 @@
+﻿---
+ID: "3215cc0a-1c89-4f52-8e80-da1e0e77c188"
+Parent: "f6d32222-3920-49ff-9013-89ae1cc65d06"
+Template: "f6d32222-3920-49ff-9013-89ae1cc65d06"
+Path: /sitecore/templates/Project/BMW/Pages/Contacts/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{C5905D99-071E-4A5B-8A2A-E2A1D5EE0B11}">
+        <p
+          uid="{C5C0E826-0F94-4BD1-87F5-53449EFF795C}"
+          key="contact"
+          md="{1D3ABF0D-3457-4E33-A1B0-FE12DDE833EF}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211031T172647Z

@@ -1,8 +1,8 @@
 ﻿---
-ID: "483936b1-e244-4003-827b-8f965e7e0735"
-Parent: "a8423e7e-e4fb-4404-91ed-5d5bb741e68b"
+ID: "ba884881-fb71-4256-906c-92fec9436d6e"
+Parent: "702fbd1d-64ee-4846-a2c8-bd4b268a8ce2"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Project/BMW/Pages/Products Page/Data
+Path: /sitecore/templates/Project/BMW/Pages/Home Page/Banner
 DB: master
 Languages:
 - Language: en
@@ -11,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20211030T093503Z
+      Value: 20211030T093623Z

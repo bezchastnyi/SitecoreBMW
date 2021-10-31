@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Feature.Contact</RootNamespace>
+    <AssemblyName>Feature.Contact</AssemblyName>
+    <SitecoreRoleType>website</SitecoreRoleType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Views\Feature\Contact\" />
+  </ItemGroup>
+</Project>

@@ -1,16 +1,16 @@
 ﻿---
-ID: "de194d06-50fe-4d6d-819d-fe00473f6735"
+ID: "bb54908c-9bb4-4084-9acf-694b7287a67c"
 Parent: "ba884881-fb71-4256-906c-92fec9436d6e"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Project/BMW/Pages/Home Page/Meta data/Banner Image
+Path: /sitecore/templates/Project/BMW/Pages/Home Page/Banner/Banner Title
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: Image
+  Value: "Single-Line Text"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 100
+  Value: 200
 Languages:
 - Language: en
   Versions:
@@ -18,4 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20211030T093639Z
+      Value: 20211030T204801Z
