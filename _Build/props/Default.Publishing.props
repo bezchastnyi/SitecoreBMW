@@ -31,7 +31,7 @@ Publish.Properties.props
     <!-- DEFAULT PROPERTIES SECTION 
             The below properties should be explicitly overridden in $(SitecoreRoleType).Common.props}-->
     <PublishRootPath>C:\inetpub\wwwroot\bmw_sc.dev.local</PublishRootPath>
-    <PublishPathWebsite>$(PublishRootPath)\Website</PublishPathWebsite>
+    <PublishPathWebsite>$(PublishRootPath)</PublishPathWebsite>
     <PublishPathXConnect>$(PublishRootPath)\xconnect\</PublishPathXConnect>
     <PublishPathXCProcessing>$(PublishRootPath)\xconnect-processingengine</PublishPathXCProcessing>
     <PublishPathXCIndexWorker>$(PublishRootPath)\xconnect-indexworker</PublishPathXCIndexWorker>

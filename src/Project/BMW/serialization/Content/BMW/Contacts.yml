@@ -1,0 +1,54 @@
+﻿---
+ID: "6571ccbc-265f-4817-b56e-dbea015768c9"
+Parent: "b59cb9b2-a454-4d24-94e5-5431e42e6f6e"
+Template: "f6d32222-3920-49ff-9013-89ae1cc65d06"
+Path: /sitecore/content/BMW/Contacts
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 150
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Contacts
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{787828F4-10FB-4A11-A850-CE0D34F2DFE4}"
+              p:after="*[1=2]"
+              s:ds="{4BC5380A-D390-4CC8-845C-DBD4277A927A}"
+              s:id="{A8EBA6BA-C0D9-4DCF-A143-BB1F1A14AA0C}"
+              s:par=""
+              s:ph="contact" />
+          </d>
+        </r>
+    - ID: "0851f200-3cf2-4438-850b-92fc9bf178a1"
+      Hint: Page Title
+      Value: Contacts
+    - ID: "1494909c-303a-4e81-803f-adffb9c2197e"
+      Hint: Footer Text
+      Value: |
+        <span style="text-align: center;">&copy; 2021 BMW Ltd.</span>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211031T124740Z
+    - ID: "292809b1-f492-4b35-98c3-518806cd5059"
+      Hint: Header Logo
+      Value: |
+        <image mediaid="{A3EDA0B0-3979-4565-8456-7D21A6EC34B9}" />
+    - ID: "fddd2c13-ca9c-42f7-9004-899cd73e3f07"
+      Hint: Footer Logo
+      Value: |
+        <image mediaid="{A3EDA0B0-3979-4565-8456-7D21A6EC34B9}" />

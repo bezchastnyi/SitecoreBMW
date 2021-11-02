@@ -7,8 +7,11 @@
     var homeItem = master.GetItem("/sitecore/Content/BMW/Home");
     var homeItemUrl = Sitecore.Links.LinkManager.GetItemUrl(homeItem);
 
-    var productsItem = master.GetItem("/sitecore/Content/BMW/Products");
-    var productsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(productsItem);
+    var allProductsItem = master.GetItem("/sitecore/Content/BMW/All Products");
+    var allProductsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(allProductsItem);
+
+    var topProductsItem = master.GetItem("/sitecore/Content/BMW/Top Products");
+    var topProductsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(topProductsItem);
 
     var contactsItem = master.GetItem("/sitecore/Content/BMW/Contacts");
     var contactsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(contactsItem);
@@ -22,7 +25,8 @@
     <nav class="header-navigation">
       <ul class="navigation-bar">
         <li><a href="@homeItemUrl"> @Html.Sitecore().Field("__Display Name", homeItem)</a></li>
-        <li><a href="@productsItemUrl"> @Html.Sitecore().Field("__Display Name", productsItem)</a></li>
+        <li><a href="@allProductsItemUrl"> @Html.Sitecore().Field("__Display Name", allProductsItem)</a></li>
+        <li><a href="@topProductsItemUrl"> @Html.Sitecore().Field("__Display Name", topProductsItem)</a></li>
         <li><a href="@contactsItemUrl"> @Html.Sitecore().Field("__Display Name", contactsItem)</a></li>
       </ul>
     </nav>

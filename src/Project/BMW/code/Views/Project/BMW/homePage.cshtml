@@ -13,29 +13,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="../../../Project/style.css">
+    <link rel="stylesheet" href="../../../Css/style.css">
     <link rel="shortcut icon" href="../../../wwwroot/bmw_logo.ico">
     <title>@Html.Sitecore().Field("Page Title", homeItem, new { DisableWebEdit = true })</title>
 </head>
 
 <body>
-    @* Header *@
-    <div>
-      @Html.Sitecore().Rendering("{D67FE4A6-F41D-4A5D-8D04-2E728C22E1FF}")
-    </div>
+  @* Header *@
+  <div>
+    @Html.Sitecore().Rendering("{D67FE4A6-F41D-4A5D-8D04-2E728C22E1FF}")
+  </div>
+  <br />
 
-    @* Banner *@
-    <div>
-        @Html.Sitecore().Rendering("{CA72E5F8-3531-4E7C-B293-2EA8792A0751}")
-    </div>
+  @* Banner *@
+  <div>
+    @Html.Sitecore().Rendering("{CA72E5F8-3531-4E7C-B293-2EA8792A0751}")
+  </div>
+  <br />
 
-    <div>
-        @Html.Sitecore().Field("Description", homeItem)
-    </div>
+  <div>
+    @Html.Sitecore().Field("Description", homeItem)
+  </div>
+  <br />
 
-    @* Footer *@
-    <div>
-      @Html.Sitecore().Rendering("{F9FDED76-28E3-4EDB-B74F-A5353EC880AF}")
-    </div>
+  @* Footer *@
+  <div>
+    @Html.Sitecore().Rendering("{F9FDED76-28E3-4EDB-B74F-A5353EC880AF}")
+  </div>
 </body>
 </html>

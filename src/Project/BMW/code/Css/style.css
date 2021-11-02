@@ -1,46 +1,6 @@
 /* header */
 
-.header {
-    width: 100%;
-    position: relative;
-}
 
-.header-container {
-    clear: both;
-    overflow: auto;
-}
-
-.current-page-title {
-    font-size: 20pt;
-    color: black;
-    position: absolute;
-    top: 46%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.header-logo {
-    float: left;
-    margin-top: 5px;
-    margin-left: 5px;
-    display: flex;
-    width: 70px;
-    height: 70px;
-}
-
-.header-navigation {
-    float: right;
-}
-
-.navigation-bar li {
-    display: inline-block;
-    padding: 10px;
-    font-size: 20px;
-}
-
-.navigation-bar li:hover {
-    color: red;
-}
 
 
 /* banner */

@@ -1,8 +1,8 @@
 ﻿---
-ID: "9f20d786-0393-428c-beae-3a317ade796a"
-Parent: "a8423e7e-e4fb-4404-91ed-5d5bb741e68b"
-Template: "a8423e7e-e4fb-4404-91ed-5d5bb741e68b"
-Path: /sitecore/templates/Project/BMW/Pages/Products Page/__Standard Values
+ID: "c96981f1-f8cc-46d0-bc4d-b81adbd16441"
+Parent: "23c3c629-a6a5-4af2-abf8-671a9be25873"
+Template: "23c3c629-a6a5-4af2-abf8-671a9be25873"
+Path: /sitecore/templates/Project/BMW/Pages/Top Products Page/__Standard Values
 DB: master
 SharedFields:
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
@@ -14,7 +14,7 @@ SharedFields:
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
         l="{8BEF7708-00A6-4DDE-A069-352EBB04B91C}">
         <p
-          uid="{40A05F77-165F-40D0-8BC8-036AD6AFBDF3}"
+          uid="{10A391A9-DAC5-47C7-A96B-0EA02DAF3ABF}"
           key="product"
           md="{CB189351-88FE-41EA-9659-C4723846EAE1}" />
       </d>
@@ -26,4 +26,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20211030T082816Z
+      Value: 20211102T164036Z

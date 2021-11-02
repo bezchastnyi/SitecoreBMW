@@ -5,7 +5,8 @@
     <AssemblyName>Feature.Contact</AssemblyName>
     <SitecoreRoleType>website</SitecoreRoleType>
   </PropertyGroup>
+
   <ItemGroup>
-    <Folder Include="Views\Feature\Contact\" />
+    <PackageReference Include="Sitecore.Mvc" Version="9.3.0" />
   </ItemGroup>
 </Project>

@@ -1,0 +1,57 @@
+﻿---
+ID: "e5447f34-c83f-4495-9087-1a46a2cce870"
+Parent: "b59cb9b2-a454-4d24-94e5-5431e42e6f6e"
+Template: "23c3c629-a6a5-4af2-abf8-671a9be25873"
+Path: /sitecore/content/BMW/Top Products
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Top Products
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{5ED79105-73A5-4885-8BEB-5347463B826E}"
+              p:after="p[@uid='{10A391A9-DAC5-47C7-A96B-0EA02DAF3ABF}']"
+              s:ds="{D04DEB4F-C71B-407B-873C-7DE3E6280987}"
+              s:id="{C594497A-E071-44F7-871D-792DCC43891F}"
+              s:par=""
+              s:ph="product" />
+            <r
+              uid="{811EFF45-C3B0-4AC6-8F92-CD94F903D2F6}"
+              p:after="*[1=2]"
+              s:ds="{6B6282EA-0076-4B1E-A20A-CD8BE9C7B2F7}"
+              s:id="{C594497A-E071-44F7-871D-792DCC43891F}"
+              s:par=""
+              s:ph="product" />
+          </d>
+        </r>
+    - ID: "0851f200-3cf2-4438-850b-92fc9bf178a1"
+      Hint: Page Title
+      Value: Top Products
+    - ID: "1494909c-303a-4e81-803f-adffb9c2197e"
+      Hint: Footer Text
+      Value: |
+        <span style="text-align: center; color: #000000;">&copy; 2021 BMW Ltd.</span>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211102T164110Z
+    - ID: "292809b1-f492-4b35-98c3-518806cd5059"
+      Hint: Header Logo
+      Value: |
+        <image mediaid="{A3EDA0B0-3979-4565-8456-7D21A6EC34B9}" />
+    - ID: "fddd2c13-ca9c-42f7-9004-899cd73e3f07"
+      Hint: Footer Logo
+      Value: |
+        <image mediaid="{A3EDA0B0-3979-4565-8456-7D21A6EC34B9}" />

@@ -2,12 +2,15 @@
 ID: "8bef7708-00a6-4dde-a069-352ebb04b91c"
 Parent: "3644632d-4440-49b1-9563-bff945bbc1b2"
 Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
-Path: /sitecore/layout/Layouts/Project/BMW/Products Page
+Path: /sitecore/layout/Layouts/Project/BMW/Top Products Page
 DB: master
 SharedFields:
 - ID: "a036b2bc-ba04-44f6-a75f-bae6cd242abf"
   Hint: Path
-  Value: /Views/Project/BMW/products.cshtml
+  Value: /Views/Project/BMW/topProducts.cshtml
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
 Languages:
 - Language: en
   Versions:

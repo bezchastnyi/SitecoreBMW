@@ -1,19 +1,9 @@
 ﻿---
-ID: "d67fe4a6-f41d-4a5d-8d04-2e728c22e1ff"
+ID: "0c090d6a-0bce-4c56-bed7-b6cd7436be4d"
 Parent: "da61ad50-8fdb-4252-a68f-b4470b1c9fe8"
-Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
 Path: /sitecore/layout/Renderings/Feature/Header
 DB: master
-SharedFields:
-- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
-  Hint: Path
-  Value: /Views/Feature/Header/header.cshtml
-- ID: "989631c3-8cd3-4d04-a996-7c1f4eec75a4"
-  Hint: Default Parameters
-  Value: 
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 0
 Languages:
 - Language: en
   Versions:
@@ -21,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20211029T110248Z
+      Value: 20211101T155804Z

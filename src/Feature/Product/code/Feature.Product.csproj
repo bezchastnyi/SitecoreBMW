@@ -5,4 +5,8 @@
     <AssemblyName>Feature.Product</AssemblyName>
     <SitecoreRoleType>website</SitecoreRoleType>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Sitecore.Mvc" Version="9.3.0" />
+  </ItemGroup>
 </Project>

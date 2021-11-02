@@ -1,0 +1,67 @@
+﻿---
+ID: "2d930278-80fb-4176-b092-a94fcd6b8da6"
+Parent: "b59cb9b2-a454-4d24-94e5-5431e42e6f6e"
+Template: "a8423e7e-e4fb-4404-91ed-5d5bb741e68b"
+Path: /sitecore/content/BMW/All Products
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: All Products
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{0A45C382-ACCE-4219-9983-279179BD53E6}"
+              p:before="*"
+              s:ds="{B75A0B4F-C517-4B19-B9BE-06FFED90FB3B}"
+              s:id="{C594497A-E071-44F7-871D-792DCC43891F}"
+              s:par=""
+              s:ph="product" />
+            <r
+              uid="{E5CB612A-7FF3-45AA-B737-6C07F92FD3C4}"
+              p:after="r[@uid='{0A45C382-ACCE-4219-9983-279179BD53E6}']"
+              s:id="{F9FDED76-28E3-4EDB-B74F-A5353EC880AF}"
+              s:ph="footer" />
+            <r
+              uid="{7B9A547F-8005-44C9-BA51-A3C901910BB3}"
+              p:after="r[@uid='{E5CB612A-7FF3-45AA-B737-6C07F92FD3C4}']"
+              s:id="{D67FE4A6-F41D-4A5D-8D04-2E728C22E1FF}"
+              s:ph="header" />
+            <r
+              uid="{71B6441D-098A-4FA6-B549-6C41F2F44BAA}"
+              p:after="*[1=2]"
+              s:ds="{3C45C0D7-6EA1-4865-BF21-D96ADBB7EE46}"
+              s:id="{C594497A-E071-44F7-871D-792DCC43891F}"
+              s:par=""
+              s:ph="product" />
+          </d>
+        </r>
+    - ID: "0851f200-3cf2-4438-850b-92fc9bf178a1"
+      Hint: Page Title
+      Value: All Products
+    - ID: "1494909c-303a-4e81-803f-adffb9c2197e"
+      Hint: Footer Text
+      Value: |
+        <span style="text-align: center; color: #000000;">&copy; 2021 BMW Ltd.</span>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211030T082845Z
+    - ID: "292809b1-f492-4b35-98c3-518806cd5059"
+      Hint: Header Logo
+      Value: |
+        <image mediaid="{A3EDA0B0-3979-4565-8456-7D21A6EC34B9}" />
+    - ID: "fddd2c13-ca9c-42f7-9004-899cd73e3f07"
+      Hint: Footer Logo
+      Value: |
+        <image mediaid="{A3EDA0B0-3979-4565-8456-7D21A6EC34B9}" />

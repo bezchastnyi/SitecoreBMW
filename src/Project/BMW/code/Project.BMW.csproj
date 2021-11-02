@@ -1,23 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
     <RootNamespace>Project.BMW</RootNamespace>
     <AssemblyName>Project.BMW</AssemblyName>
     <SitecoreRoleType>website</SitecoreRoleType>
   </PropertyGroup>
-  <ItemGroup>
-    <Compile Remove="layouts\**" />
-    <Content Remove="layouts\**" />
-    <EmbeddedResource Remove="layouts\**" />
-    <None Remove="layouts\**" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Remove="Views\Project\BMW\products.cshtml" />
-  </ItemGroup>
+  
   <ItemGroup>
     <PackageReference Include="Sitecore.Mvc" Version="9.3.0" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Project\" />
   </ItemGroup>
 </Project>

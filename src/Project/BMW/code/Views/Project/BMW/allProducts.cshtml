@@ -1,0 +1,76 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Data.Items;
+@model RenderingModel
+@{
+  var allProductsItem = Sitecore.Context.Database.Items.GetItem("{2D930278-80FB-4176-B092-A94FCD6B8DA6}");
+  var products = new List<Item>(allProductsItem.Children);
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="../../../Css/style.css">
+  <link rel="icon" href="../../../wwwroot/bmw_logo.ico">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+  <title>@Html.Sitecore().Field("Page Title", allProductsItem, new { DisableWebEdit = true })</title>
+</head>
+
+<body>
+  @* Header *@
+  <div>
+    @Html.Sitecore().Rendering("{D67FE4A6-F41D-4A5D-8D04-2E728C22E1FF}")
+  </div>
+  <br />
+
+  <div>
+    <table id="data" class="display" style="width:100%">
+      <thead>
+        <tr>
+          <th>Image</th>
+          <th>Mark</th>
+          <th>Price</th>
+          <th>Year</th>
+          <th>Country</th>
+        </tr>
+      </thead>
+      <tbody>
+        @foreach (var product in products)
+        {
+        <tr>
+          <td>@Html.Sitecore().Field("Image", product, new { mh = 200, mw = 300 })</td>
+          <td>@Html.Sitecore().Field("Mark", product)</td>
+          <td>@Html.Sitecore().Field("Price", product)</td>
+          <td>@Html.Sitecore().Field("Year", product)</td>
+          <td>@Html.Sitecore().Field("Country", product)</td>
+        </tr>
+        }
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Image</th>
+          <th>Mark</th>
+          <th>Price</th>
+          <th>Year</th>
+          <th>Country</th>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+  <br />
+
+  @* Footer *@
+  <div>
+    @Html.Sitecore().Rendering("{F9FDED76-28E3-4EDB-B74F-A5353EC880AF}")
+  </div>
+
+  <script src="../../../Js/pagination.js"></script>
+</body>
+</html>

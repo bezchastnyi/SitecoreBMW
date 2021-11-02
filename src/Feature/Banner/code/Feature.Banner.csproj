@@ -1,10 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
     <RootNamespace>Feature.Banner</RootNamespace>
     <AssemblyName>Feature.Banner</AssemblyName>
     <SitecoreRoleType>website</SitecoreRoleType>
   </PropertyGroup>
+  
   <ItemGroup>
     <PackageReference Include="Sitecore.Mvc" Version="9.3.0" />
   </ItemGroup>

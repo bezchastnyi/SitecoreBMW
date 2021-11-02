@@ -2,7 +2,7 @@
 @using Sitecore.Mvc.Presentation
 @model RenderingModel
 @{
-    var productsItem = Sitecore.Context.Database.Items.GetItem("{2D930278-80FB-4176-B092-A94FCD6B8DA6}");
+    var productsItem = Sitecore.Context.Database.Items.GetItem("{E5447F34-C83F-4495-9087-1A46A2CCE870}");
 }
 
 <!DOCTYPE html>
@@ -13,24 +13,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="../../../Project/style.css">
+    <link rel="stylesheet" href="../../../Css/style.css">
     <link rel="shortcut icon" href="../../../wwwroot/bmw_logo.ico">
     <title>@Html.Sitecore().Field("Page Title", productsItem, new { DisableWebEdit = true })</title>
 </head>
 
 <body>
-    @* Header *@
-    <div>
-      @Html.Sitecore().Rendering("{D67FE4A6-F41D-4A5D-8D04-2E728C22E1FF}")
-    </div>
+  @* Header *@
+  <div>
+    @Html.Sitecore().Rendering("{D67FE4A6-F41D-4A5D-8D04-2E728C22E1FF}")
+  </div>
+  <br />
 
-    <div>
-      @Html.Sitecore().Placeholder("product")
-    </div>
+  <div>
+    @Html.Sitecore().Placeholder("product")
+  </div>
+  <br />
 
-    @* Footer *@
-    <div>
-      @Html.Sitecore().Rendering("{F9FDED76-28E3-4EDB-B74F-A5353EC880AF}")
-    </div>
+  @* Footer *@
+  <div>
+    @Html.Sitecore().Rendering("{F9FDED76-28E3-4EDB-B74F-A5353EC880AF}")
+  </div>
 </body>
 </html>

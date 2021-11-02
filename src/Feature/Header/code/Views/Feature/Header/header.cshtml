@@ -7,25 +7,116 @@
     var homeItem = master.GetItem("/sitecore/Content/BMW/Home");
     var homeItemUrl = Sitecore.Links.LinkManager.GetItemUrl(homeItem);
 
-    var productsItem = master.GetItem("/sitecore/Content/BMW/Products");
-    var productsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(productsItem);
+    var allProductsItem = master.GetItem("/sitecore/Content/BMW/All Products");
+    var allProductsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(allProductsItem);
+
+    var topProductsItem = master.GetItem("/sitecore/Content/BMW/Top Products");
+    var topProductsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(topProductsItem);
 
     var contactsItem = master.GetItem("/sitecore/Content/BMW/Contacts");
     var contactsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(contactsItem);
 }
-
 <header class="header">
+  <style>
+    .header {
+      width: 100%;
+      position: relative;
+    }
+
+    .header-container {
+      clear: both;
+      overflow: auto;
+    }
+
+    .header-logo {
+      float: left;
+      margin-top: 5px;
+      margin-left: 5px;
+      display: flex;
+      width: 70px;
+      height: 70px;
+    }
+
+    .header-navbar {
+      overflow: hidden;
+      background-color: #333;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+      .header-navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+    .header-dropdown {
+      float: left;
+      overflow: hidden;
+    }
+
+      .header-dropdown .header-dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+      }
+
+      .header-navbar a:hover,
+      .header-dropdown:hover .header-dropbtn {
+        background-color: red;
+      }
+
+    .header-dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+      .header-dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+
+        .header-dropdown-content a:hover {
+          background-color: #ddd;
+        }
+
+    .header-dropdown:hover .header-dropdown-content {
+      display: block;
+    }
+  </style>
   <div class="header-container">
     <div class="header-logo"> @Html.Sitecore().Field("Header Logo") </div>
-    <div class="current-page-title"> @Html.Sitecore().Field("Page Title") </div>
 
-    <nav class="header-navigation">
-      <ul class="navigation-bar">
-        <li><a href="@homeItemUrl"> @Html.Sitecore().Field("__Display Name", homeItem)</a></li>
-        <li><a href="@productsItemUrl"> @Html.Sitecore().Field("__Display Name", productsItem)</a></li>
-        <li><a href="@contactsItemUrl"> @Html.Sitecore().Field("__Display Name", contactsItem)</a></li>
-      </ul>
-    </nav>
+    <div class="header-navbar">
+      <a href="@homeItemUrl"> @Html.Sitecore().Field("__Display Name", homeItem)</a>
+
+      <div class="header-dropdown">
+        <button class="header-dropbtn">
+          BMW Products <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="header-dropdown-content">
+          <a href="@allProductsItemUrl">@Html.Sitecore().Field("__Display Name", allProductsItem)</a>
+          <a href="@topProductsItemUrl">@Html.Sitecore().Field("__Display Name", topProductsItem)</a>
+        </div>
+      </div>
+
+      <a href="@contactsItemUrl"> @Html.Sitecore().Field("__Display Name", contactsItem)</a>
+    </div>
+    <hr />
   </div>
-  <hr/>
 </header>

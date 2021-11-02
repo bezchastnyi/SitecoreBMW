@@ -1,16 +1,9 @@
 ﻿---
-ID: "f9fded76-28e3-4edb-b74f-a5353ec880af"
+ID: "83d00546-1de2-450e-b5e9-5b703dd8f781"
 Parent: "da61ad50-8fdb-4252-a68f-b4470b1c9fe8"
-Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
 Path: /sitecore/layout/Renderings/Feature/Footer
 DB: master
-SharedFields:
-- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
-  Hint: Path
-  Value: /Views/Feature/Footer/footer.cshtml
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 262
 Languages:
 - Language: en
   Versions:
@@ -18,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20211029T110248Z
+      Value: 20211101T155809Z
