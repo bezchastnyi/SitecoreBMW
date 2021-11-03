@@ -2,7 +2,7 @@
 @using Sitecore.Mvc.Presentation
 @model RenderingModel
 @{
-    var homeItem = Sitecore.Context.Database.Items.GetItem("{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}");
+    var homeItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Home");
 }
 
 <!DOCTYPE html>
@@ -21,24 +21,27 @@
 <body>
   @* Header *@
   <div>
-    @Html.Sitecore().Rendering("{D67FE4A6-F41D-4A5D-8D04-2E728C22E1FF}")
+    @Html.Sitecore().Rendering("/sitecore/layout/Renderings/Feature/Header/Header")
   </div>
   <br />
 
   @* Banner *@
-  <div>
+  <!--<div>
     @Html.Sitecore().Rendering("{CA72E5F8-3531-4E7C-B293-2EA8792A0751}")
   </div>
-  <br />
+  <br />-->
 
-  <div>
-    @Html.Sitecore().Field("Description", homeItem)
+  <div style="text-align:center">
+    <video width="800" height="800" controls>
+      <source src="../../../wwwroot/BMW_Banner.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
   </div>
   <br />
 
   @* Footer *@
   <div>
-    @Html.Sitecore().Rendering("{F9FDED76-28E3-4EDB-B74F-A5353EC880AF}")
+    @Html.Sitecore().Rendering("/sitecore/layout/Renderings/Feature/Footer/Footer")
   </div>
 </body>
 </html>

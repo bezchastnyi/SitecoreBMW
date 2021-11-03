@@ -1,35 +1,63 @@
 ﻿@using Sitecore.Mvc
 @using Sitecore.Mvc.Presentation
+@using Sitecore.Data.Items;
 @model RenderingModel
 @{
-    var master = Sitecore.Configuration.Factory.GetDatabase("master");
 
-    var homeItem = master.GetItem("/sitecore/Content/BMW/Home");
-    var homeItemUrl = Sitecore.Links.LinkManager.GetItemUrl(homeItem);
-
-    var allProductsItem = master.GetItem("/sitecore/Content/BMW/All Products");
-    var allProductsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(allProductsItem);
-
-    var topProductsItem = master.GetItem("/sitecore/Content/BMW/Top Products");
-    var topProductsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(topProductsItem);
-
-    var contactsItem = master.GetItem("/sitecore/Content/BMW/Contacts");
-    var contactsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(contactsItem);
+  var contentItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW");
+  var pages = new List<Item>(contentItem.Children);
 }
 
-<header class="footer">
-  <div class="footer-container">
-    <div class="footer-logo"> @Html.Sitecore().Field("Footer Logo") </div>
-    <div class="footer-context"> @Html.Sitecore().Field("Footer Text") </div>
+<footer class="footer">
+  <style>
+    .footer {
+      width: 100%;
+      position: relative;
+    }
 
-    <nav class="header-navigation">
-      <ul class="navigation-bar">
-        <li><a href="@homeItemUrl"> @Html.Sitecore().Field("__Display Name", homeItem)</a></li>
-        <li><a href="@allProductsItemUrl"> @Html.Sitecore().Field("__Display Name", allProductsItem)</a></li>
-        <li><a href="@topProductsItemUrl"> @Html.Sitecore().Field("__Display Name", topProductsItem)</a></li>
-        <li><a href="@contactsItemUrl"> @Html.Sitecore().Field("__Display Name", contactsItem)</a></li>
-      </ul>
-    </nav>
+    .footer-container {
+      clear: both;
+      overflow: auto;
+    }
+
+    .footer-logo {
+      float: left;
+      margin-top: 5px;
+      margin-left: 15px;
+      display: flex;
+      width: 70px;
+      height: 70px;
+    }
+
+    .footer-navbar {
+      overflow: hidden;
+      background-color: #333;
+      font-family: Arial, Helvetica, sans-serif;
+      height: 75px;
+      margin-left: 105px;
+    }
+
+      .footer-navbar a {
+        float: left;
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        padding: 30px 30px;
+        text-decoration: none;
+      }
+
+        .footer-navbar a:hover {
+          background-color: red;
+        }
+  </style>
+  <div class="footer-container">
+    <div class="footer-logo">@Html.Sitecore().Field("Footer Logo")</div>
+
+    <div class="footer-navbar">
+      @foreach (var page in pages)
+      {
+        <a href="@Sitecore.Links.LinkManager.GetItemUrl(page)">@Html.Sitecore().Field("__Display Name", page)</a>
+      }
+    </div>
   </div>
-  <hr/>
-</header>
+</footer>

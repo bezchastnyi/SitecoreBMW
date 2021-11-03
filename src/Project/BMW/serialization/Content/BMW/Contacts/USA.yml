@@ -1,0 +1,35 @@
+﻿---
+ID: "7dbeac97-e188-43b1-9860-968fd47b2862"
+Parent: "6571ccbc-265f-4817-b56e-dbea015768c9"
+Template: "ceca6ca0-a95f-49f8-a2dc-9c3322aa3c40"
+Path: /sitecore/content/BMW/Contacts/USA
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Flags/32x32/flag_usa.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0bf31561-b9dd-4b9d-9b8b-efcbc6a39943"
+      Hint: Telephone
+      Value: +15612227863
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211031T124925Z
+    - ID: "3c8030bc-5ad5-44e9-804d-0428c74b478b"
+      Hint: Country Flag
+      Value: |
+        <image mediaid="{9259270D-7B2F-4EFD-9869-E9A3C6D81692}" />
+    - ID: "5c15d4bc-8e0a-4f90-aede-973b01d2329a"
+      Hint: Country
+      Value: USA
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "bc21643e-f628-4cca-8276-7c14a0e412c5"
+      Hint: Email
+      Value: usa@email.com

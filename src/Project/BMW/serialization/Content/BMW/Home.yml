@@ -118,6 +118,9 @@ Languages:
       Hint: Footer Text
       Value: |
         <span style="text-align: center; color: #000000;">© 2021 BMW Ltd.</span>
+    - ID: "24c2af8a-32c1-41a4-b01e-12ead69fa4e8"
+      Hint: Banner Video
+      Value: 
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20080407T105900Z

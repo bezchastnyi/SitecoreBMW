@@ -2,7 +2,7 @@
 @using Sitecore.Mvc.Presentation
 @model RenderingModel
 @{
-    var productsItem = Sitecore.Context.Database.Items.GetItem("{E5447F34-C83F-4495-9087-1A46A2CCE870}");
+    var productsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Top Products");
 }
 
 <!DOCTYPE html>
@@ -21,7 +21,7 @@
 <body>
   @* Header *@
   <div>
-    @Html.Sitecore().Rendering("{D67FE4A6-F41D-4A5D-8D04-2E728C22E1FF}")
+    @Html.Sitecore().Rendering("/sitecore/layout/Renderings/Feature/Header/Header")
   </div>
   <br />
 
@@ -32,7 +32,7 @@
 
   @* Footer *@
   <div>
-    @Html.Sitecore().Rendering("{F9FDED76-28E3-4EDB-B74F-A5353EC880AF}")
+    @Html.Sitecore().Rendering("/sitecore/layout/Renderings/Feature/Footer/Footer")
   </div>
 </body>
 </html>

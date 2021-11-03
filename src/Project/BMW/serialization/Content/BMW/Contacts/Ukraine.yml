@@ -15,14 +15,14 @@ Languages:
     Fields:
     - ID: "0bf31561-b9dd-4b9d-9b8b-efcbc6a39943"
       Hint: Telephone
-      Value: 380510566894
+      Value: +380510566894
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20211031T124925Z
     - ID: "3c8030bc-5ad5-44e9-804d-0428c74b478b"
       Hint: Country Flag
       Value: |
-        <image mediaid="{30991430-BF25-411A-A967-6F3BC09379CA}" />
+        <image mediaid="{30991430-BF25-411A-A967-6F3BC09379CA}" alt="" height="" width="" hspace="" vspace="" />
     - ID: "5c15d4bc-8e0a-4f90-aede-973b01d2329a"
       Hint: Country
       Value: Ukraine

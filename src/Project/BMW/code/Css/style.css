@@ -6,51 +6,23 @@
 /* banner */
 
 .banner {
-    position: relative;
-    text-align: center;
+  position: relative;
+  text-align: center;
 }
 
 .banner-image {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .banner-text {
-    font-size: 20pt;
-    color: black;
-    position: absolute;
-    top: 46%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  font-size: 20pt;
+  color: black;
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
 /* footer */
-
-.footer {
-    width: 100%;
-    position: relative;
-}
-
-.footer-container {
-    clear: both;
-    overflow: auto;
-}
-
-.footer-context {
-    font-size: 14pt;
-    color: black;
-    position: absolute;
-    top: 46%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.footer-logo {
-    float: left;
-    margin-top: 5px;
-    margin-left: 5px;
-    display: flex;
-    width: 70px;
-    height: 70px;
-}
