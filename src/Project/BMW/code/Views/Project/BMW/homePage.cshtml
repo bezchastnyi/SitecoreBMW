@@ -2,20 +2,20 @@
 @using Sitecore.Mvc.Presentation
 @model RenderingModel
 @{
-    var homeItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Home");
+  var homeItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Home");
 }
 
 <!DOCTYPE html>
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="../../../Css/style.css">
-    <link rel="shortcut icon" href="../../../wwwroot/bmw_logo.ico">
-    <title>@Html.Sitecore().Field("Page Title", homeItem, new { DisableWebEdit = true })</title>
+  <link rel="stylesheet" href="../../../Css/style.css">
+  <link rel="shortcut icon" href="../../../wwwroot/bmw_logo.ico">
+  <title>@Html.Sitecore().Field("Page Title", homeItem, new { DisableWebEdit = true })</title>
 </head>
 
 <body>
@@ -31,18 +31,16 @@
   </div>
   <br />-->
 
-<div style="text-align:center">
-  <video id="vid" width="1200" height="600" autoplay loop muted>
-    <source src="../../../wwwroot/BMW_Banner.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <div style="text-align:center">
+    <video id="vid" width="1200" height="600" autoplay loop muted>
+      <source src="../../../wwwroot/BMW_Banner.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
 
-  <script>
-    var vid = document.getElementById("vid");
-    vid.volume = 0.2;
-    vid.play();
-  </script>
-</div>
+    <script>
+      document.getElementById("vid").play();
+    </script>
+  </div>
   <br />
 
   @* Footer *@
