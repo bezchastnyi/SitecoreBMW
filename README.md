@@ -1,3 +1,3 @@
-# SitecoreBMW
+# Sitecore BMW
 
-this repo contains Sitecore BMW project
+this repo contains Sitecore site BMW project
