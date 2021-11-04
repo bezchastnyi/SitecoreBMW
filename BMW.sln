@@ -90,6 +90,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feature.Contact", "src\Feat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feature.Product", "src\Feature\Product\code\Feature.Product.csproj", "{4C07AE95-C3E5-4705-9052-EF16F6451203}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Packages", "_Packages", "{F030CE23-E23C-4838-99D1-4BB6A7BB3172}"
+	ProjectSection(SolutionItems) = preProject
+		packages\BMW Site-v1.zip = packages\BMW Site-v1.zip
+		packages\BMW.Package.xml = packages\BMW.Package.xml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
