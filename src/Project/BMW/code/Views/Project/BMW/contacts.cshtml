@@ -1,11 +1,8 @@
 ﻿@using Sitecore.Mvc
 @using Sitecore.Mvc.Presentation
-@using Sitecore.Data.Items;
-
 @model RenderingModel
 @{
   var contactsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Contacts");
-  var contacts = new List<Item>(contactsItem.Children);
 }
 
 <!DOCTYPE html>
@@ -28,31 +25,9 @@
   </div>
   <br />
 
-  <style>
-    .contact-button {
-      border: solid;
-      margin-left: 75px;
-      margin-top: 30px;
-    }
-  </style>
-
-  <div class="contact" style="text-align:center">
-    @for (var i = 0; i < contacts.Count; i++)
-    {
-      var contact = contacts[i];
-      var contactOutput = "Country: " + Html.Sitecore().Field("Country", contact).ToString() +
-                          "\\nTelephone: " + Html.Sitecore().Field("Telephone", contact).ToString() +
-                          "\\nEmail: " + Html.Sitecore().Field("Email", contact).ToString();
-
-      <button class="contact-button" onclick="alert('@contactOutput')">
-        @Html.Sitecore().Field("Country Flag", contact, new { mh = 225, mw = 225 })
-      </button>
-
-      if (i == 3)
-      {
-        <br />
-      }
-    }
+  @* Contacts *@
+  <div>
+    @Html.Sitecore().Rendering("{A8EBA6BA-C0D9-4DCF-A143-BB1F1A14AA0C}")
   </div>
   <br />
 

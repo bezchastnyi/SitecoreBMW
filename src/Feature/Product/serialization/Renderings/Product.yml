@@ -1,9 +1,16 @@
 ﻿---
-ID: "8576c577-1dd3-4d3a-83b7-fb58a7462ece"
+ID: "abf99bfe-87c7-4826-bef7-0a56781567cc"
 Parent: "da61ad50-8fdb-4252-a68f-b4470b1c9fe8"
 Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
 Path: /sitecore/layout/Renderings/Feature/Product
 DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/16x16/lightbulb_on.png
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 350
 Languages:
 - Language: en
   Versions:
@@ -11,4 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20211101T155755Z
+      Value: 20211102T145422Z

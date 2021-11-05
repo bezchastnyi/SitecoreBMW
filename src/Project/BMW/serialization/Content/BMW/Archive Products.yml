@@ -16,6 +16,10 @@ Languages:
     - ID: "0851f200-3cf2-4438-850b-92fc9bf178a1"
       Hint: Page Title
       Value: Archive Products
+    - ID: "1494909c-303a-4e81-803f-adffb9c2197e"
+      Hint: Footer Text
+      Value: |
+        <span style="text-align: center; color: #000000;">&copy; 2021 BMW Ltd.</span>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20211103T201759Z

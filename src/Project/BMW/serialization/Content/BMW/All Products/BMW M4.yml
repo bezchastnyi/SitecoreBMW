@@ -6,6 +6,10 @@ Path: /sitecore/content/BMW/All Products/BMW M4
 DB: master
 Languages:
 - Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: BMW M4
   Versions:
   - Version: 1
     Fields:

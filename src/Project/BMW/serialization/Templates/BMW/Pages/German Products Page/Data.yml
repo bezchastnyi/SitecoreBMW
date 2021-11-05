@@ -1,0 +1,14 @@
+﻿---
+ID: "e9dc8110-60cf-46fb-afba-9df05026b67a"
+Parent: "24389a55-e06a-415a-93c4-26cb6a36b7a2"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/BMW/Pages/German Products Page/Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211104T224316Z

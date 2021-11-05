@@ -21,31 +21,25 @@
 <body>
   @* Header *@
   <div>
-    @Html.Sitecore().Rendering("/sitecore/layout/Renderings/Feature/Header/Header")
+    @Html.Sitecore().Rendering("{D67FE4A6-F41D-4A5D-8D04-2E728C22E1FF}")
   </div>
   <br />
 
-  @* Banner *@
-  <!--<div>
+  @* Banner Image *@
+  @*<div>
     @Html.Sitecore().Rendering("{CA72E5F8-3531-4E7C-B293-2EA8792A0751}")
   </div>
-  <br />-->
+  <br />*@
 
-  <div style="text-align:center">
-    <video id="vid" width="1200" height="600" autoplay loop muted>
-      <source src="../../../wwwroot/BMW_Banner.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-
-    <script>
-      document.getElementById("vid").play();
-    </script>
+  @* Banner Video *@
+  <div>
+    @Html.Sitecore().Rendering("{3620B424-3C75-4617-A9C4-2A3BB37156E2}")
   </div>
   <br />
 
   @* Footer *@
   <div>
-    @Html.Sitecore().Rendering("/sitecore/layout/Renderings/Feature/Footer/Footer")
+    @Html.Sitecore().Rendering("{F9FDED76-28E3-4EDB-B74F-A5353EC880AF}")
   </div>
 </body>
 </html>

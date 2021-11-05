@@ -113,14 +113,11 @@ Languages:
         </r>
     - ID: "0851f200-3cf2-4438-850b-92fc9bf178a1"
       Hint: Page Title
-      Value: BMW
+      Value: BMW Official
     - ID: "1494909c-303a-4e81-803f-adffb9c2197e"
       Hint: Footer Text
       Value: |
         <span style="text-align: center; color: #000000;">© 2021 BMW Ltd.</span>
-    - ID: "24c2af8a-32c1-41a4-b01e-12ead69fa4e8"
-      Hint: Banner Video
-      Value: 
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20080407T105900Z
@@ -131,11 +128,6 @@ Languages:
     - ID: "2b746000-333f-4504-8dea-6fb10f422d9d"
       Hint: Page Subtitle
       Value: Bavarian Motor Works
-    - ID: "35778594-bc1e-4094-a67a-2424b4d0f5f2"
-      Hint: Description
-      Value: |
-        <h3></h3><h3 class="grp-h3 " style="color: #494949; background-color: #ffffff; margin: 0px; padding: 0px; border: 0px;">The BMW Group company profile.</h3>
-        <p style="color: #494949; margin: 1.5625rem 0px 2rem; padding: 0px; border: 0px;">The special fascination of the BMW Group not only lies in its products and technology, but also in the company’s history, written by inventors, pioneers and brilliant designers. Today, the BMW Group, with its 31 production and assembly facilities in 15 countries as well as a global sales network, is the world’s leading manufacturer of premium automobiles and motorcycles, and provider of premium financial and mobility services.</p>
     - ID: "4c346442-e859-4efd-89b2-44aedf467d21"
       Hint: __Valid to
       Value: 

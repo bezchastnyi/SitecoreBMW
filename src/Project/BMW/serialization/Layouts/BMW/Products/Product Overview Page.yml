@@ -1,0 +1,18 @@
+﻿---
+ID: "082bcdbe-1f5c-4285-87ae-ad8a7262eb64"
+Parent: "927eb390-e490-4745-9417-02b1e4ecc6e9"
+Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
+Path: /sitecore/layout/Layouts/Project/BMW/Products/Product Overview Page
+DB: master
+SharedFields:
+- ID: "a036b2bc-ba04-44f6-a75f-bae6cd242abf"
+  Hint: Path
+  Value: /Views/Project/BMW/productOverview.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211104T212035Z

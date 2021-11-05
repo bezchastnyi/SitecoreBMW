@@ -2,106 +2,23 @@
 @using Sitecore.Mvc.Presentation
 @model RenderingModel
 @{
-    var homeItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Home");
-    var homeItemUrl = Sitecore.Links.LinkManager.GetItemUrl(homeItem);
+  var homeItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Home");
+  var homeItemUrl = Sitecore.Links.LinkManager.GetItemUrl(homeItem);
 
-    var allProductsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/All Products");
-    var allProductsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(allProductsItem);
+  var allProductsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/All Products");
+  var allProductsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(allProductsItem);
 
-    var topProductsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Top Products");
-    var topProductsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(topProductsItem);
+  var topProductsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Top Products");
+  var topProductsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(topProductsItem);
 
-    var archiveProductsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Archive Products");
-    var archiveProductsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(archiveProductsItem);
+  var archiveProductsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Archive Products");
+  var archiveProductsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(archiveProductsItem);
 
-    var contactsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Contacts");
-    var contactsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(contactsItem);
+  var contactsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Contacts");
+  var contactsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(contactsItem);
 }
-<header class="header">
-  <style>
-    .header {
-      width: 100%;
-      position: relative;
-    }
 
-    .header-container {
-      clear: both;
-      overflow: auto;
-    }
-
-    .header-logo {
-      float: left;
-      margin-top: 5px;
-      margin-left: 15px;
-      display: flex;
-      width: 70px;
-      height: 70px;
-    }
-
-    .header-navbar {
-      overflow: hidden;
-      background-color: #333;
-      font-family: Arial, Helvetica, sans-serif;
-      height: 75px;
-      margin-left: 105px;
-    }
-
-      .header-navbar a {
-        float: left;
-        font-size: 18px;
-        color: white;
-        text-align: center;
-        padding: 30px 30px;
-        text-decoration: none;
-      }
-
-    .header-dropdown {
-      float: left;
-      overflow: hidden;
-    }
-
-      .header-dropdown .header-dropbtn {
-        font-size: 18px;
-        border: none;
-        outline: none;
-        color: white;
-        padding: 30px 30px;
-        background-color: inherit;
-        font-family: inherit;
-        margin: 0;
-      }
-
-      .header-navbar a:hover,
-      .header-dropdown:hover .header-dropbtn {
-        background-color: red;
-      }
-
-    .header-dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: #f9f9f9;
-      min-width: 180px;
-      box-shadow: 0px 30px 30px 0px rgba(1, 0, 0, 0.2);
-      z-index: 1;
-    }
-
-      .header-dropdown-content a {
-        float: none;
-        color: black;
-        padding: 30px 30px;
-        text-decoration: none;
-        display: block;
-        text-align: left;
-      }
-
-        .header-dropdown-content a:hover {
-          background-color: #ddd;
-        }
-
-    .header-dropdown:hover .header-dropdown-content {
-      display: block;
-    }
-  </style>
+<header>
   <div class="header-container">
     <div class="header-logo">@Html.Sitecore().Field("Header Logo")</div>
 

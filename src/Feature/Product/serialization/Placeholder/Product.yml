@@ -1,0 +1,18 @@
+﻿---
+ID: "9d1bb0d1-25c0-4e52-8391-4a4904bf9b1f"
+Parent: "1b59149d-7ed3-4d58-86a9-32eded8c0368"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/layout/Placeholder Settings/Feature/Product
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/16x16/lightbulb_on.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211102T145737Z
