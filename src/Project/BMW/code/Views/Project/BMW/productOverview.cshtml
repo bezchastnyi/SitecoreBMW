@@ -2,16 +2,7 @@
 @using Sitecore.Mvc.Presentation
 @model RenderingModel
 @{
-  string videoPath = "not found";
-  if (Html.Sitecore().Field("Mark").ToString().Contains("BMW M8 Cabrio"))
-  {
-    videoPath = "../../../wwwroot/BMW_M8_Cabrio.mp4";
-  }
 
-  else if (Html.Sitecore().Field("Mark").ToString().Contains("BMW 8-series Gran Coupe"))
-  {
-    videoPath = "../../../wwwroot/BMW_8_Series_Gran_Coupe.mp4";
-  }
 }
 
 <!DOCTYPE html>
@@ -34,24 +25,15 @@
   </div>
   <br />
 
-  @if (videoPath != "not found")
-  {
-    <div style="text-align:center">
-      <video id="vid" width="1200" height="600" autoplay loop muted>
-        <source src="@videoPath" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-
-      <script>
-        document.getElementById("vid").play();
-      </script>
-    </div>
-    <br />
-  }
-
+  @* Video Banner *@
   <div>
-    @Html.Sitecore().Rendering("/sitecore/layout/Renderings/Feature/Product/Product",
-      new { DataSource = "/sitecore/Content/BMW/All Products/" + Html.Sitecore().Field("__Display Name").ToString() })
+    @Html.Sitecore().Rendering("{32ACB42E-B0A3-4C8E-A766-C648B736604E}")
+  </div>
+  <br />
+
+  @* Description *@
+  <div>
+    @Html.Sitecore().Rendering("{C594497A-E071-44F7-871D-792DCC43891F}")
   </div>
   <br />
 
