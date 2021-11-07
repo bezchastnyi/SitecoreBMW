@@ -43,7 +43,21 @@ Languages:
         <image mediaid="{0CC6641B-2F2C-4DC1-8DC4-7F74DAD5430F}" />
     - ID: "f21d2c2e-efe0-4350-8624-85b7263bb662"
       Hint: Price
-      Value: "2 460 000 - 4 700 000 ₽"
+      Value: "34575 - 66058 $"
     - ID: "f486eb08-937b-4c9b-8568-b6788f76c198"
       Hint: Mark
       Value: "BMW 3-series"
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211107T224835Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "f21d2c2e-efe0-4350-8624-85b7263bb662"
+      Hint: Price
+      Value: "2 460 000 - 4 700 000 ₽"

@@ -37,3 +37,27 @@ Languages:
     - ID: "bc21643e-f628-4cca-8276-7c14a0e412c5"
       Hint: Email
       Value: france@email.com
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0bf31561-b9dd-4b9d-9b8b-efcbc6a39943"
+      Hint: Telephone
+      Value: +33212451122
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211107T222900Z
+    - ID: "3c8030bc-5ad5-44e9-804d-0428c74b478b"
+      Hint: Country Flag
+      Value: |
+        <image mediaid="{52E4D0B6-6A41-49CB-BB6D-0C18ECA526DC}" />
+    - ID: "5c15d4bc-8e0a-4f90-aede-973b01d2329a"
+      Hint: Country
+      Value: Франция
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "bc21643e-f628-4cca-8276-7c14a0e412c5"
+      Hint: Email
+      Value: france@email.com

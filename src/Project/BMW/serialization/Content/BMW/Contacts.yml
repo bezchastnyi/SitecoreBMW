@@ -55,3 +55,33 @@ Languages:
       Hint: Footer Logo
       Value: |
         <image mediaid="{A3EDA0B0-3979-4565-8456-7D21A6EC34B9}" />
+- Language: "ru-RU"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Контакты
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0851f200-3cf2-4438-850b-92fc9bf178a1"
+      Hint: Page Title
+      Value: Контакты
+    - ID: "1494909c-303a-4e81-803f-adffb9c2197e"
+      Hint: Footer Text
+      Value: |
+        <span style="text-align: center; color: #000000;">&copy; 2021 BMW Ltd.</span>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211107T222539Z
+    - ID: "292809b1-f492-4b35-98c3-518806cd5059"
+      Hint: Header Logo
+      Value: |
+        <image mediaid="{A3EDA0B0-3979-4565-8456-7D21A6EC34B9}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "fddd2c13-ca9c-42f7-9004-899cd73e3f07"
+      Hint: Footer Logo
+      Value: |
+        <image mediaid="{A3EDA0B0-3979-4565-8456-7D21A6EC34B9}" />
