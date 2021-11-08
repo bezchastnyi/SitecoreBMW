@@ -48,7 +48,8 @@
       <tbody>
         @foreach (var product in products)
         {
-          if (!Html.Sitecore().Field("Price", product).ToString().Contains("Not available 🛑"))
+          if (!Html.Sitecore().Field("Price", product).ToString().Contains("Not available 🛑") ||
+              string.IsNullOrEmpty(Html.Sitecore().Field("Mark", product).ToString()))
           {
             continue;
           }
