@@ -16,10 +16,47 @@ Languages:
     - ID: "0d65ae3c-b681-4633-9492-b36d28aafa51"
       Hint: Description
       Value: |
+        <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW Z4 Roadster - car overview</h2>
+        <div class="text-left" style="color: #333333; background-color: #ffffff;">&nbsp;
+        <p style="margin: 0px 0px 10px;">The Bavarian company held the first official premiere of its new BMW Z4 roadster in the Californian town of Pebble Beach. As expected, the production version of the model turned out to be similar to the concept car of the same name, presented in the summer of 2017. The platform for the novelty of the Bavarians together with Toyota, a feature of this design is the optimal weight distribution along the axles, a low center of gravity and a wide track required for better stability. In appearance, the third generation BMW Z4 Roadster bears little resemblance to its predecessor. A shorter wheelbase (minus 26 mm), as well as reduced ground clearance (117 mm versus 130 mm) give the updated "Bavarian" impudent swiftness, while the shark-shaped "front end" with expressive headlights and widened "nostrils" improved the emotionally liberated image. Another important feature of the new BMW Z4 Roadster is the soft fabric upper as a tribute to classic roadsters (it was hard in the previous version). It only takes 10 seconds to raise or lower the roof and can be carried out at speeds up to 50 km / h.<br />
+        <br />
+        The interior of the BMW Z4 Roadster resembles the latest BMW novelties in terms of style and functionality. In the center of the front panel, the iDrive 7.0 multimedia system with a 12.3-inch touchscreen, navigation function and Internet access. Instead of analog devices, virtual ones are now installed, all important information is displayed on a 5.7-inch color display. In addition, for the first time on the Z4, there is a function of projection of indications onto the windshield. To assist the driver, electronic functions in the form of dynamic cruise control, parking assistant and driving assistant. The list of options includes phones with wireless phone charging, Harman / Kardon premium music, adaptive LED headlights, ambient interior suspension. At the first stage of sales for the BMW Z4 Roadster, 3 engines have been prepared - two 2-liter turbocharged "fours" with forcing of 197 and 258 forces, as well as a 3-liter 6-cylinder engine with a capacity of 340 forces. Transmission - 8-band automatic.<br />
+        <br />
+        The basic equipment of the BMW Z4 Roadster includes R17 wheels with Runflat tires, Vernasca leather upholstery, automatic dual-zone climate control, HiFi audio system (205 W and 10 speakers), Livecockpit virtual dashboard, heated seats and steering wheel, iDrive multimedia complex, package electronic services Connected Drive and Digital Professional. For an additional fee, you can get the M Sport brake system, projection of devices on the windshield, Harman / Kardon audio, comfortable keyless entry, windscreen, electrically adjustable sports seats, adaptive suspension. With the available customization options, you can personalize the vehicle's appearance. For this purpose, a special aerodynamic package with sport bumpers, the Individual Shadow Line design, an additional roof color "Anthracite" and a wide range of rims are available.</p>
+        </div>
+    - ID: "0e55d625-aa08-4162-a358-13e007167e80"
+      Hint: Country
+      Value: Austria
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211030T082246Z
+    - ID: "3344572d-ecfe-4595-a2b9-21bcf585fbfe"
+      Hint: Year
+      Value: 2018
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "bab65988-1683-47b9-9a48-361ef862dcb5"
+      Hint: Image
+      Value: |
+        <image mediaid="{BAACBF0E-66CF-4AA9-A023-97C68F1F380D}" />
+    - ID: "f21d2c2e-efe0-4350-8624-85b7263bb662"
+      Hint: Price
+      Value: "48679 - 76052 $"
+    - ID: "f486eb08-937b-4c9b-8568-b6788f76c198"
+      Hint: Mark
+      Value: BMW Z4 Roadster
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d65ae3c-b681-4633-9492-b36d28aafa51"
+      Hint: Description
+      Value: |
         <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW Z4 Roadster - обзор автомобиля</h2>
         <br style="color: #333333; background-color: #ffffff;" />
         <div class="text-left" style="color: #333333; background-color: #ffffff;">
-        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><span>BMW Z4 Roadster / БМВ Z4 Родстер</span></p>
         <p style="margin: 0px 0px 10px;">Первую официальную премьеру своего нового родстера BMW Z4 баварская компания провела в калифорнийском городке Пеббл-Бич. Как и ожидалось, серийная версия модели получилась похожей на одноименный концепт-кар, представленный летом 2017-го года. Платформу для новинки баварцы проектировали совместно с Toyota, особенностью этой конструкции являются оптимальная развесовка по осям, низкий центр тяжести и широкая колейность, необходимая для лучшей устойчивости. По внешности третья генерация BMW Z4 Roadster мало чем напоминает предшественника. Более короткая колесная база (минус 26 мм), а также уменьшенный клиренс (117 мм против 130 мм) придают обновленному "баварцу" дерзкую стремительность, при этом акулообразный "передок" с выразительными фарами и расширенными "ноздрями" создают уникальный эмоционально раскрепощенный образ. Еще одна важная особенность нового BMW Z4 Roadster - мягкий тканевый верх, как дань классическим родстерам (на прошлой версии он был жестким). Для подъема или опускания крыши потребуется всего 10 секунд, эти операции можно проводить на скорости до 50 км/час.<br />
         <br />
         Интерьер BMW Z4 Roadster напоминает по стилистике исполнения и функционалу последние новинки BMW. По центру передней панели располагается мультимедийная система iDrive 7.0 с сенсорным тачскрином на 12.3 дюйма, функцией навигации и выходом в интернет. Вместо аналоговых приборов отныне установлены виртуальные, вся важная информация выводится на цветной дисплей 5.7 дюйма. Кроме того, впервые на Z4 теперь доступна функция проекции показаний на лобовое стекло. В помощь водителю предусмотрены электронные функции в виде динамического круиз-контроля, помощника парковки, а также ассистента вождения. В списке опций заявлены телефония с функцией беспроводной зарядки телефона, премиум-музыка Harman/Kardon, адаптивные светодиодные фары, амбиентная подвеска салона. На первом этапе продаж для BMW Z4 Roadster заготовлено 3 двигателя - две 2-дитровые турбонаддувные "четверки" с форсировкой на 197 и 258 сил, а также 3-литровый 6-цилиндровый мотор с мощностью 340 сил. Коробка передач - 8-диапазонный автомат.<br />
@@ -28,10 +65,10 @@ Languages:
         </div>
     - ID: "0e55d625-aa08-4162-a358-13e007167e80"
       Hint: Country
-      Value: Austria
+      Value: Австрия
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20211030T082246Z
+      Value: 20211109T191704Z
     - ID: "3344572d-ecfe-4595-a2b9-21bcf585fbfe"
       Hint: Year
       Value: 2018

@@ -16,13 +16,12 @@ Languages:
     - ID: "0d65ae3c-b681-4633-9492-b36d28aafa51"
       Hint: Description
       Value: |
-        <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW i3 - обзор автомобиля</h2>
+        <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW i3 - car overview</h2>
         <div class="text-left" style="color: #333333; background-color: #ffffff;">
-        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><span>&nbsp;</span></p>
-        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><span>BMW i3 / БМВ i3</span></p>
-        <p style="margin: 0px 0px 10px;">BMW i3 - серийный городской электрокар компании BMW. Автомобиль является частью так называемого &laquo;Проекта i&raquo;, для реализации которого был создан новый бренд &ndash; &laquo;BMW i&raquo;. Концепт BMW i3 впервые был показан в 2011 году на Франкфуртском автошоу. Микровэн BMW i3 является первым электромобилем компании. Новинку планируют выпускать в 3- и 5-дверном вариантах кузова. Внешний дизайн БМВ i3 говорит сам за себя - автомобиль выглядит футуристично. Основу конструкции модели составляют легкие элементы - карбон и алюминий. Это позволило значительно снизить массу модели. В конечном итоге, даже с учетом тяжелых аккумуляторов, BMW i3 весит всего 1195 кг.<br />
+        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><span>&nbsp;</span>&nbsp;</p>
+        <p style="margin: 0px 0px 10px;">The BMW i3 is a serial city electric car from BMW. The car is part of the so-called "Project i", for the implementation of which a new brand was created - "BMW i". The BMW i3 Concept was first shown at the 2011 Frankfurt Auto Show. The microvan BMW i3 is the company's first electric vehicle. The novelty is planned to be produced in 3- and 5-door body styles. The exterior design of the BMW i3 speaks for itself - the car looks futuristic. The model is based on lightweight elements - carbon and aluminum. This made it possible to significantly reduce the weight of the model. Ultimately, even with the heavy batteries, the BMW i3 weighs just 1,195 kg.<br />
         <br />
-        Что касается технических характеристик, то для BMW i3 предусмотрен 170-сильный электромотор, способный развивать крутящий момент в 250 Н&middot;м. До 100 км/час такой агрегат разгоняет BMW i3 за 7.3 с. При этом максимально возможная скорость ограничена на отметке в 150 км/час. Питание электродвигателя BMW i3 обеспечивается с помощью нескольких литий-ионных батарей, встроенных в нижнюю часть кузова автомобиля. Максимальный запас хода без подзарядки, согласно заявленным данным, составляет порядка 130-160 км.</p>
+        As for technical characteristics, a 170-horsepower electric motor is provided for the BMW i3, capable of developing a torque of 250 Nm. This unit accelerates the BMW i3 to 100 km / h in 7.3 s. At the same time, the maximum possible speed is limited at around 150 km / h. The electric motor of the BMW i3 is powered by several lithium-ion batteries built into the underbody of the vehicle. The maximum power reserve without recharging, according to the declared data, is about 130-160 km.</p>
         </div>
     - ID: "0e55d625-aa08-4162-a358-13e007167e80"
       Hint: Country
@@ -30,6 +29,43 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20211030T082246Z
+    - ID: "3344572d-ecfe-4595-a2b9-21bcf585fbfe"
+      Hint: Year
+      Value: 2019
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "bab65988-1683-47b9-9a48-361ef862dcb5"
+      Hint: Image
+      Value: |
+        <image mediaid="{F8D5896E-A72F-438E-9EEC-74512B3037FE}" />
+    - ID: "f21d2c2e-efe0-4350-8624-85b7263bb662"
+      Hint: Price
+      Value: "54182 - 60094 $"
+    - ID: "f486eb08-937b-4c9b-8568-b6788f76c198"
+      Hint: Mark
+      Value: BMW i3
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d65ae3c-b681-4633-9492-b36d28aafa51"
+      Hint: Description
+      Value: |
+        <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW i3 - обзор автомобиля</h2>
+        <div class="text-left" style="color: #333333; background-color: #ffffff;">
+        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;">&nbsp;&nbsp;</p>
+        <p style="margin: 0px 0px 10px;">BMW i3 - серийный городской электрокар компании BMW. Автомобиль является частью так называемого &laquo;Проекта i&raquo;, для реализации которого был создан новый бренд &ndash; &laquo;BMW i&raquo;. Концепт BMW i3 впервые был показан в 2011 году на Франкфуртском автошоу. Микровэн BMW i3 является первым электромобилем компании. Новинку планируют выпускать в 3- и 5-дверном вариантах кузова. Внешний дизайн БМВ i3 говорит сам за себя - автомобиль выглядит футуристично. Основу конструкции модели составляют легкие элементы - карбон и алюминий. Это позволило значительно снизить массу модели. В конечном итоге, даже с учетом тяжелых аккумуляторов, BMW i3 весит всего 1195 кг.<br />
+        <br />
+        Что касается технических характеристик, то для BMW i3 предусмотрен 170-сильный электромотор, способный развивать крутящий момент в 250 Н&middot;м. До 100 км/час такой агрегат разгоняет BMW i3 за 7.3 с. При этом максимально возможная скорость ограничена на отметке в 150 км/час. Питание электродвигателя BMW i3 обеспечивается с помощью нескольких литий-ионных батарей, встроенных в нижнюю часть кузова автомобиля. Максимальный запас хода без подзарядки, согласно заявленным данным, составляет порядка 130-160 км.</p>
+        </div>
+    - ID: "0e55d625-aa08-4162-a358-13e007167e80"
+      Hint: Country
+      Value: Бельгия
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211109T205516Z
     - ID: "3344572d-ecfe-4595-a2b9-21bcf585fbfe"
       Hint: Year
       Value: 2019

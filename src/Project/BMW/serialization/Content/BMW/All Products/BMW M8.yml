@@ -16,13 +16,12 @@ Languages:
     - ID: "0d65ae3c-b681-4633-9492-b36d28aafa51"
       Hint: Description
       Value: |
-        <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW M8 - обзор автомобиля</h2>
+        <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW M8 - car overview</h2>
         <div class="text-left" style="color: #333333; background-color: #ffffff;">
-        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><span>&nbsp;</span></p>
-        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><span>BMW M8 / БМВ M8</span></p>
-        <p style="margin: 0px 0px 10px;">Представленное в июне 2019 года спорт-купе BMW M8 выводит точность управления и динамику на совершенно новый уровень в своем классе. Инженеры компании сделали все возможное для того, чтобы наделить BMW M8 всеми качествами моделей M. В основе новинки применятся высокотехнологичная платформа, отличительными особенностями которой является низкий центр тяжести, сбалансированная нагрузка по осям, широкая колея, оптимальная длина базы колес и высокая жесткость шасси - все это способствует великолепной маневренности и точности управления. От соплатформенной BMW 8-series "Эмку" внешне можно отличить по особым компонентам М - заднему диффузору, увеличенным воздухозаборникам, расширенным аркам колес, 4-м выхлопным патрубкам и уникальным колесным дискам. Интерьер практически во всем схож с базовым купе 8 серии, но у M8 есть некоторые особенности - кресла M Sport, спортивный руль с кнопками M1 и M2 для быстрой настройки двигателя и подвески, селектор КПП с уникальным дизайном.<br />
+        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><span>&nbsp;</span>&nbsp;</p>
+        <p style="margin: 0px 0px 10px;">Unveiled in June 2019, the BMW M8 Sports Coupe takes precision handling and dynamics to a whole new level in its class. The company's engineers have done everything possible to endow the BMW M8 with all the qualities of the M models. The novelty is based on a high-tech platform, the distinctive features of which are a low center of gravity, balanced axle load, wide track, optimal wheelbase length and high chassis rigidity - all this contributes to excellent maneuverability and control precision. Externally, it can be distinguished from the soplatform BMW 8-series "Emka" by its special M components - a rear diffuser, enlarged air intakes, widened wheel arches, 4 exhaust pipes and unique rims. The interior is almost identical to the base 8 Series coupe, but the M8 has some special features - M Sport seats, a sports steering wheel with M1 and M2 buttons for quick tuning of the engine and suspension, a gear selector with a unique design.<br />
         <br />
-        Сердцем BMW M8 является 600-сильный двигатель с объемом 4.4 л, сочетающийся с 8-диапазонной автоматической коробкой передач M Steptronic. В самой заряженной версии Competition мощность двигателя повышена до 625 сил. По сравнению с классическим купе 8 серии у "Эмки" полностью перенастроены амортизаторы и пружины, улучшилась производительность системы охлаждения двигателя, увеличен развал передних колес. Помимо этого, на BMW M8 дебютировала уникальная в своем роде интегрированная система тормозов, в которую включены активация, усиление торможения и управление системой. Водителю доступны настройки обратной связи на педали тормоза - для этого достаточно выбрать режим Comfort или Sport. По умолчанию спорт-купе использует режим 4WD, при активации режима 4WD Sport львиная доля крутящего момента переходит к задним колесам. Режим 2WD полностью отключает систему динамической стабилизации DSC, водитель при этом получает исключительно задний привод для экстремально чувствительных эмоций от вождения.</p>
+        At the heart of the BMW M8 is a 4.4-liter, 600-horsepower engine paired with an 8-speed M Steptronic automatic transmission. In the most charged version of the Competition, the engine power is increased to 625 hp. Compared to the classic coupe of the 8 series, "Emka" has completely reconfigured shock absorbers and springs, improved performance of the engine cooling system, and increased camber of the front wheels. In addition, the BMW M8 debuts a unique integrated brake system, which includes activation, brake assistance and system control. The driver has access to settings for feedback on the brake pedal - just select the Comfort or Sport mode. By default, the sports coupe uses 4WD mode, when 4WD Sport mode is activated, the lion's share of the torque goes to the rear wheels. The 2WD mode completely deactivates the dynamic stability control DSC, while the driver receives exclusively rear-wheel drive for extremely sensitive driving emotions.</p>
         </div>
     - ID: "0e55d625-aa08-4162-a358-13e007167e80"
       Hint: Country
@@ -41,6 +40,43 @@ Languages:
       Hint: Image
       Value: |
         <image mediaid="{B52D4ED8-8553-4472-AA00-49A9C527D2A1}" ></image>
+    - ID: "f21d2c2e-efe0-4350-8624-85b7263bb662"
+      Hint: Price
+      Value: "160854 - 179479 $"
+    - ID: "f486eb08-937b-4c9b-8568-b6788f76c198"
+      Hint: Mark
+      Value: BMW M8
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d65ae3c-b681-4633-9492-b36d28aafa51"
+      Hint: Description
+      Value: |
+        <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW M8 - обзор автомобиля</h2>
+        <div class="text-left" style="color: #333333; background-color: #ffffff;">
+        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;">&nbsp;&nbsp;</p>
+        <p style="margin: 0px 0px 10px;">Представленное в июне 2019 года спорт-купе BMW M8 выводит точность управления и динамику на совершенно новый уровень в своем классе. Инженеры компании сделали все возможное для того, чтобы наделить BMW M8 всеми качествами моделей M. В основе новинки применятся высокотехнологичная платформа, отличительными особенностями которой является низкий центр тяжести, сбалансированная нагрузка по осям, широкая колея, оптимальная длина базы колес и высокая жесткость шасси - все это способствует великолепной маневренности и точности управления. От соплатформенной BMW 8-series "Эмку" внешне можно отличить по особым компонентам М - заднему диффузору, увеличенным воздухозаборникам, расширенным аркам колес, 4-м выхлопным патрубкам и уникальным колесным дискам. Интерьер практически во всем схож с базовым купе 8 серии, но у M8 есть некоторые особенности - кресла M Sport, спортивный руль с кнопками M1 и M2 для быстрой настройки двигателя и подвески, селектор КПП с уникальным дизайном.<br />
+        <br />
+        Сердцем BMW M8 является 600-сильный двигатель с объемом 4.4 л, сочетающийся с 8-диапазонной автоматической коробкой передач M Steptronic. В самой заряженной версии Competition мощность двигателя повышена до 625 сил. По сравнению с классическим купе 8 серии у "Эмки" полностью перенастроены амортизаторы и пружины, улучшилась производительность системы охлаждения двигателя, увеличен развал передних колес. Помимо этого, на BMW M8 дебютировала уникальная в своем роде интегрированная система тормозов, в которую включены активация, усиление торможения и управление системой. Водителю доступны настройки обратной связи на педали тормоза - для этого достаточно выбрать режим Comfort или Sport. По умолчанию спорт-купе использует режим 4WD, при активации режима 4WD Sport львиная доля крутящего момента переходит к задним колесам. Режим 2WD полностью отключает систему динамической стабилизации DSC, водитель при этом получает исключительно задний привод для экстремально чувствительных эмоций от вождения.</p>
+        </div>
+    - ID: "0e55d625-aa08-4162-a358-13e007167e80"
+      Hint: Country
+      Value: Германия
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211109T195432Z
+    - ID: "3344572d-ecfe-4595-a2b9-21bcf585fbfe"
+      Hint: Year
+      Value: 2019
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "bab65988-1683-47b9-9a48-361ef862dcb5"
+      Hint: Image
+      Value: |
+        <image mediaid="{B52D4ED8-8553-4472-AA00-49A9C527D2A1}" />
     - ID: "f21d2c2e-efe0-4350-8624-85b7263bb662"
       Hint: Price
       Value: "11 400 000 - 12 720 000 ₽"

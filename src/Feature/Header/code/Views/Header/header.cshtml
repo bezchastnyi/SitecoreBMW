@@ -1,0 +1,61 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Data.Managers;
+@model RenderingModel
+@{
+  var homeItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Home");
+  var homeItemUrl = Sitecore.Links.LinkManager.GetItemUrl(homeItem);
+
+  var allProductsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/All Products");
+  var allProductsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(allProductsItem);
+
+  var topProductsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Top Products");
+  var topProductsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(topProductsItem);
+
+  var archiveProductsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Archive Products");
+  var archiveProductsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(archiveProductsItem);
+
+  var contactsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Contacts");
+  var contactsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(contactsItem);
+
+  var contextLanguageId = LanguageManager.GetLanguageItemId(Sitecore.Context.Language, Sitecore.Context.Database);
+  var contextLanguage = Sitecore.Context.Database.GetItem(contextLanguageId);
+  var iso = contextLanguage["Regional Iso Code"];
+  if (string.IsNullOrEmpty(iso))
+  {
+    iso = contextLanguage["Iso"];
+  }
+}
+
+<header>
+  <div class="header-container">
+    <div class="header-logo">@Html.Sitecore().Field("Header Logo")</div>
+
+    <div class="header-navbar">
+      <a href="@homeItemUrl">@Html.Sitecore().Field("__Display Name", homeItem)</a>
+
+      <div class="header-dropdown">
+        @if (iso == "ru-RU")
+        {
+          <button class="header-dropbtn">
+            БМВ Продукты<i class="fa fa-caret-down"></i>
+          </button>
+        }
+        else if (iso == "en")
+        {
+          <button class="header-dropbtn">
+            BMW Products<i class="fa fa-caret-down"></i>
+          </button>
+        }
+
+        <div class="header-dropdown-content">
+          <a href="@allProductsItemUrl">@Html.Sitecore().Field("__Display Name", allProductsItem)</a>
+          <a href="@topProductsItemUrl">@Html.Sitecore().Field("__Display Name", topProductsItem)</a>
+          <a href="@archiveProductsItemUrl">@Html.Sitecore().Field("__Display Name", archiveProductsItem)</a>
+        </div>
+      </div>
+
+      <a href="@contactsItemUrl">@Html.Sitecore().Field("__Display Name", contactsItem)</a>
+    </div>
+  </div>
+</header>

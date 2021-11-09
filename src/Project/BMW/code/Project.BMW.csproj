@@ -6,9 +6,6 @@
     <SitecoreRoleType>website</SitecoreRoleType>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="wwwroot\BMW_M8.mp4" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="wwwroot\BMW_8_Series_Gran_Coupe.mp4" />
     <Content Include="wwwroot\BMW_Banner.mp4" />
     <Content Include="wwwroot\BMW_M8.mp4" />

@@ -1,0 +1,59 @@
+﻿@using Sitecore.Data.Items;
+@model System.Collections.Generic.List<Item>
+
+<div>
+  <style>
+    .content_img {
+      text-align: center;
+      margin-top: 50px;
+      margin-left: 50px;
+    }
+
+      .content_img div {
+        bottom: 0;
+        right: 0;
+        background: black;
+        color: white;
+        margin-bottom: 5px;
+        font-family: sans-serif;
+        opacity: 0;
+        visibility: hidden;
+        -webkit-transition: visibility 0s, opacity 0.5s linear;
+        transition: visibility 0s, opacity 0.5s linear;
+      }
+      /* Hover on Parent Container */
+      .content_img:hover {
+        cursor: pointer;
+      }
+
+        .content_img:hover div {
+          width: 370px;
+          text-align: center;
+          padding: 8px 15px;
+          visibility: visible;
+          opacity: 0.7;
+        }
+  </style>
+
+  @for (var i = 0; i < Model.Count; i++)
+  {
+    var car = Model[i];
+    @*<a class="contact-button" href="">
+        @Html.Sitecore().Field("Image", car, new { mh = 300, mw = 400 })
+      </a>*@
+
+
+    <button class="content_img" onclick="openUrl('@Sitecore.Links.LinkManager.GetItemUrl(car)')">
+      @Html.Sitecore().Field("Image", car, new { mh = 300, mw = 400 })
+      <div>@Html.Sitecore().Field("Mark", car) (@Html.Sitecore().Field("Year", car))</div>
+      <div>@Html.Sitecore().Field("Price", car)</div>
+    </button>
+
+    <script>
+      function openUrl(url) {
+        window.location = url;
+        window.open(url);
+      }
+    </script>
+  }
+</div>

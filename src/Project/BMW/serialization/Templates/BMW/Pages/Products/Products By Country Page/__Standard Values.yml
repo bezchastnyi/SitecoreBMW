@@ -1,0 +1,19 @@
+﻿---
+ID: "3a874419-83e0-4985-961b-78305a05421d"
+Parent: "24389a55-e06a-415a-93c4-26cb6a36b7a2"
+Template: "24389a55-e06a-415a-93c4-26cb6a36b7a2"
+Path: /sitecore/templates/Project/BMW/Pages/Products/Products By Country Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211030T082816Z

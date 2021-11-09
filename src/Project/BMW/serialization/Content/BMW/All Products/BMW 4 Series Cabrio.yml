@@ -16,10 +16,48 @@ Languages:
     - ID: "0d65ae3c-b681-4633-9492-b36d28aafa51"
       Hint: Description
       Value: |
+        <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW 4-series Cabrio - car overview</h2>
+        <div class="text-left" style="color: #333333; background-color: #ffffff;">
+        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><span>&nbsp;</span>&nbsp;</p>
+        <p style="margin: 0px 0px 10px;">In October 2013, BMW presented to the public the 4 Series BMW convertible. This model is the successor to the 3-series Cabrio. Like the coup&eacute;, the open-top version reflects the new design spirit of the Bavarian brand. The BMW 4-series Cabrio combines the advantages of 2 body types simultaneously: coupe and convertible. The three-piece hard top is capable of folding in a record 20 seconds. This design allows you to get the comfort of a closed coupe, while the noise and heat insulation of the BMW 4-series Cabrio is significantly higher than that of convertibles with a fabric roof. The rear row of seats in the "four" is adapted for only 2 passengers. The volume of the luggage compartment with the top closed is 370 liters, when folded - 220 liters.<br />
+        <br />
+        For the BMW 4-series Cabrio, the company has prepared several design options that will maximize the individualization of the car. In addition to the standard equipment package, there are the Sport, Luxury, Modern and M Sport package personalization lines. As for the technical aspects, there are no fundamental differences from the "four" coupe. The BMW 4-series Cabrio in Russia has 3 power plants: 2.0d and 184 hp, 2.0i and 249 hp, 3.0i and 326 hp. As a gearbox for all variants, a 6-speed "mechanics" or an 8-speed "automatic" are offered.<br />
+        <br />
+        In the Sport package, the BMW 4-series Cabrio features bumpers in high-gloss black, 2-color wheels Double spoke 397, satin-finish side glazing, sports seats in Coral Red Dakota leather, heated front seats, 2 -zonal climate with advanced features. Key features of the Luxury line are the premium interior materials combined with decorative wood strips and the exterior chrome package. The M Sport version emphasizes the dynamic appearance of the BMW 4-series Cabrio with sport bumpers with diffuser, eye-catching Double spoke 400 M wheels, exclusive paintwork, sophisticated M interior trim components. stability control and braking, dynamic traction control, start assist, cruise control, several airbags), BMW Professional radio, HiFi music, Hands Free speakerphone.</p>
+        </div>
+    - ID: "0e55d625-aa08-4162-a358-13e007167e80"
+      Hint: Country
+      Value: Germany
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211030T082246Z
+    - ID: "3344572d-ecfe-4595-a2b9-21bcf585fbfe"
+      Hint: Year
+      Value: 2017
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "bab65988-1683-47b9-9a48-361ef862dcb5"
+      Hint: Image
+      Value: |
+        <image mediaid="{35CE4CE4-CC94-4972-A71C-3FA63DE66946}" />
+    - ID: "f21d2c2e-efe0-4350-8624-85b7263bb662"
+      Hint: Price
+      Value: "43176 - 54041 $"
+    - ID: "f486eb08-937b-4c9b-8568-b6788f76c198"
+      Hint: Mark
+      Value: "BMW 4-series Cabrio"
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d65ae3c-b681-4633-9492-b36d28aafa51"
+      Hint: Description
+      Value: |
         <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW 4-series Cabrio - обзор автомобиля</h2>
         <div class="text-left" style="color: #333333; background-color: #ffffff;">
-        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><span>&nbsp;</span></p>
-        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><span>BMW 4-series Cabrio / БМВ 4-серии Кабриолет</span></p>
+        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;">&nbsp;&nbsp;</p>
         <p style="margin: 0px 0px 10px;">В октябре 2013 года компания BMW представила публике 4 серию БМВ в кузове кабриолет. Эта модель стала преемницей 3-series Cabrio. Как и купе, версия с открытым верхом создана в новом духе дизайна баварской марки. BMW 4-series Cabrio объединяет в себе преимущества 2 типов кузова одновременно: купе и кабриолет. Трехсекционный жесткий верх способен складываться в течении рекордных 20 с. Такая конструкция позволяет получить комфорт закрытого купе, при этом шумо- и теплоизоляция салона BMW 4-series Cabrio существенно выше, чем у кабриолетов с тканевой крышей. Задний ряд сидений в "четвёрке" адаптирован только для 2 пассажиров. Объем багажного отделения с закрытым верхом - 370 л, в сложенном состоянии - 220 л.<br />
         <br />
         Для BMW 4-series Cabrio компания подготовила несколько вариантов исполнения, которые позволят максимально индивидуализировать автомобиль. Помимо стандартного пакета оборудования, существуют линии персонализации Sport, Luxury, Modern и M Sport package. Что касается технических моментов, то принципиальных отличий от "четверки" купе нет. На "вооружении" BMW 4-series Cabrio в России 3 силовые установки: 2.0d и 184 л.с., 2.0i и 249 л.с., 3.0i и 326 л.с. В качестве КП для всех вариантов предложены 6-ступенчатая "механика" или 8-ступенчатый "автомат".<br />
@@ -28,10 +66,10 @@ Languages:
         </div>
     - ID: "0e55d625-aa08-4162-a358-13e007167e80"
       Hint: Country
-      Value: Germany
+      Value: Германия
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20211030T082246Z
+      Value: 20211109T210237Z
     - ID: "3344572d-ecfe-4595-a2b9-21bcf585fbfe"
       Hint: Year
       Value: 2017

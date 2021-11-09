@@ -16,15 +16,14 @@ Languages:
     - ID: "0d65ae3c-b681-4633-9492-b36d28aafa51"
       Hint: Description
       Value: |
-        <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW M4 - обзор автомобиля</h2>
+        <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW M4 - car overview</h2>
         <div class="text-left" style="color: #333333; background-color: #ffffff;">
-        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><span>&nbsp;</span></p>
-        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><span>BMW M4 / БМВ M4</span></p>
-        <p style="margin: 0px 0px 10px;">Купе BMW M4 официально представлено 12 декабря 2013 года. Эффектные черты M-серии проявляются в каждой детали кузова этого автомобиля. Спортивные бампера и расширенная колея вместе с разноширокими колесами R18 визуализируют мускулистый силуэт BMW M4. В основе кузова использован легкий материал - карбон, который поспособствовал снижению массы, что, в свою очередь, положительно отражается на управляемости. В настройке шасси BMW M4 принимали участие гонщики-профессионалы: канадец Бруно Спенглер и немец Тимо Глок. Заряженное купе также получило активный электронный дифференциал и рулевое управление Servotronic.<br />
+        &nbsp;
+        <p style="margin: 0px 0px 10px;">The BMW M4 Coupe was officially unveiled on December 12, 2013. The striking features of the M-Series are evident in every detail of this vehicle's bodywork. The sporty bumpers and wider track together with the wide R18 wheels visualize the muscular silhouette of the BMW M4. The body is based on a lightweight material - carbon, which contributed to a decrease in weight, which, in turn, has a positive effect on handling. Professional racers took part in tuning the BMW M4 chassis: Canadian Bruno Spengler and German Timo Glock. The charged coupe also gets an active electronic differential and Servotronic steering.<br />
         <br />
-        Автомобили BMW M4, как и M3, оснащаются новым 3-литровым бензиновым двигателем би-турбо, развивающим мощность в 431 л.с., что на 11 л.с. больше, чем у предшественника (4.0 V8). Существенно возросли показатели крутящего момента: максимальные 550 Н&middot;м доступны уже при 1850 оборотов, тогда как у предыдущего поколения эта цифра меньше на целых 150 Н&middot;м. В компании BMW также заявлено, что расход топлива M4 стал ниже на 25%. Для купе предлагается два варианта трансмиссии: 6-ступенчатая механическая (разрабатывалась специально для M3 и M4 новой генерации) и 7-диапазонная роботизированная. На европейском рынке BMW M4 поступила в продажу летом 2014 года.<br />
+        The BMW M4 cars, like the M3, are equipped with a new 3.0-liter bi-turbo petrol engine that develops 431 hp, an increase of 11 hp. more than its predecessor (4.0 V8). The torque indicators have significantly increased: the maximum 550 Nm is available already at 1850 rpm, while in the previous generation this figure is lower by as much as 150 Nm. BMW also claims that the M4's fuel consumption has dropped by 25%. For the coupe, two transmission options are offered: a 6-speed manual (developed specifically for the new generation M3 and M4) and a 7-band robotic. In the European market, the BMW M4 went on sale in the summer of 2014.<br />
         <br />
-        Базовая комплектация спорткупе BMW M4 укомплектована светодиодными фарами, 2-зонным автоматическим контролем климата, кожаным мультифункциональным рулем М, стереосистемой с 6-ю динамиками, навигацией Professional (экран 8.8 дюйма, сенсорный контроллер iDrive), системой громкой связи с USB и функцией "Свободные руки", динамическим контролем поддержки заданной скорости, датчиками освещения и дождя. Пакет внутренней отделки стандартного исполнения имеет антрацитовую обивку потолка, отделку салона из ткани и кожи Dakota, декоративные вставки Blue shadow. Спортивную внешность BMW M4 Coupe внешне подчеркивают базовые 18-дюймовые колесa (опционально доступны диски с размерностью 19 и 20 дюймoв) и аэродинамические бамперы в М-стиле. В списке опций - топовые карбоно-керамические тормоза, адаптивная М-подвеска, улучшенные светодиодные фары с омывателями высокого давления, комфортный бесключевой доступ, премиум-музыка, TV, круговой обзор, расширенный пакет электронных помощников езды.</p>
+        The basic equipment of the BMW M4 sports coupe is equipped with LED headlights, 2-zone automatic climate control, a leather multifunctional steering wheel, a stereo system with 6 speakers, navigation Professional (8.8-inch screen, iDrive touch controller), a hands-free system with USB and a hands-free function ", dynamic control of maintaining a given speed, light and rain sensors. The standard interior package features anthracite headliners, Dakota fabric and leather interior trims and Blue shadow inlays. The sporty appearance of the BMW M4 Coupe is outwardly emphasized by the base 18-inch wheels (19 and 20-inch wheels are optionally available) and aerodynamic bumpers in the M-style. The list of options includes top-end carbon ceramic brakes, adaptive M-suspension, improved LED headlights with high-pressure washers, comfortable keyless entry, premium music, TV, all-round visibility, an expanded package of electronic ride assistants.</p>
         </div>
     - ID: "0e55d625-aa08-4162-a358-13e007167e80"
       Hint: Country
@@ -32,6 +31,44 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20211030T082246Z
+    - ID: "3344572d-ecfe-4595-a2b9-21bcf585fbfe"
+      Hint: Year
+      Value: 2017
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "bab65988-1683-47b9-9a48-361ef862dcb5"
+      Hint: Image
+      Value: |
+        <image mediaid="{02120319-BD5D-4695-8A87-7AAE9B5B4D98}" />
+    - ID: "f21d2c2e-efe0-4350-8624-85b7263bb662"
+      Hint: Price
+      Value: "83531 - 94113 $"
+    - ID: "f486eb08-937b-4c9b-8568-b6788f76c198"
+      Hint: Mark
+      Value: BMW M4
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d65ae3c-b681-4633-9492-b36d28aafa51"
+      Hint: Description
+      Value: |
+        <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW M4 - обзор автомобиля</h2>
+        <div class="text-left" style="color: #333333; background-color: #ffffff;">&nbsp;
+        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;">Купе BMW M4 официально представлено 12 декабря 2013 года. Эффектные черты M-серии проявляются в каждой детали кузова этого автомобиля. Спортивные бампера и расширенная колея вместе с разноширокими колесами R18 визуализируют мускулистый силуэт BMW M4. В основе кузова использован легкий материал - карбон, который поспособствовал снижению массы, что, в свою очередь, положительно отражается на управляемости. В настройке шасси BMW M4 принимали участие гонщики-профессионалы: канадец Бруно Спенглер и немец Тимо Глок. Заряженное купе также получило активный электронный дифференциал и рулевое управление Servotronic.<br />
+        <br />
+        Автомобили BMW M4, как и M3, оснащаются новым 3-литровым бензиновым двигателем би-турбо, развивающим мощность в 431 л.с., что на 11 л.с. больше, чем у предшественника (4.0 V8). Существенно возросли показатели крутящего момента: максимальные 550 Н&middot;м доступны уже при 1850 оборотов, тогда как у предыдущего поколения эта цифра меньше на целых 150 Н&middot;м. В компании BMW также заявлено, что расход топлива M4 стал ниже на 25%. Для купе предлагается два варианта трансмиссии: 6-ступенчатая механическая (разрабатывалась специально для M3 и M4 новой генерации) и 7-диапазонная роботизированная. На европейском рынке BMW M4 поступила в продажу летом 2014 года.<br />
+        <br />
+        Базовая комплектация спорткупе BMW M4 укомплектована светодиодными фарами, 2-зонным автоматическим контролем климата, кожаным мультифункциональным рулем М, стереосистемой с 6-ю динамиками, навигацией Professional (экран 8.8 дюйма, сенсорный контроллер iDrive), системой громкой связи с USB и функцией "Свободные руки", динамическим контролем поддержки заданной скорости, датчиками освещения и дождя. Пакет внутренней отделки стандартного исполнения имеет антрацитовую обивку потолка, отделку салона из ткани и кожи Dakota, декоративные вставки Blue shadow. Спортивную внешность BMW M4 Coupe внешне подчеркивают базовые 18-дюймовые колесa (опционально доступны диски с размерностью 19 и 20 дюймoв) и аэродинамические бамперы в М-стиле. В списке опций - топовые карбоно-керамические тормоза, адаптивная М-подвеска, улучшенные светодиодные фары с омывателями высокого давления, комфортный бесключевой доступ, премиум-музыка, TV, круговой обзор, расширенный пакет электронных помощников езды.</p>
+        </div>
+    - ID: "0e55d625-aa08-4162-a358-13e007167e80"
+      Hint: Country
+      Value: США
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211109T205043Z
     - ID: "3344572d-ecfe-4595-a2b9-21bcf585fbfe"
       Hint: Year
       Value: 2017

@@ -16,11 +16,47 @@ Languages:
     - ID: "0d65ae3c-b681-4633-9492-b36d28aafa51"
       Hint: Description
       Value: |
+        <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW i8 Roadster - car overview</h2>
+        <p>&nbsp;</p>
+        <p>The Bavarian company presented the futuristic and exciting BMW i8 Roadster in late autumn 2017 at the Los Angeles Motor Show along with a restyled version of the i8 coupe. It was not in vain that the North American public was chosen to show the new model at BMW - most of the i8 sales fall on this market. Technically, the roadster is virtually indistinguishable from the coupe that has been around since 2014. Both models have identical dimensions, engine, chassis, electronic filling, with the exception of a 2-seater saloon and, in fact, a removable top. The latter is equipped with an electronic folding mechanism and is capable of lowering in just 15 seconds on the move (provided that the speed is not higher than 50 km / h). Like the coupe, the BMW i8 Roadster uses a lightweight body architecture - it is based on components made of aluminum (body, chassis) and carbon fiber (interior). In terms of aerodynamics, the roadster is slightly inferior to its 4-seater clone - a coefficient of 0.28 versus 0.26 (body peculiarities affect), but both models have an equally good center of gravity (460 mm) and, one might say, an ideal weight distribution (49% versus 51 %).<br />
+        <br />
+        The BMW i8 Roadster is powered by a combined power plant, which consists of a synchronous electric motor in front and a rear internal combustion engine with 3 cylinders in a row. The total power of the motors is 374 hp - this allows you to shoot up to a hundred in a matter of 4.6 s. But the main thing is fuel efficiency and environmental friendliness. To cover the distance of 100 km, the BMW i8 Roadster requires only 2.1 liters of fuel, and dirty emissions are minimal - 46 g / km. At the same time, the range of a roadster with a standard 30-liter petrol tank and a capacious battery is about 440 km. In the cabin, the changes compared to the pre-styling coupe are insignificant - these are slightly modernized seats, a revised multimedia system, and new decorative trim options. Safety on the BMW i8 Roadster is represented by assistants for traffic jams and lane control, systems for monitoring lane markings and lane changes, active cruise control, all-round visibility, an advanced assistant for convenient parking.<br />
+        <br />
+        The basic equipment of the open version of the i8 is identical to its sister 2-door coupe. The list of standard roadster equipment includes a 2-zone climate system, a BMW Professional multimedia platform (there is a convenient iDrive controller for controlling functions), a sports multifunctional steering wheel, heated and adjustable seats, electric interior heating, Connected Drive services, communications support, comfortable keyless entry, remote control of the car. The 20-inch Radial Spoke wheels with a variety of sizes and unique body colors can make the roadster look more exclusive. The interior of the BMW i8 Roadster can be personalized with the Carpo trim lines (2-tone perforated leather), Halo (leather upholstery with fabric inserts) and Accaro (natural leather and fabric materials in copper tones). The optional Travel package contains additional accessories for transporting small items in the cabin.</p>
+    - ID: "0e55d625-aa08-4162-a358-13e007167e80"
+      Hint: Country
+      Value: France
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211030T082246Z
+    - ID: "3344572d-ecfe-4595-a2b9-21bcf585fbfe"
+      Hint: Year
+      Value: 2021
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "bab65988-1683-47b9-9a48-361ef862dcb5"
+      Hint: Image
+      Value: |
+        <image mediaid="{7FF5C037-67F1-44D0-A4ED-ACDB3D324948}" />
+    - ID: "f21d2c2e-efe0-4350-8624-85b7263bb662"
+      Hint: Price
+      Value: 163817 $
+    - ID: "f486eb08-937b-4c9b-8568-b6788f76c198"
+      Hint: Mark
+      Value: BMW i8 Roadster
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d65ae3c-b681-4633-9492-b36d28aafa51"
+      Hint: Description
+      Value: |
         <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW i8 Roadster - обзор автомобиля</h2>
-        <br style="color: #333333; background-color: #ffffff;" />
+        <p>&nbsp;</p>
         <div class="text-left" style="color: #333333; background-color: #ffffff;">
-        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><span>BMW i8 Roadster / БМВ i8 Родстер</span></p>
-        <p style="margin: 0px 0px 10px;">Футуристичный и захватывающий BMW i8 Roadster баварская компания представила в конце осени 2017 года на моторшоу в Лос-Анджелесе вместе с рестайлинговой версией&nbsp;<a href="https://avto-russia.ru/autos/bmw/bmw_i8.html" style="color: #1d6fa5; background-color: transparent;">купе i8</a>. Североамериканскую публику для показа новой модели в BMW выбрали не зря - большая часть продаж i8 приходится именно на этот рынок. Технически родстер практически ничем не отличается от купе, которое существует с 2014 года. У обеих моделей идентичные габариты, двигатель, шасси, электронная начинка, исключение - 2-местный салон и, собственно, съемный верх. Последний оборудован электронным механизмом складывания и способен опускаться всего за 15 с прямо на ходу (при условии, если скорость движения не выше 50 км/час). Как и купе, BMW i8 Roadster использует облегченную архитектуру кузова - в его основе задействованы компоненты из алюминия (корпус, шасси) и карбона (салон). По аэродинамике родстер немного уступает своему 4-местному клону - коэффициент 0,28 против 0,26 (сказываются особенности кузова), зато у обеих моделей одинаково хороший центр тяжести (460 мм) и, можно сказать, идеальная развесовка массы (49% против 51%).<br />
+        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;">Футуристичный и захватывающий BMW i8 Roadster баварская компания представила в конце осени 2017 года на моторшоу в Лос-Анджелесе вместе с рестайлинговой версией&nbsp;<a href="https://avto-russia.ru/autos/bmw/bmw_i8.html" style="color: #1d6fa5; background-color: transparent;">купе i8</a>. Североамериканскую публику для показа новой модели в BMW выбрали не зря - большая часть продаж i8 приходится именно на этот рынок. Технически родстер практически ничем не отличается от купе, которое существует с 2014 года. У обеих моделей идентичные габариты, двигатель, шасси, электронная начинка, исключение - 2-местный салон и, собственно, съемный верх. Последний оборудован электронным механизмом складывания и способен опускаться всего за 15 с прямо на ходу (при условии, если скорость движения не выше 50 км/час). Как и купе, BMW i8 Roadster использует облегченную архитектуру кузова - в его основе задействованы компоненты из алюминия (корпус, шасси) и карбона (салон). По аэродинамике родстер немного уступает своему 4-местному клону - коэффициент 0,28 против 0,26 (сказываются особенности кузова), зато у обеих моделей одинаково хороший центр тяжести (460 мм) и, можно сказать, идеальная развесовка массы (49% против 51%).<br />
         <br />
         В движение BMW i8 Roadster приводит комбинированная силовая установка, которая состоит из синхронного электромотора спереди и заднего двигателя внутреннего сгорания с 3-мя цилиндрами, расположенными в ряд. Суммарная мощность моторов составляет 374 hp - это позволяет выстреливать до сотни за считанные 4.6 с. Но главное - топливная экономичность и лояльность к окружающей среде. Для преодоления расстояния в 100 км BMW i8 Roadster потребуется всего 2,1 л топлива, а грязные выбросы минимальны &ndash; 46 г/км. При этом запас хода родстера со стандартным 30-литровым баком для бензина и емкой аккумуляторной батареей составляет около 440 км. В салоне изменения по сравнению с дорестайлинговым купе незначительные - это слегка модернизированные сиденья, пересмотренная мультимедийная система, новые варианты декоративной отделки. Безопасность на BMW i8 Roadster представлена ассистентами движения в пробках и полосе, системами контроля за разметкой и перестроением, активным круиз-контролем, круговым обзором, продвинутым помощником для удобной парковки.<br />
         <br />
@@ -28,10 +64,10 @@ Languages:
         </div>
     - ID: "0e55d625-aa08-4162-a358-13e007167e80"
       Hint: Country
-      Value: France
+      Value: Франция
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20211030T082246Z
+      Value: 20211109T205232Z
     - ID: "3344572d-ecfe-4595-a2b9-21bcf585fbfe"
       Hint: Year
       Value: 2021

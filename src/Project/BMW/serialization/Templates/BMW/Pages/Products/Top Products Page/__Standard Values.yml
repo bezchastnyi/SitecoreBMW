@@ -1,0 +1,29 @@
+﻿---
+ID: "c96981f1-f8cc-46d0-bc4d-b81adbd16441"
+Parent: "23c3c629-a6a5-4af2-abf8-671a9be25873"
+Template: "23c3c629-a6a5-4af2-abf8-671a9be25873"
+Path: /sitecore/templates/Project/BMW/Pages/Products/Top Products Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{8BEF7708-00A6-4DDE-A069-352EBB04B91C}">
+        <p
+          uid="{10A391A9-DAC5-47C7-A96B-0EA02DAF3ABF}"
+          key="product"
+          md="{CB189351-88FE-41EA-9659-C4723846EAE1}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211102T164036Z

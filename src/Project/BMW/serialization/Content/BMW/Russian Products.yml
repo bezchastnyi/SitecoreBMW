@@ -1,0 +1,51 @@
+﻿---
+ID: "c58ddf2a-3bb9-42db-bf4b-b4d050e44635"
+Parent: "b59cb9b2-a454-4d24-94e5-5431e42e6f6e"
+Template: "24389a55-e06a-415a-93c4-26cb6a36b7a2"
+Path: /sitecore/content/BMW/Russian Products
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{88C662A4-8D96-46F8-8E06-FB956C4A1750}" />
+    </r>
+Languages:
+- Language: "ru-RU"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Машины Российского завода БМВ
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0851f200-3cf2-4438-850b-92fc9bf178a1"
+      Hint: Page Title
+      Value: Машины Российского завода БМВ
+    - ID: "1494909c-303a-4e81-803f-adffb9c2197e"
+      Hint: Footer Text
+      Value: |
+        <span style="text-align: center; color: #000000;">&copy; 2021 BMW Ltd.</span>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211108T180137Z
+    - ID: "292809b1-f492-4b35-98c3-518806cd5059"
+      Hint: Header Logo
+      Value: |
+        <image mediaid="{A3EDA0B0-3979-4565-8456-7D21A6EC34B9}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "e640f9ce-f505-495f-8be9-562d0af38cdf"
+      Hint: Country Flag
+      Value: |
+        <image mediaid="{3B6539AD-2AD9-48AE-840F-6CCFF121A8B7}" />
+    - ID: "fddd2c13-ca9c-42f7-9004-899cd73e3f07"
+      Hint: Footer Logo
+      Value: |
+        <image mediaid="{A3EDA0B0-3979-4565-8456-7D21A6EC34B9}" />
