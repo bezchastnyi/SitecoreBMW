@@ -32,7 +32,7 @@
   <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
   <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
-  <title>@Html.Sitecore().Field("Page Title", allProductsItem, new { DisableWebEdit = true })</title>
+  <title>@Html.Sitecore().Field("Page Title", new { DisableWebEdit = true })</title>
 </head>
 
 <body>
@@ -42,8 +42,9 @@
   </div>
   <br />
 
+  @* Cars *@
   <div>
-    <h1 style="text-align: center;">@Html.Sitecore().Field("Page Title", allProductsItem)</h1>
+    <h1 style="text-align: center;">@Html.Sitecore().Field("Page Title")</h1>
     <br />
 
     <table id="data" class="display" style="width:100%">
@@ -56,11 +57,12 @@
           <th>Country</th>
         </tr>
       </thead>
+
       <tbody>
         @foreach (var product in products)
         {
           if (Html.Sitecore().Field("Price", product).ToString().Contains("Not available 🛑") ||
-          string.IsNullOrEmpty(Html.Sitecore().Field("Mark", product).ToString()))
+              string.IsNullOrEmpty(Html.Sitecore().Field("Mark", product).ToString()))
           {
             continue;
           }
@@ -78,6 +80,7 @@
           </tr>
         }
       </tbody>
+
       <tfoot>
         <tr>
           <th>Image</th>
