@@ -10,4 +10,13 @@
     <PackageReference Include="Sitecore.Mvc" Version="9.3.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Include="Views\ProductsByCountry\Index.cshtml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
+    </Content>
+    <Content Remove="Views\GermanProducts\Index.cshtml" />
+    <Content Remove="Views\RussianProducts\Index.cshtml" />
+  </ItemGroup>
+
 </Project>

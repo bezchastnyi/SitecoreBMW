@@ -14,7 +14,7 @@
     <div class="footer-navbar">
       @foreach (var page in pages)
       {
-        var pageName = Html.Sitecore().Field("__Display Name", page);
+        var pageName = Html.Sitecore().Field("Page Title", page);
         if (!string.IsNullOrEmpty(pageName.ToString()))
         {
           <a href="@Sitecore.Links.LinkManager.GetItemUrl(page)">@pageName</a>

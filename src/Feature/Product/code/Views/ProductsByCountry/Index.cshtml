@@ -6,7 +6,8 @@
     .content_img {
       text-align: center;
       margin-top: 50px;
-      margin-left: 50px;
+      margin-left: 105px;
+      margin-bottom: 50px;
     }
 
       .content_img div {
@@ -35,9 +36,8 @@
         }
   </style>
 
-  @for (var i = 0; i < Model.Count; i++)
+  @foreach (var car in Model)
   {
-    var car = Model[i];
     @*<a class="contact-button" href="">
         @Html.Sitecore().Field("Image", car, new { mh = 300, mw = 400 })
       </a>*@

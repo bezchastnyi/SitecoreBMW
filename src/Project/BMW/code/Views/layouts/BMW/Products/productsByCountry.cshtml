@@ -1,0 +1,45 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Data.Managers;
+@{
+  Layout = "../Base/_layout.cshtml";
+  
+  var contextLanguageId = LanguageManager.GetLanguageItemId(Sitecore.Context.Language, Sitecore.Context.Database);
+  var contextLanguage = Sitecore.Context.Database.GetItem(contextLanguageId);
+  var iso = contextLanguage["Regional Iso Code"];
+  if (string.IsNullOrEmpty(iso))
+  {
+    iso = contextLanguage["Iso"];
+  }
+  
+  var country = string.Empty;
+}
+
+<div>
+  @switch (iso)
+  {
+    case "ru-RU":
+    {
+      country = "Россия";
+      <h1 style="text-align: center;">Машины Российского завода БМВ</h1>
+      break;
+    }
+
+    case "en":
+    {
+      country = "Germany";
+      <h1 style="text-align: center;">German Products Catalog</h1>
+      break;
+    }
+  }
+
+  <br/>
+</div>
+
+@* Products Controller Rendering *@
+<div>
+  @Html.Sitecore().Rendering("{135DFBB9-B986-45FE-9241-28E6E4737FE5}", new
+  {
+    Parameters = "country=" + country,
+  })
+</div>
+<br />

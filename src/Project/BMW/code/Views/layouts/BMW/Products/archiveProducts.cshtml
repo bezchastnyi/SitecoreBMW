@@ -56,7 +56,11 @@
 
           <tr>
             <td style="text-align:center">@Html.Sitecore().Field("Image", product, new { mh = 200, mw = 300 })</td>
-            <td style="text-align:center">@Html.Sitecore().Field("Mark", product)</td>
+            
+            <td style="text-align:center">
+              <a href="@Sitecore.Links.LinkManager.GetItemUrl(product)">@Html.Sitecore().Field("Mark", product)</a>
+            </td>
+            
             <td style="text-align:center">@Html.Sitecore().Field("Year", product)</td>
             <td style="text-align:center">@Html.Sitecore().Field("Country", product)</td>
           </tr>

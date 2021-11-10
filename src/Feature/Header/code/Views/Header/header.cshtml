@@ -25,6 +25,8 @@
   {
     iso = contextLanguage["Iso"];
   }
+
+  var dropButtonTitle = string.Empty;
 }
 
 <header>
@@ -32,30 +34,36 @@
     <div class="header-logo">@Html.Sitecore().Field("Header Logo")</div>
 
     <div class="header-navbar">
-      <a href="@homeItemUrl">@Html.Sitecore().Field("__Display Name", homeItem)</a>
+      <a href="@homeItemUrl">@Html.Sitecore().Field("Page Title", homeItem)</a>
 
       <div class="header-dropdown">
-        @if (iso == "ru-RU")
+        @switch (iso)
         {
-          <button class="header-dropbtn">
-            БМВ Продукты<i class="fa fa-caret-down"></i>
-          </button>
+          case "ru-RU":
+          {
+            dropButtonTitle = "БМВ Продукты";
+            break;
+          }
+            
+          case "en":
+          {
+            dropButtonTitle = "BMW Products";
+            break;
+          }
         }
-        else if (iso == "en")
-        {
-          <button class="header-dropbtn">
-            BMW Products<i class="fa fa-caret-down"></i>
-          </button>
-        }
+        
+        <button class="header-dropbtn">
+          @dropButtonTitle<i class="fa fa-caret-down"></i>
+        </button>
 
         <div class="header-dropdown-content">
-          <a href="@allProductsItemUrl">@Html.Sitecore().Field("__Display Name", allProductsItem)</a>
-          <a href="@topProductsItemUrl">@Html.Sitecore().Field("__Display Name", topProductsItem)</a>
-          <a href="@archiveProductsItemUrl">@Html.Sitecore().Field("__Display Name", archiveProductsItem)</a>
+          <a href="@allProductsItemUrl">@Html.Sitecore().Field("Page Title", allProductsItem)</a>
+          <a href="@topProductsItemUrl">@Html.Sitecore().Field("Page Title", topProductsItem)</a>
+          <a href="@archiveProductsItemUrl">@Html.Sitecore().Field("Page Title", archiveProductsItem)</a>
         </div>
       </div>
 
-      <a href="@contactsItemUrl">@Html.Sitecore().Field("__Display Name", contactsItem)</a>
+      <a href="@contactsItemUrl">@Html.Sitecore().Field("Page Title", contactsItem)</a>
     </div>
   </div>
 </header>

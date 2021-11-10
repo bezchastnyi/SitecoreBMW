@@ -4,12 +4,10 @@
 @using Sitecore.Data.Managers;
 @model RenderingModel
 @{
+  var productsByCountry = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Products By Country");
   var allProductsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/All Products");
   var products = new List<Item>(allProductsItem.Children);
-
-  var germanProducts = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/German Products");
-  var russianProducts = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Russian Products");
-
+  
   var contextLanguageId = LanguageManager.GetLanguageItemId(Sitecore.Context.Language, Sitecore.Context.Database);
   var contextLanguage = Sitecore.Context.Database.GetItem(contextLanguageId);
   var iso = contextLanguage["Regional Iso Code"];
@@ -95,33 +93,30 @@
   <br />
 
   @* Products by country *@
-  @if (iso == "ru-RU")
+  @if (!string.IsNullOrEmpty(Html.Sitecore().Field("Page Title", productsByCountry).ToString()))
   {
-    if (!string.IsNullOrEmpty(Html.Sitecore().Field("Page Title", russianProducts).ToString()))
-    {
-      <div style="text-align: center; margin-bottom: 50px">
-        <h1>Машины из вашей страны</h1>
-        <br />
-
-        <a href="@Sitecore.Links.LinkManager.GetItemUrl(russianProducts)">
-          @Html.Sitecore().Field("Country Flag", russianProducts, new { mh = 100, mw = 100 })
-        </a>
-      </div>
-    }
-  }
-  else if (iso == "en")
-  {
-    if (!string.IsNullOrEmpty(Html.Sitecore().Field("Page Title", germanProducts).ToString()))
-    {
-      <div style="text-align: center; margin-bottom: 50px">
-        <h1>Products from your country</h1>
-        <br />
-
-        <a href="@Sitecore.Links.LinkManager.GetItemUrl(germanProducts)">
-          @Html.Sitecore().Field("Country Flag", germanProducts, new { mh = 100, mw = 100 })
-        </a>
-      </div>
-    }
+    <div style="text-align: center; margin-bottom: 50px">
+      @switch (iso)
+      {
+        case "ru-RU":
+        {
+          <h1>Машины из вашей страны</h1>
+          break;
+        }
+          
+        case "en":
+        {
+          <h1>Products from your country</h1>
+          break;
+        }
+      }
+      
+      <br />
+      
+      <a href="@Sitecore.Links.LinkManager.GetItemUrl(productsByCountry)">
+        @Html.Sitecore().Field("Country Flag", productsByCountry, new { mh = 100, mw = 100 })
+      </a>
+    </div>
   }
 
   @* Footer *@

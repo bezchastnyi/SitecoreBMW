@@ -1,17 +1,24 @@
 ﻿---
-ID: "88c662a4-8d96-46f8-8e06-fb956c4a1750"
+ID: "68d2eb04-5d35-4ab0-959d-a46ff0127f6d"
 Parent: "927eb390-e490-4745-9417-02b1e4ecc6e9"
 Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
-Path: /sitecore/layout/Layouts/Project/BMW/Products/Russian Products Page
+Path: /sitecore/layout/Layouts/Project/BMW/Products/Products By Country Page
 DB: master
 SharedFields:
 - ID: "a036b2bc-ba04-44f6-a75f-bae6cd242abf"
   Hint: Path
-  Value: /Views/layouts/BMW/Products/russianProducts.cshtml
+  Value: /Views/layouts/BMW/Products/productsByCountry.cshtml
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 200
 Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211110T181108Z
 - Language: "ru-RU"
   Versions:
   - Version: 1

@@ -1,8 +1,8 @@
 ﻿---
-ID: "bf37661b-c976-49ec-bec0-91cded9c783f"
+ID: "135dfbb9-b986-45fe-9241-28e6e4737fe5"
 Parent: "abf99bfe-87c7-4826-bef7-0a56781567cc"
 Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
-Path: /sitecore/layout/Renderings/Feature/Product/Russian Products
+Path: /sitecore/layout/Renderings/Feature/Product/Products By Country
 DB: master
 SharedFields:
 - ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
@@ -10,7 +10,7 @@ SharedFields:
   Value: Index
 - ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
   Hint: Controller
-  Value: Feature.Product.Controllers.RussianProductsController, Feature.Product
+  Value: Feature.Product.Controllers.ProductsByCountryController, Feature.Product
 Languages:
 - Language: en
   Versions:
