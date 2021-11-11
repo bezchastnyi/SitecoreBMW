@@ -6,16 +6,10 @@
     <SitecoreRoleType>website</SitecoreRoleType>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="Views\layouts\BMW\Products\productsByCountry.cshtml">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
-    </Content>
     <Content Include="wwwroot\BMW_8_Series_Gran_Coupe.mp4" />
     <Content Include="wwwroot\BMW_Banner.mp4" />
     <Content Include="wwwroot\BMW_M8.mp4" />
     <Content Include="wwwroot\BMW_M8_Cabrio.mp4" />
-    <Content Remove="Views\layouts\BMW\Products\russianProducts.cshtml" />
-    <Content Remove="Views\layouts\BMW\Products\germanProducts.cshtml" />
   </ItemGroup>
   
   <ItemGroup>
