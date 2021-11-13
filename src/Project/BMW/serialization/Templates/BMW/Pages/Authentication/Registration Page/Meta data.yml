@@ -1,0 +1,14 @@
+﻿---
+ID: "2176c383-85ea-449f-9f85-517aeaddf419"
+Parent: "aa58c20b-7e2a-40ad-b2fa-90b775f70275"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/BMW/Pages/Authentication/Registration Page/Meta data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211112T183028Z

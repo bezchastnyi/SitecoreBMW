@@ -78,6 +78,7 @@
   display: block;
 }
 
+
 /* Banner Image */
 
 .banner-image {
@@ -149,7 +150,9 @@
   margin-top: 25px;
 }
 
+
 /* Contacts */
+
 .contact {
   text-align: center;
 }

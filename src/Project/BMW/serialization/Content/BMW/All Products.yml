@@ -4,6 +4,10 @@ Parent: "b59cb9b2-a454-4d24-94e5-5431e42e6f6e"
 Template: "a8423e7e-e4fb-4404-91ed-5d5bb741e68b"
 Path: /sitecore/content/BMW/All Products
 DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
 Languages:
 - Language: en
   Fields:

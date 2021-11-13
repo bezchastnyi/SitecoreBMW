@@ -1,6 +1,8 @@
-﻿@using Sitecore.Mvc
+﻿@using Feature.Authentication.Services
+@using Sitecore.Mvc
 @using Sitecore.Mvc.Presentation
 @using Sitecore.Data.Managers;
+@using AuthenticationManager = Sitecore.Security.Authentication.AuthenticationManager
 @model RenderingModel
 @{
   var homeItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Home");
@@ -17,6 +19,9 @@
 
   var contactsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Contacts");
   var contactsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(contactsItem);
+  
+  var registrationItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Authentication/Registration");
+  var loggingItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Authentication/Logging");
 
   var contextLanguageId = LanguageManager.GetLanguageItemId(Sitecore.Context.Language, Sitecore.Context.Database);
   var contextLanguage = Sitecore.Context.Database.GetItem(contextLanguageId);
@@ -27,6 +32,15 @@
   }
 
   var dropButtonTitle = string.Empty;
+
+  var authenticated = false;
+  var user = AuthenticationManager.GetActiveUser();
+  if (!user.Name.Contains("Anonymous"))
+  {
+    authenticated = true;
+  }
+  
+  var userMaintenance = new UserMaintenance();
 }
 
 <header>
@@ -58,12 +72,67 @@
 
         <div class="header-dropdown-content">
           <a href="@allProductsItemUrl">@Html.Sitecore().Field("Page Title", allProductsItem)</a>
-          <a href="@topProductsItemUrl">@Html.Sitecore().Field("Page Title", topProductsItem)</a>
+          
+          @if (authenticated)
+          {
+            <a href="@topProductsItemUrl">@Html.Sitecore().Field("Page Title", topProductsItem)</a>
+          }
+          
           <a href="@archiveProductsItemUrl">@Html.Sitecore().Field("Page Title", archiveProductsItem)</a>
         </div>
       </div>
 
       <a href="@contactsItemUrl">@Html.Sitecore().Field("Page Title", contactsItem)</a>
+    
+      <div class="header-auth-button">
+        <style>
+          .registration,
+          .logging-in,
+          .logging-out {
+              float: right;
+              background-color: blue;
+              font-size: 18px;
+              color: white;
+              text-align: center;
+              padding: 30px 30px;
+          }
+        </style>
+        @if (!authenticated)
+        {
+          <button class="registration" onclick="openUrl('@Sitecore.Links.LinkManager.GetItemUrl(registrationItem)')">
+            Registration
+          </button>
+        
+          <button class="logging-in" onclick="openUrl('@Sitecore.Links.LinkManager.GetItemUrl(loggingItem)')">
+            Log in
+          </button>
+        }
+        else
+        {
+          <button class="logging-out" onclick="@{ UserMaintenance.Logout(); }">
+            Log out
+          </button>
+        }
+      </div>
+
+      <div>
+        <style>
+          .user-name {
+            color: blue;
+          }
+        </style>
+        @if (authenticated)
+        {
+          <h1 class="user-name" style="text-align: center">@user.Name</h1>
+        }
+      </div>
+      
+      <script>
+        function openUrl(url) {
+          window.location = url;
+          window.open(url);
+        }
+      </script>
     </div>
   </div>
 </header>

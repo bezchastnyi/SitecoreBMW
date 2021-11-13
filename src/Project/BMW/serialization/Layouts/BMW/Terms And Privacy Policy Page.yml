@@ -1,0 +1,18 @@
+﻿---
+ID: "a9744382-c625-42d0-80c8-82a8f2549222"
+Parent: "3644632d-4440-49b1-9563-bff945bbc1b2"
+Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
+Path: /sitecore/layout/Layouts/Project/BMW/Terms And Privacy Policy Page
+DB: master
+SharedFields:
+- ID: "a036b2bc-ba04-44f6-a75f-bae6cd242abf"
+  Hint: Path
+  Value: /Views/layouts/BMW/policy.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211113T123317Z

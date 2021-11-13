@@ -9,4 +9,8 @@
   <ItemGroup>
     <PackageReference Include="Sitecore.Mvc" Version="9.3.0" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Registration\code\Feature.Authentication.csproj" />
+  </ItemGroup>
 </Project>

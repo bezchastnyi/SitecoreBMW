@@ -1,0 +1,14 @@
+﻿---
+ID: "60afd230-edb7-4393-a840-ecc5dc004aaf"
+Parent: "e4175860-3646-446c-a90f-a43aef34aadd"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/BMW/Pages/Terms And Privacy Policy Page/Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211113T123210Z

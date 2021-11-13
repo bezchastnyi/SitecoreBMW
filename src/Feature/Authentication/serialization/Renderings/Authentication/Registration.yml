@@ -1,0 +1,21 @@
+﻿---
+ID: "8ba71a71-cfb2-430e-8f73-4aa1c9311426"
+Parent: "332a5cd7-658e-433f-bb0f-3c83a176be75"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/Feature/Authentication/Registration
+DB: master
+SharedFields:
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: Register
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Feature.Authentication.Controllers.Registration, Feature.Authentication
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211112T194013Z

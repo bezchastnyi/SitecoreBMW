@@ -1,0 +1,25 @@
+﻿---
+ID: "2082b21c-7437-4cea-b11d-6027e3fb284e"
+Parent: "eee75006-04d7-4a96-92e1-19e270dccc5a"
+Template: "54556e02-e0ff-40e5-bbe0-050beb747e6e"
+Path: /sitecore/content/BMW/Authentication/Logging
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 550
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211112T184434Z
+    - ID: "5f293f6c-8400-43c1-90ae-8672371ec722"
+      Hint: Logo
+      Value: |
+        <image mediaid="{A3EDA0B0-3979-4565-8456-7D21A6EC34B9}" />
+    - ID: "87ac2cbf-529a-46d7-8456-df812b02b9f3"
+      Hint: Page Title
+      Value: Logging
