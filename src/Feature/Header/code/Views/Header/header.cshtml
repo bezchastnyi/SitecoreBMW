@@ -39,8 +39,6 @@
   {
     authenticated = true;
   }
-  
-  var userMaintenance = new UserMaintenance();
 }
 
 <header>
@@ -109,7 +107,8 @@
         }
         else
         {
-          <button class="logging-out" onclick="@{ UserMaintenance.Logout(); }">
+          //onclick="@{ UserMaintenance.Logout(); }"
+          <button class="logging-out">
             Log out
           </button>
         }
@@ -118,12 +117,12 @@
       <div>
         <style>
           .user-name {
-            color: blue;
+            color: white;
           }
         </style>
         @if (authenticated)
         {
-          <h1 class="user-name" style="text-align: center">@user.Name</h1>
+          <h2 class="user-name" style="text-align: center">@user.LocalName</h2>
         }
       </div>
       

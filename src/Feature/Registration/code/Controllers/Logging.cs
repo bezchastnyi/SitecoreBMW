@@ -19,8 +19,7 @@ namespace Feature.Authentication.Controllers
     {
       try
       {
-        var userMaintenance = new UserMaintenance();
-        var logged = userMaintenance.LoginAsUser(user.UserName, user.Password, true);
+        var logged = UserMaintenance.LoginAsUser(user.UserName, user.Password, true);
         return new EmptyResult();
       }
       catch (Exception ex)
@@ -31,17 +30,6 @@ namespace Feature.Authentication.Controllers
 
         return new EmptyResult();
       }
-      
-      /*
-       var user = AuthenticationManager.GetActiveUser();
-      
-      var userMaintenance = new UserMaintenance();
-      var result = userMaintenance.LoginAsUser("admin", "b", true);
-      
-      
-      //var result = AuthenticationManager.Login(userName, "b", true);
-      //AuthenticationManager.SetActiveUser(userName);
-       */
     }
   }
 }

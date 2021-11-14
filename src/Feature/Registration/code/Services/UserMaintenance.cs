@@ -7,13 +7,13 @@ using Sitecore.Security.Authentication;
 
 namespace Feature.Authentication.Services
 {
-  public class UserMaintenance
+  public static class UserMaintenance
   {
     private const string ServiceName = "Feature.Authentication.Services.UserMaintenance";
 
     #region User Edit Operations
 
-    public string AddNewUser(
+    public static string AddNewUser(
       string domain, string firstName, string lastName, string email, string comment, string password = null)
     {
       var userName = $@"{domain}\{firstName}{lastName}";
@@ -48,20 +48,20 @@ namespace Feature.Authentication.Services
       {
         Sitecore.Diagnostics.Log.Error(
           $"Error in {ServiceName}-{nameof(AddNewUser)}: " +
-          $"Message: {ex.Message}; Source:{ex.Source}; User Name: {userName}", this);
+          $"Message: {ex.Message}; Source:{ex.Source}; User Name: {userName}", typeof(UserMaintenance));
         return null;
       }
     }
 
-    public bool UserExists(string userName) => User.Exists(userName);
+    public static bool UserExists(string userName) => User.Exists(userName);
     
-    public bool UserExists(string domain, string firstName, string lastName)
+    public static bool UserExists(string domain, string firstName, string lastName)
     {
       var userName = $@"{domain}\{firstName}{lastName}";
       return User.Exists(userName);
     }
 
-    public void EditUser(string domain, string firstName, string lastName, string email, string comment)
+    public static void EditUser(string domain, string firstName, string lastName, string email, string comment)
     {
       var userName = $@"{domain}\{firstName}{lastName}";
       
@@ -90,11 +90,11 @@ namespace Feature.Authentication.Services
       {
         Sitecore.Diagnostics.Log.Error(
           $"Error in {ServiceName}-{nameof(EditUser)}: " +
-          $"Message: {ex.Message}; Source:{ex.Source}; User Name: {userName}", this);
+          $"Message: {ex.Message}; Source:{ex.Source}; User Name: {userName}", typeof(UserMaintenance));
       }
     }
 
-    public void DeleteUser(string userName)
+    public static void DeleteUser(string userName)
     {
       try
       {
@@ -105,11 +105,11 @@ namespace Feature.Authentication.Services
       {
         Sitecore.Diagnostics.Log.Error(
           $"Error in {ServiceName}-{nameof(DeleteUser)}: " +
-          $"Message: {ex.Message}; Source:{ex.Source}; User Name: {userName}", this);
+          $"Message: {ex.Message}; Source:{ex.Source}; User Name: {userName}", typeof(UserMaintenance));
       }
     }
 
-    public void AssignUserToRole(string domain, string firstName, string lastName, bool isSuperUser)
+    public static void AssignUserToRole(string domain, string firstName, string lastName, bool isSuperUser)
     {
       var userName = $@"{domain}\{firstName}{lastName}";
       
@@ -128,7 +128,7 @@ namespace Feature.Authentication.Services
       {
         Sitecore.Diagnostics.Log.Error(
           $"Error in {ServiceName}-{nameof(AssignUserToRole)}: " +
-          $"Message: {ex.Message}; Source:{ex.Source}; User Name: {userName}", this);
+          $"Message: {ex.Message}; Source:{ex.Source}; User Name: {userName}", typeof(UserMaintenance));
       }
     }
 
@@ -136,22 +136,59 @@ namespace Feature.Authentication.Services
     
     #region User Authentication Operations
 
-    public bool LoginAsUser(string userName, string password, bool persistent)
+    public static bool LoginAsUser(string userName, string password, bool persistent)
     {
-      if (!this.UserExists(userName))
+      if (!UserExists(userName))
       {
         return false;
       }
 
       try
       {
-        return AuthenticationManager.Login(userName, password, persistent);
+        var logged = AuthenticationManager.Login(userName, password, persistent);
+        if (!logged)
+        {
+          return false;
+        }
+        
+        AuthenticationManager.SetActiveUser(userName);
+        return true;
+
       }
       catch (Exception ex)
       {
         Sitecore.Diagnostics.Log.Error(
           $"Error in {ServiceName}-{nameof(AddNewUser)}: " +
-          $"Message: {ex.Message}; Source:{ex.Source}; User Name: {userName}", this);
+          $"Message: {ex.Message}; Source:{ex.Source}; User Name: {userName}", typeof(UserMaintenance));
+        return false;
+      }
+    }
+    
+    public static bool LoginAsUser(string domain, string firstName, string lastName, string password, bool persistent)
+    {
+      var userName = $@"{domain}\{firstName}{lastName}";
+      if (!UserExists(userName))
+      {
+        return false;
+      }
+
+      try
+      {
+        var logged = AuthenticationManager.Login(userName, password, persistent);
+        if (!logged)
+        {
+          return false;
+        }
+        
+        AuthenticationManager.SetActiveUser(userName);
+        return true;
+
+      }
+      catch (Exception ex)
+      {
+        Sitecore.Diagnostics.Log.Error(
+          $"Error in {ServiceName}-{nameof(AddNewUser)}: " +
+          $"Message: {ex.Message}; Source:{ex.Source}; User Name: {userName}", typeof(UserMaintenance));
         return false;
       }
     }

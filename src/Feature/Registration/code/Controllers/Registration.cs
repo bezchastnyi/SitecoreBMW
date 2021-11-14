@@ -23,9 +23,12 @@ namespace Feature.Authentication.Controllers
       
       try
       {
-        var userMaintenance = new UserMaintenance();
-        userName = userMaintenance.AddNewUser(
+        userName = UserMaintenance.AddNewUser(
           user.Domain, user.FirstName, user.LastName, user.Email, user.Comment, user.Password);
+        
+        UserMaintenance.AssignUserToRole(user.Domain, user.FirstName, user.LastName, false);
+        var logged = UserMaintenance.LoginAsUser(
+          user.Domain, user.FirstName, user.LastName, user.Password, true);
         return new EmptyResult();
       }
       catch (Exception ex)

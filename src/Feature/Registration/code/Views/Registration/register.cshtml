@@ -71,47 +71,54 @@ a {
 }
 </style>
 <form method="post" asp-controller="Registration" asp-action="Register">
-    <div class="container">
-      <div style="float: left;">
-        @Html.Sitecore().Field("Logo", new {mh = 50, mw = 50})
-      </div>
-
-      <h1>Registration Form</h1>
-      <p>Please fill in this form to create an account.</p>
-      <hr>
-
-      <label for="Email">
-        <b>Email</b>
-      </label>
-      <input type="text" placeholder="Enter Email" name="Email" id="Email" required>
-
-      <label for="FirstName">
-        <b>First Name</b>
-      </label>
-      <input type="text" placeholder="Enter Your First Name" name="FirstName" id="FirstName" required>
-
-      <label for="LastName">
-        <b>Last Name</b>
-      </label>
-      <input type="text" placeholder="Enter Your Last Name" name="LastName" id="LastName" required>
-
-      <label for="Comment">
-        <b>Comment</b>
-      </label>
-      <input type="text" placeholder="Enter Comment If You Want" name="Comment" id="Comment">
-
-      <label for="Password">
-        <b>Password</b>
-      </label>
-      <input type="password" placeholder="Enter Password" name="Password" id="Password" required>
-      <hr>
-      
-      <p>By creating an account you agree to our <a href="@Sitecore.Links.LinkManager.GetItemUrl(policyItem)">Terms & Privacy</a>.</p>
-
-      <button type="submit" class="registerbtn" onclick="openUrl('@Sitecore.Links.LinkManager.GetItemUrl(homeItem)')">Register</button>
+  <div class="container">
+    <div style="float: left;">
+      @Html.Sitecore().Field("Logo", new {mh = 50, mw = 50})
     </div>
 
-    <div class="container signin">
-      <p>Already have an account? <a href="@Sitecore.Links.LinkManager.GetItemUrl(loggingItem)">Log in</a>.</p>
-    </div>
+    <h1>Registration Form</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+
+    <label for="Email">
+      <b>Email</b>
+    </label>
+    <input type="text" placeholder="Enter Email" name="Email" id="Email" required>
+
+    <label for="FirstName">
+      <b>First Name</b>
+    </label>
+    <input type="text" placeholder="Enter Your First Name" name="FirstName" id="FirstName" required>
+
+    <label for="LastName">
+      <b>Last Name</b>
+    </label>
+    <input type="text" placeholder="Enter Your Last Name" name="LastName" id="LastName" required>
+
+    <label for="Comment">
+      <b>Comment</b>
+    </label>
+    <input type="text" placeholder="Enter Comment If You Want" name="Comment" id="Comment">
+
+    <label for="Password">
+      <b>Password</b>
+    </label>
+    <input type="password" placeholder="Enter Password" name="Password" id="Password" required>
+    <hr>
+
+    <p>By creating an account you agree to our <a href="@Sitecore.Links.LinkManager.GetItemUrl(policyItem)">Terms & Privacy</a>.</p>
+
+    <button type="submit" class="registerbtn" onclick="openUrl('@Sitecore.Links.LinkManager.GetItemUrl(homeItem)')">Register</button>
+  </div>
+
+  <div class="container signin">
+    <p>Already have an account? <a href="@Sitecore.Links.LinkManager.GetItemUrl(loggingItem)">Log in</a>.</p>
+  </div>
+
+  <script>
+    function openUrl(url) {
+      window.location = url;
+      window.open(url);
+    }
+  </script>
 </form>
