@@ -6,26 +6,6 @@
     <SitecoreRoleType>website</SitecoreRoleType>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="Views\layouts\BMW\Authentication\loggingPage.cshtml">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
-    </Content>
-    <Content Include="Views\layouts\BMW\Authentication\registrationPage.cshtml">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
-    </Content>
-    <Content Include="Views\layouts\BMW\loggingPage.cshtml">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
-    </Content>
-    <Content Include="Views\layouts\BMW\policy.cshtml">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
-    </Content>
-    <Content Include="Views\layouts\BMW\registrationPage.cshtml">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
-    </Content>
     <Content Include="wwwroot\BMW_8_Series_Gran_Coupe.mp4" />
     <Content Include="wwwroot\BMW_Banner.mp4" />
     <Content Include="wwwroot\BMW_M8.mp4" />

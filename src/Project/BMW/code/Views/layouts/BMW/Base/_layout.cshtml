@@ -2,7 +2,6 @@
 
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,17 +13,15 @@
 </head>
 
 <body>
-  @* Header *@
   <div>
-    @Html.Sitecore().Rendering("{D67FE4A6-F41D-4A5D-8D04-2E728C22E1FF}")
+    @Html.Sitecore().Rendering(Project.BMW.Constants.HeaderRendering)
   </div>
   <br />
 
   @RenderBody()
 
-  @* Footer *@
   <div>
-    @Html.Sitecore().Rendering("{F9FDED76-28E3-4EDB-B74F-A5353EC880AF}")
+    @Html.Sitecore().Rendering(Project.BMW.Constants.FooterRendering)
   </div>
 </body>
 </html>

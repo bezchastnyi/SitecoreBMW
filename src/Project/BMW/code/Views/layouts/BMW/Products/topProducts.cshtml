@@ -3,14 +3,12 @@
   Layout = "../Base/_layout.cshtml";
 }
 
-@* Page Title *@
 <div>
   <h1 style="text-align: center;">@Html.Sitecore().Field("Page Title")</h1>
   <br />
 </div>
 
-@* Product Placeholder *@
 <div>
-  @Html.Sitecore().Placeholder("product")
+  @Html.Sitecore().Placeholder(Project.BMW.Constants.ProductPlaceholder)
+  <br />
 </div>
-<br />

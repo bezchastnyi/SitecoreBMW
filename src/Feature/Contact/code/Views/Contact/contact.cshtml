@@ -1,19 +1,10 @@
 ﻿@using Sitecore.Mvc
 @using Sitecore.Mvc.Presentation
 @using Sitecore.Data.Items;
-@using Sitecore.Data.Managers;
 @model RenderingModel
 @{
   var contactsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Contacts");
   var contacts = new List<Item>(contactsItem.Children);
-  
-  var contextLanguageId = LanguageManager.GetLanguageItemId(Sitecore.Context.Language, Sitecore.Context.Database);
-  var contextLanguage = Sitecore.Context.Database.GetItem(contextLanguageId);
-  var iso = contextLanguage["Regional Iso Code"];
-  if (string.IsNullOrEmpty(iso))
-  {
-    iso = contextLanguage["Iso"];
-  }
 }
 
 <div class="contact">
@@ -24,28 +15,8 @@
       continue;
     }
 
-    var countryField = string.Empty;
-    var telephoneField = string.Empty;
-
-    switch (iso)
-    {
-      case "ru-RU":
-      {
-        countryField = "Страна";
-        telephoneField = "Телефон";
-        break;
-      }
-
-      case "en":
-      {
-        countryField = "Country";
-        telephoneField = "Telephone";
-        break;
-      }
-    }
-
-    var contactOutput = countryField + ": " + Html.Sitecore().Field("Country", contact) + "\\n" +
-                             telephoneField + ": " + Html.Sitecore().Field("Telephone", contact) + "\\n" +
+    var contactOutput = Sitecore.Globalization.Translate.Text("Country") + ": " + Html.Sitecore().Field("Country", contact) + "\\n" +
+                             Sitecore.Globalization.Translate.Text("Telephone") + ": " + Html.Sitecore().Field("Telephone", contact) + "\\n" +
                              "Email: " + Html.Sitecore().Field("Email", contact);
 
     <button class="contact-button" onclick="alert('@contactOutput')">

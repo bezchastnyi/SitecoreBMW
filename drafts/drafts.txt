@@ -1,0 +1,53 @@
+@*var contextLanguageId = LanguageManager.GetLanguageItemId(Sitecore.Context.Language, Sitecore.Context.Database);
+  var contextLanguage = Sitecore.Context.Database.GetItem(contextLanguageId);
+  var iso = contextLanguage["Regional Iso Code"];
+  if (string.IsNullOrEmpty(iso))
+  {
+    iso = contextLanguage["Iso"];
+  }
+
+  var dropButtonTitle = string.Empty;*@
+
+
+
+
+
+
+
+@*@Sitecore.Globalization.Translate.Text("Page Title")*@
+
+
+
+
+
+
+
+@*@switch (iso)
+        {
+          case "ru-RU":
+          {
+            dropButtonTitle = "БМВ Продукты";
+            break;
+          }
+
+          case "en":
+          {
+            dropButtonTitle = "BMW Products";
+            break;
+          }
+        }
+
+        <button class="header-dropbtn">
+          @dropButtonTitle<i class="fa fa-caret-down"></i>
+        </button>*@
+
+
+
+
+
+
+
+
+
+
+

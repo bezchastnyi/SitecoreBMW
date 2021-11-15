@@ -1,6 +1,6 @@
-﻿namespace Feature.Banner.Constants
+﻿namespace Feature.Banner
 {
-  public static class BannerConstants
+  public static class Constants
   {
     public const string BannerVideo = "../../../wwwroot/BMW_Banner.mp4";
   }

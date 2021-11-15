@@ -1,8 +1,8 @@
 ﻿---
-ID: "142c62d4-7e05-4ea0-b8c2-84d03142d011"
-Parent: "ceca6ca0-a95f-49f8-a2dc-9c3322aa3c40"
-Template: "ceca6ca0-a95f-49f8-a2dc-9c3322aa3c40"
-Path: /sitecore/templates/Project/BMW/Content/Contact/__Standard Values
+ID: "3d77fe3e-4f4c-4f84-994b-874f469b0843"
+Parent: "66c34e67-2433-4aa4-98da-c5c9778dcc8f"
+Template: "66c34e67-2433-4aa4-98da-c5c9778dcc8f"
+Path: /sitecore/templates/Project/BMW/Pages/Products/Products Catalog/__Standard Values
 DB: master
 Languages:
 - Language: en
@@ -11,7 +11,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20211109T163430Z
+      Value: 20211115T143243Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -22,7 +22,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20211115T182549Z
+      Value: 20211115T182630Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

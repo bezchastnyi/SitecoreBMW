@@ -1,13 +1,14 @@
 ﻿@using Feature.Authentication.Services
 @using Sitecore.Mvc
 @using Sitecore.Mvc.Presentation
-@using Sitecore.Data.Managers;
 @using AuthenticationManager = Sitecore.Security.Authentication.AuthenticationManager
 @model RenderingModel
 @{
   var homeItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Home");
   var homeItemUrl = Sitecore.Links.LinkManager.GetItemUrl(homeItem);
 
+  var productsCatalogItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Products Catalog");
+  
   var allProductsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/All Products");
   var allProductsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(allProductsItem);
 
@@ -22,16 +23,6 @@
   
   var registrationItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Authentication/Registration");
   var loggingItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Authentication/Logging");
-
-  var contextLanguageId = LanguageManager.GetLanguageItemId(Sitecore.Context.Language, Sitecore.Context.Database);
-  var contextLanguage = Sitecore.Context.Database.GetItem(contextLanguageId);
-  var iso = contextLanguage["Regional Iso Code"];
-  if (string.IsNullOrEmpty(iso))
-  {
-    iso = contextLanguage["Iso"];
-  }
-
-  var dropButtonTitle = string.Empty;
 
   var authenticated = false;
   var user = AuthenticationManager.GetActiveUser();
@@ -49,33 +40,19 @@
       <a href="@homeItemUrl">@Html.Sitecore().Field("Page Title", homeItem)</a>
 
       <div class="header-dropdown">
-        @switch (iso)
-        {
-          case "ru-RU":
-          {
-            dropButtonTitle = "БМВ Продукты";
-            break;
-          }
-            
-          case "en":
-          {
-            dropButtonTitle = "BMW Products";
-            break;
-          }
-        }
-        
         <button class="header-dropbtn">
-          @dropButtonTitle<i class="fa fa-caret-down"></i>
+          @Html.Sitecore().Field("Title", productsCatalogItem)<i class="fa fa-caret-down"></i>
         </button>
 
         <div class="header-dropdown-content">
           <a href="@allProductsItemUrl">@Html.Sitecore().Field("Page Title", allProductsItem)</a>
-          
+
+          @* TODO check rights -> default role *@
           @if (authenticated)
           {
             <a href="@topProductsItemUrl">@Html.Sitecore().Field("Page Title", topProductsItem)</a>
           }
-          
+
           <a href="@archiveProductsItemUrl">@Html.Sitecore().Field("Page Title", archiveProductsItem)</a>
         </div>
       </div>
@@ -108,7 +85,7 @@
         else
         {
           //onclick="@{ UserMaintenance.Logout(); }"
-          <button class="logging-out">
+          <button class="logging-out" onclick="@{ UserMaintenance.Logout(); }">
             Log out
           </button>
         }

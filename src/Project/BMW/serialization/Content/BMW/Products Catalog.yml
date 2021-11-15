@@ -1,0 +1,35 @@
+﻿---
+ID: "cde4a094-6cbc-4596-9c5e-a8d14fb56b9e"
+Parent: "b59cb9b2-a454-4d24-94e5-5431e42e6f6e"
+Template: "66c34e67-2433-4aa4-98da-c5c9778dcc8f"
+Path: /sitecore/content/BMW/Products Catalog
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/folder2_blue.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211115T143326Z
+    - ID: "5c5e7495-0608-4d21-8f19-d3372915ca36"
+      Hint: Title
+      Value: BMW Products
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211115T143547Z
+    - ID: "5c5e7495-0608-4d21-8f19-d3372915ca36"
+      Hint: Title
+      Value: Продукты БМВ
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

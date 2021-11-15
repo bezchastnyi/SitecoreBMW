@@ -38,11 +38,6 @@
 
   @foreach (var car in Model)
   {
-    @*<a class="contact-button" href="">
-        @Html.Sitecore().Field("Image", car, new { mh = 300, mw = 400 })
-      </a>*@
-
-
     <button class="content_img" onclick="openUrl('@Sitecore.Links.LinkManager.GetItemUrl(car)')">
       @Html.Sitecore().Field("Image", car, new { mh = 300, mw = 400 })
       <div>@Html.Sitecore().Field("Mark", car) (@Html.Sitecore().Field("Year", car))</div>

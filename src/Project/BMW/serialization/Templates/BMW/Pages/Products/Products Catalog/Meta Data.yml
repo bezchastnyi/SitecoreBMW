@@ -1,8 +1,8 @@
 ﻿---
-ID: "3bfbf800-6acc-4424-931d-8b993b3ee426"
-Parent: "ceca6ca0-a95f-49f8-a2dc-9c3322aa3c40"
+ID: "44946585-2074-4646-9c7b-176d636d6e72"
+Parent: "66c34e67-2433-4aa4-98da-c5c9778dcc8f"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Project/BMW/Content/Contact/Data
+Path: /sitecore/templates/Project/BMW/Pages/Products/Products Catalog/Meta data
 DB: master
 Languages:
 - Language: en
@@ -11,7 +11,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20211031T124912Z
+      Value: 20211115T143223Z
     - ID: "4c346442-e859-4efd-89b2-44aedf467d21"
       Hint: __Valid to
       Value: 

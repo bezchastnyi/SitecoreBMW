@@ -7,7 +7,7 @@ DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: applications/16x16/lightbulb_on.png
+  Value: applications/32x32/folder2_blue.png
 Languages:
 - Language: en
   Versions:

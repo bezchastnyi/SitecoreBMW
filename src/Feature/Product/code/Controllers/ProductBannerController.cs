@@ -8,10 +8,6 @@ namespace Feature.Product.Controllers
     {
         public ActionResult Index()
         {
-          /*var m = new UserMaintenance();
-          m.AddUser(
-            "Rita", "Kakashka", "last", "email", "com", "380", "adm");*/
-          
             var sitecoreItem = Sitecore.Context.Item;
             var result = ProductBannerPath.BannerPath.TryGetValue(sitecoreItem.Fields["Mark"].Value, out var path);
             if (!result)

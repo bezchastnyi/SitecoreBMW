@@ -3,14 +3,12 @@
   Layout = "../Base/_layout.cshtml";
 }
 
-@* Video Banner *@
 <div>
-  @Html.Sitecore().Rendering("{32ACB42E-B0A3-4C8E-A766-C648B736604E}")
+  @Html.Sitecore().Rendering(Project.BMW.Constants.ProductBannerRendering)
+  <br />
 </div>
-<br />
 
-@* Description *@
 <div>
-  @Html.Sitecore().Rendering("{C594497A-E071-44F7-871D-792DCC43891F}")
+  @Html.Sitecore().Rendering(Project.BMW.Constants.ProductDescriptionRendering)
+  <br />
 </div>
-<br />

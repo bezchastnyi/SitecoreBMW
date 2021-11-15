@@ -1,8 +1,8 @@
 ﻿---
-ID: "87ac2cbf-529a-46d7-8456-df812b02b9f3"
-Parent: "5cff16b5-8201-4c99-8890-f892f52797b7"
+ID: "5c5e7495-0608-4d21-8f19-d3372915ca36"
+Parent: "44946585-2074-4646-9c7b-176d636d6e72"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Project/BMW/Pages/Authentication/Logging Page/Meta data/Page Title
+Path: /sitecore/templates/Project/BMW/Pages/Products/Products Catalog/Meta data/Title
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
@@ -18,7 +18,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20211112T183028Z
+      Value: 20211115T143238Z
     - ID: "4c346442-e859-4efd-89b2-44aedf467d21"
       Hint: __Valid to
       Value: 

@@ -4,7 +4,10 @@
 @model RenderingModel
 @{
   var contentItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW");
-  var pages = new List<Item>(contentItem.Children);
+  var allProductsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/All Products");
+  var archiveProductsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Archive Products");
+  
+  var pages = new List<Item>(contentItem.Children) { allProductsItem, archiveProductsItem };
 }
 
 <footer>
