@@ -1,0 +1,20 @@
+@model Feature.Authentication.Models.AuthenticationResult
+@{
+  var homeItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Home");
+  const int waitingSeconds = 3;
+}
+
+<div style="text-align: center">
+  <meta http-equiv="refresh" content="@waitingSeconds;URL=@Sitecore.Links.LinkManager.GetItemUrl(homeItem)">
+  @if (Model.Result)
+  {
+    <h1>@Model.Type.ToString() Success</h1>
+  }
+  else
+  {
+    <h1>@Model.Type.ToString() Failed</h1>
+  }
+  <br/>
+
+  <h2>Redirecting in @waitingSeconds seconds...</h2>
+</div>

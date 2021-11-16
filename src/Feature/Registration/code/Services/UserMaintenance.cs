@@ -115,6 +115,7 @@ namespace Feature.Authentication.Services
       
       try
       {
+        // TODO Investigate problem with assigning
         var userRolesConfig = ConfigStore.Load("config");
         var userRoles = userRolesConfig.RootRecord.GetChildRecords();
         

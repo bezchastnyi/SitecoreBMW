@@ -25,11 +25,17 @@ namespace Feature.Authentication.Controllers
       {
         userName = UserMaintenance.AddNewUser(
           user.Domain, user.FirstName, user.LastName, user.Email, user.Comment, user.Password);
-        
-        UserMaintenance.AssignUserToRole(user.Domain, user.FirstName, user.LastName, false);
-        var logged = UserMaintenance.LoginAsUser(
-          user.Domain, user.FirstName, user.LastName, user.Password, true);
-        return new EmptyResult();
+
+        var logged = false;
+        if (!string.IsNullOrEmpty(userName))
+        {
+          UserMaintenance.AssignUserToRole(user.Domain, user.FirstName, user.LastName, false);
+          logged = UserMaintenance.LoginAsUser(
+            user.Domain, user.FirstName, user.LastName, user.Password, true);
+        }
+
+        return View($"~/Views/AuthenticationResult/authenticationResult.cshtml", 
+          new AuthenticationResult { Type = AuthenticationType.Registration, Result = logged});
       }
       catch (Exception ex)
       {

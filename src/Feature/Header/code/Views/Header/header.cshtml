@@ -1,35 +1,19 @@
-﻿@using Feature.Authentication.Services
-@using Sitecore.Mvc
+﻿@using Sitecore.Mvc
 @using Sitecore.Mvc.Presentation
 @using AuthenticationManager = Sitecore.Security.Authentication.AuthenticationManager
 @model RenderingModel
 @{
   var homeItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Home");
-  var homeItemUrl = Sitecore.Links.LinkManager.GetItemUrl(homeItem);
 
   var productsCatalogItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Products Catalog");
-  
   var allProductsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/All Products");
-  var allProductsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(allProductsItem);
-
   var topProductsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Top Products");
-  var topProductsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(topProductsItem);
-
   var archiveProductsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Archive Products");
-  var archiveProductsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(archiveProductsItem);
 
   var contactsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Contacts");
-  var contactsItemUrl = Sitecore.Links.LinkManager.GetItemUrl(contactsItem);
-  
+
   var registrationItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Authentication/Registration");
   var loggingItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Authentication/Logging");
-
-  var authenticated = false;
-  var user = AuthenticationManager.GetActiveUser();
-  if (!user.Name.Contains("Anonymous"))
-  {
-    authenticated = true;
-  }
 }
 
 <header>
@@ -37,7 +21,7 @@
     <div class="header-logo">@Html.Sitecore().Field("Header Logo")</div>
 
     <div class="header-navbar">
-      <a href="@homeItemUrl">@Html.Sitecore().Field("Page Title", homeItem)</a>
+      <a href="@Sitecore.Links.LinkManager.GetItemUrl(homeItem)">@Html.Sitecore().Field("Page Title", homeItem)</a>
 
       <div class="header-dropdown">
         <button class="header-dropbtn">
@@ -45,19 +29,30 @@
         </button>
 
         <div class="header-dropdown-content">
-          <a href="@allProductsItemUrl">@Html.Sitecore().Field("Page Title", allProductsItem)</a>
-
-          @* TODO check rights -> default role *@
-          @if (authenticated)
+          @if (allProductsItem != null)
           {
-            <a href="@topProductsItemUrl">@Html.Sitecore().Field("Page Title", topProductsItem)</a>
+            <a href="@Sitecore.Links.LinkManager.GetItemUrl(allProductsItem)">
+              @Html.Sitecore().Field("Page Title", allProductsItem)
+            </a>
           }
 
-          <a href="@archiveProductsItemUrl">@Html.Sitecore().Field("Page Title", archiveProductsItem)</a>
+          @if (topProductsItem != null)
+          {
+            <a href="@Sitecore.Links.LinkManager.GetItemUrl(topProductsItem)">
+              @Html.Sitecore().Field("Page Title", topProductsItem)
+            </a>
+          }
+
+          @if (archiveProductsItem != null)
+          {
+            <a href="@Sitecore.Links.LinkManager.GetItemUrl(archiveProductsItem)">
+              @Html.Sitecore().Field("Page Title", archiveProductsItem)
+            </a>
+          }
         </div>
       </div>
 
-      <a href="@contactsItemUrl">@Html.Sitecore().Field("Page Title", contactsItem)</a>
+      <a href="@Sitecore.Links.LinkManager.GetItemUrl(contactsItem)">@Html.Sitecore().Field("Page Title", contactsItem)</a>
     
       <div class="header-auth-button">
         <style>
@@ -72,7 +67,7 @@
               padding: 30px 30px;
           }
         </style>
-        @if (!authenticated)
+        @if (!Request.IsAuthenticated)
         {
           <button class="registration" onclick="openUrl('@Sitecore.Links.LinkManager.GetItemUrl(registrationItem)')">
             Registration
@@ -84,22 +79,31 @@
         }
         else
         {
-          //onclick="@{ UserMaintenance.Logout(); }"
-          <button class="logging-out" onclick="@{ UserMaintenance.Logout(); }">
+          // TODO fix logout mechanism
+          /*<button class="logging-out" onclick="{(event) => this.refreshPage}">
             Log out
-          </button>
+          </button>*/
         }
       </div>
+
+      @*Html.Sitecore().Rendering("{2345DCD0-A8E9-476C-9C10-44C440EE66DF}"); 
+      <script>
+        function refreshPage(){
+            @Html.Sitecore().Rendering("{2345DCD0-A8E9-476C-9C10-44C440EE66DF}")
+            window.location.reload();
+        } 
+      </script>*@
 
       <div>
         <style>
           .user-name {
             color: white;
+            text-align: center;
           }
         </style>
-        @if (authenticated)
+        @if (Request.IsAuthenticated)
         {
-          <h2 class="user-name" style="text-align: center">@user.LocalName</h2>
+          <h2 class="user-name">@AuthenticationManager.GetActiveUser().LocalName</h2>
         }
       </div>
       

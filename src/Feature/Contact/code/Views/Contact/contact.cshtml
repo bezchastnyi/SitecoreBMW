@@ -15,9 +15,12 @@
       continue;
     }
 
-    var contactOutput = Sitecore.Globalization.Translate.Text("Country") + ": " + Html.Sitecore().Field("Country", contact) + "\\n" +
-                             Sitecore.Globalization.Translate.Text("Telephone") + ": " + Html.Sitecore().Field("Telephone", contact) + "\\n" +
-                             "Email: " + Html.Sitecore().Field("Email", contact);
+    var contactOutput = string.Format("{0}: {1}\\n{2}: {3}\\nEmail: {4}", 
+      Sitecore.Globalization.Translate.Text("Country"), 
+      Html.Sitecore().Field("Country", contact), 
+      Sitecore.Globalization.Translate.Text("Telephone"), 
+      Html.Sitecore().Field("Telephone", contact), 
+      Html.Sitecore().Field("Email", contact));
 
     <button class="contact-button" onclick="alert('@contactOutput')">
       @Html.Sitecore().Field("Country Flag", contact, new { mh = 225, mw = 225 })

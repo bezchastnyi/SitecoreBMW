@@ -1,0 +1,37 @@
+﻿---
+ID: "12b73a39-28da-4930-8bf6-e8a741559424"
+Parent: "7c199718-e8e4-4b2c-b47e-ea911f2edd41"
+Template: "6d1cd897-1936-4a3a-a511-289a94c2a7b1"
+Path: /sitecore/system/Dictionary/BMW/Products/Image
+DB: master
+SharedFields:
+- ID: "580c75a8-c01a-4580-83cb-987776ceb3af"
+  Hint: Key
+  Value: Image
+Languages:
+- Language: en
+  Fields:
+  - ID: "2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e"
+    Hint: Phrase
+    Value: Image
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211115T163237Z
+- Language: "ru-RU"
+  Fields:
+  - ID: "2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e"
+    Hint: Phrase
+    Value: Фото
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211115T163212Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,37 @@
+﻿---
+ID: "ac51df1f-7e03-46de-8fd2-eb03b41ca082"
+Parent: "314b4ffa-5446-4346-b2cf-69b9267cc6a1"
+Template: "6d1cd897-1936-4a3a-a511-289a94c2a7b1"
+Path: /sitecore/system/Dictionary/BMW/Contacts/Telephone
+DB: master
+SharedFields:
+- ID: "580c75a8-c01a-4580-83cb-987776ceb3af"
+  Hint: Key
+  Value: Telephone
+Languages:
+- Language: en
+  Fields:
+  - ID: "2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e"
+    Hint: Phrase
+    Value: Telephone
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211115T151552Z
+- Language: "ru-RU"
+  Fields:
+  - ID: "2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e"
+    Hint: Phrase
+    Value: Телефон
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211115T151618Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

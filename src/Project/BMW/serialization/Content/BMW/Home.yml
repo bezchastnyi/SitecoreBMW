@@ -69,6 +69,20 @@ SharedFields:
 - ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
   Hint: __Security
   Value: 
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{4F478183-E2EE-4ABD-A289-248A5F235E30}"
+          s:id="{2345DCD0-A8E9-476C-9C10-44C440EE66DF}"
+          s:ph="" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Fields:
