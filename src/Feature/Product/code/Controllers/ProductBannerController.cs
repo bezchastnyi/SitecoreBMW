@@ -1,5 +1,4 @@
 ﻿using Feature.Product.Constants;
-using Feature.Product.Models;
 using System.Web.Mvc;
 
 namespace Feature.Product.Controllers
@@ -15,7 +14,8 @@ namespace Feature.Product.Controllers
               path = "not found";
             }
 
-            return View(new ProductBanner { BannerPath = path });
+            ViewData["BannerPath"] = path;
+            return View();
         }
     }
 }

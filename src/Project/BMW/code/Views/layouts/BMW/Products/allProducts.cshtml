@@ -3,104 +3,78 @@
 @using Sitecore.Data.Items;
 @model RenderingModel
 @{
+  Layout = "../Base/_layout.cshtml";
+
   var productsByCountry = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Products By Country");
   var allProductsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/content/BMW/All Products");
   var products = new List<Item>(allProductsItem.Children);
 }
 
-@*TODO fix rendering and layout structure*@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="stylesheet" href="../../../Css/style.css">
-  <link rel="icon" href="../../../wwwroot/bmw_logo.ico">
-  <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
-  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-  <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
-  <title>@Html.Sitecore().Field("Page Title", new { DisableWebEdit = true })</title>
-</head>
-
-<body>
-  @* Header *@
-  <div>
-    @Html.Sitecore().Rendering("{D67FE4A6-F41D-4A5D-8D04-2E728C22E1FF}")
-  </div>
-  <br />
-
+<div>
   @* Cars *@
   <div>
     <h1 style="text-align: center;">@Html.Sitecore().Field("Page Title")</h1>
-    <br />
+    <br/>
 
     <table id="data" class="display" style="width:100%">
       <thead>
-        <tr>
-          <th>@Sitecore.Globalization.Translate.Text("Image")</th>
-          <th>@Sitecore.Globalization.Translate.Text("Mark")</th>
-          <th>@Sitecore.Globalization.Translate.Text("Price")</th>
-          <th>@Sitecore.Globalization.Translate.Text("Year")</th>
-          <th>@Sitecore.Globalization.Translate.Text("Country")</th>
-        </tr>
+      <tr>
+        <th>@Sitecore.Globalization.Translate.Text("Image")</th>
+        <th>@Sitecore.Globalization.Translate.Text("Mark")</th>
+        <th>@Sitecore.Globalization.Translate.Text("Price")</th>
+        <th>@Sitecore.Globalization.Translate.Text("Year")</th>
+        <th>@Sitecore.Globalization.Translate.Text("Country")</th>
+      </tr>
       </thead>
 
       <tbody>
-        @foreach (var product in products)
+      @foreach (var product in products)
+      {
+        if (Html.Sitecore().Field("Price", product).ToString().Contains("Not available 🛑") ||
+            string.IsNullOrEmpty(Html.Sitecore().Field("Mark", product).ToString()))
         {
-          if (Html.Sitecore().Field("Price", product).ToString().Contains("Not available 🛑") ||
-              string.IsNullOrEmpty(Html.Sitecore().Field("Mark", product).ToString()))
-          {
-            continue;
-          }
-
-          <tr>
-            <td style="text-align:center">@Html.Sitecore().Field("Image", product, new { mh = 200, mw = 300 })</td>
-
-            <td style="text-align:center">
-              <a href="@Sitecore.Links.LinkManager.GetItemUrl(product)">@Html.Sitecore().Field("Mark", product)</a>
-            </td>
-
-            <td style="text-align:center">@Html.Sitecore().Field("Price", product)</td>
-            <td style="text-align:center">@Html.Sitecore().Field("Year", product)</td>
-            <td style="text-align:center">@Html.Sitecore().Field("Country", product)</td>
-          </tr>
+          continue;
         }
+
+        <tr>
+          <td style="text-align:center">@Html.Sitecore().Field("Image", product, new {mh = 200, mw = 300})</td>
+
+          <td style="text-align:center">
+            <a href="@Sitecore.Links.LinkManager.GetItemUrl(product)">@Html.Sitecore().Field("Mark", product)</a>
+          </td>
+
+          <td style="text-align:center">@Html.Sitecore().Field("Price", product)</td>
+          <td style="text-align:center">@Html.Sitecore().Field("Year", product)</td>
+          <td style="text-align:center">@Html.Sitecore().Field("Country", product)</td>
+        </tr>
+      }
       </tbody>
 
       <tfoot>
-        <tr>
-          <th>@Sitecore.Globalization.Translate.Text("Image")</th>
-          <th>@Sitecore.Globalization.Translate.Text("Mark")</th>
-          <th>@Sitecore.Globalization.Translate.Text("Price")</th>
-          <th>@Sitecore.Globalization.Translate.Text("Year")</th>
-          <th>@Sitecore.Globalization.Translate.Text("Country")</th>
-        </tr>
+      <tr>
+        <th>@Sitecore.Globalization.Translate.Text("Image")</th>
+        <th>@Sitecore.Globalization.Translate.Text("Mark")</th>
+        <th>@Sitecore.Globalization.Translate.Text("Price")</th>
+        <th>@Sitecore.Globalization.Translate.Text("Year")</th>
+        <th>@Sitecore.Globalization.Translate.Text("Country")</th>
+      </tr>
       </tfoot>
     </table>
   </div>
-  <br />
+  <br/>
 
   @* Products by country *@
   @if (!string.IsNullOrEmpty(Html.Sitecore().Field("Page Title", productsByCountry).ToString()))
   {
     <div style="text-align: center; margin-bottom: 50px">
       <h1>@Html.Sitecore().Field("Page Title", productsByCountry)</h1>
-      <br />
-      
+      <br/>
+
       <a href="@Sitecore.Links.LinkManager.GetItemUrl(productsByCountry)">
-        @Html.Sitecore().Field("Country Flag", productsByCountry, new { mh = 100, mw = 100 })
+        @Html.Sitecore().Field("Country Flag", productsByCountry, new {mh = 100, mw = 100})
       </a>
     </div>
   }
 
-  @* Footer *@
-  <div>
-    @Html.Sitecore().Rendering("{F9FDED76-28E3-4EDB-B74F-A5353EC880AF}")
-  </div>
-
   <script src="../../../Js/pagination.js"></script>
-</body>
-</html>
+</div>

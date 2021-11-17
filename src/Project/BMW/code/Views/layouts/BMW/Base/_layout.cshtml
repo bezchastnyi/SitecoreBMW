@@ -10,19 +10,22 @@
   <link rel="stylesheet" href="../../../Css/style.css">
   <link rel="stylesheet" href="../../../FontAwesome/css/all.css">
   <link rel="shortcut icon" href="../../../wwwroot/bmw_logo.ico">
-  <title>@Html.Sitecore().Field("Page Title", new { DisableWebEdit = true })</title>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+  <title>@Html.Sitecore().Field("Page Title", new {DisableWebEdit = true})</title>
 </head>
 
 <body>
-  <div>
-    @Html.Sitecore().Rendering(Project.BMW.Constants.HeaderRendering)
-  </div>
-  <br />
+<div>
+  @Html.Sitecore().Rendering(Project.BMW.Constants.HeaderRendering)
+  <br/>
+</div>
 
-  @RenderBody()
+@RenderBody()
 
-  <div>
-    @Html.Sitecore().Rendering(Project.BMW.Constants.FooterRendering)
-  </div>
+<div>
+  @Html.Sitecore().Rendering(Project.BMW.Constants.FooterRendering)
+</div>
 </body>
 </html>
