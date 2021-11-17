@@ -43,22 +43,6 @@ hr {
   margin-bottom: 25px;
 }
 
-/* Set a style for the submit button */
-.registerbtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-}
-
-.registerbtn:hover {
-  opacity: 1;
-}
-
 /* Add a blue text color to links */
 a {
   color: dodgerblue;
@@ -72,6 +56,7 @@ a {
 </style>
 <form method="post" asp-controller="Registration" asp-action="Register">
   <div class="container">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <div style="float: left;">
       @Html.Sitecore().Field("Logo", new {mh = 50, mw = 50})
     </div>
@@ -107,8 +92,9 @@ a {
     <hr>
 
     <p>By creating an account you agree to our <a href="@Sitecore.Links.LinkManager.GetItemUrl(policyItem)">Terms & Privacy</a>.</p>
-
-    <button type="submit" class="registerbtn" onclick="openUrl('@Sitecore.Links.LinkManager.GetItemUrl(homeItem)')">Register</button>
+    <br/>
+    <button type="submit" class="btn btn-success btn-lg btn-block" onclick="openUrl('@Sitecore.Links.LinkManager.GetItemUrl(homeItem)')">Register</button>
+    <br/>
   </div>
 
   <div class="container signin">

@@ -17,15 +17,18 @@
 }
 
 <header>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <div class="header-container">
     <div class="header-logo">@Html.Sitecore().Field("Header Logo")</div>
 
     <div class="header-navbar">
-      <a href="@Sitecore.Links.LinkManager.GetItemUrl(homeItem)">@Html.Sitecore().Field("Page Title", homeItem)</a>
+      <a href="@Sitecore.Links.LinkManager.GetItemUrl(homeItem)">
+        <i class="fas fa-home"></i> &nbsp; @Html.Sitecore().Field("Page Title", homeItem)
+      </a>
 
       <div class="header-dropdown">
         <button class="header-dropbtn">
-          @Html.Sitecore().Field("Title", productsCatalogItem)<i class="fa fa-caret-down"></i>
+          <i class="fas fa-car"></i> &nbsp; @Html.Sitecore().Field("Title", productsCatalogItem) &nbsp; <i class="fa fa-caret-down"></i>
         </button>
 
         <div class="header-dropdown-content">
@@ -52,7 +55,9 @@
         </div>
       </div>
 
-      <a href="@Sitecore.Links.LinkManager.GetItemUrl(contactsItem)">@Html.Sitecore().Field("Page Title", contactsItem)</a>
+      <a href="@Sitecore.Links.LinkManager.GetItemUrl(contactsItem)">
+        <i class="fas fa-address-book"></i> &nbsp; @Html.Sitecore().Field("Page Title", contactsItem)
+      </a>
     
       <div class="header-auth-button">
         <style>
@@ -60,21 +65,26 @@
           .logging-in,
           .logging-out {
               float: right;
-              background-color: blue;
               font-size: 18px;
               color: white;
               text-align: center;
-              padding: 30px 30px;
+              padding: 15px 50px;
+              margin-top: 10px;
+              margin-right: 10px;
+          }
+
+          .logging-in{
+              
           }
         </style>
         @if (!Request.IsAuthenticated)
         {
-          <button class="registration" onclick="openUrl('@Sitecore.Links.LinkManager.GetItemUrl(registrationItem)')">
-            Registration
+          <button class="registration btn btn-primary" onclick="openUrl('@Sitecore.Links.LinkManager.GetItemUrl(registrationItem)')">
+            <i class="fas fa-user"></i> &nbsp; Registration
           </button>
         
-          <button class="logging-in" onclick="openUrl('@Sitecore.Links.LinkManager.GetItemUrl(loggingItem)')">
-            Log in
+          <button class="logging-in btn btn-primary" onclick="openUrl('@Sitecore.Links.LinkManager.GetItemUrl(loggingItem)')">
+            <i class="fas fa-sign-in-alt"></i> &nbsp; Log in
           </button>
         }
         else
