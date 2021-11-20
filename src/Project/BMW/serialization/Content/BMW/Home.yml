@@ -69,20 +69,6 @@ SharedFields:
 - ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
   Hint: __Security
   Value: 
-- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
-  Hint: __Renderings
-  Type: layout
-  Value: |
-    <r xmlns:p="p" xmlns:s="s"
-      p:p="1">
-      <d
-        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
-        <r
-          uid="{4F478183-E2EE-4ABD-A289-248A5F235E30}"
-          s:id="{2345DCD0-A8E9-476C-9C10-44C440EE66DF}"
-          s:ph="" />
-      </d>
-    </r>
 Languages:
 - Language: en
   Fields:
@@ -142,6 +128,9 @@ Languages:
     - ID: "2b746000-333f-4504-8dea-6fb10f422d9d"
       Hint: Page Subtitle
       Value: Bavarian Motor Works
+    - ID: "2ed9c4d0-9eff-490d-a40a-b5d856499c40"
+      Hint: __Reminder recipients
+      Value: alekseybezchastnyy9@gmail.com
     - ID: "4c346442-e859-4efd-89b2-44aedf467d21"
       Hint: __Valid to
       Value: 
@@ -152,9 +141,15 @@ Languages:
     - ID: "7e82affc-5bc4-42f2-93a9-6eea6a9712a1"
       Hint: Banner Subtitle
       Value: Bavarian Motor Works
+    - ID: "abe5d54c-59d7-41e6-8d3f-c1a3e4ec9b9e"
+      Hint: __Reminder date
+      Value: 20211119T213000Z
     - ID: "bb54908c-9bb4-4084-9acf-694b7287a67c"
       Hint: Banner Title
       Value: BMW
+    - ID: "bb6c8540-118e-4c49-9157-830576d7345a"
+      Hint: __Reminder text
+      Value: fix validation
     - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
       Hint: __Valid from
       Value: 
@@ -166,6 +161,50 @@ Languages:
       Hint: Footer Logo
       Value: |
         <image mediaid="{A3EDA0B0-3979-4565-8456-7D21A6EC34B9}" />
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{F27E7335-3F85-41DD-8506-D3C71C8BAEF4}"
+              p:after="p[@uid='{3EA899BE-067A-4E49-BD4B-F68E430CD7B0}']"
+              s:ds=""
+              s:id="{D67FE4A6-F41D-4A5D-8D04-2E728C22E1FF}"
+              s:par="background-color=white"
+              s:ph="header" />
+            <r
+              uid="{19569D92-7F3B-4A59-9D75-0A00FBD6BC5E}"
+              p:after="r[@uid='{F27E7335-3F85-41DD-8506-D3C71C8BAEF4}']"
+              s:id="{F9FDED76-28E3-4EDB-B74F-A5353EC880AF}"
+              s:ph="footer" />
+            <r
+              uid="{B6CB3615-0D04-4F29-89F6-CC3669D4EF22}"
+              p:after="*[1=2]"
+              s:id="{CA72E5F8-3531-4E7C-B293-2EA8792A0751}"
+              s:ph="banner" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211120T135005Z
+    - ID: "7e82affc-5bc4-42f2-93a9-6eea6a9712a1"
+      Hint: Banner Subtitle
+      Value: 
+    - ID: "bb54908c-9bb4-4084-9acf-694b7287a67c"
+      Hint: Banner Title
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20211120T135005Z
+    - ID: "de194d06-50fe-4d6d-819d-fe00473f6735"
+      Hint: Banner Image
+      Value: 
 - Language: "ru-RU"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
