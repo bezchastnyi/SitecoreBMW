@@ -172,27 +172,79 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{F27E7335-3F85-41DD-8506-D3C71C8BAEF4}"
+              uid="{30FC4FC1-9436-4893-82A0-A0F328014C55}"
               p:after="p[@uid='{3EA899BE-067A-4E49-BD4B-F68E430CD7B0}']"
+              s:ds="{2D930278-80FB-4176-B092-A94FCD6B8DA6}"
+              s:id="{4DA846FD-45EB-40B0-8BAF-E665379C6C60}"
+              s:pt="{B6BB6C96-F4D4-438E-9F94-A3212E034DE4}"
+              s:par=""
+              s:ph="content">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{6723F783-D991-42BC-A861-26A274FEF032}"
+                    s:name=" BMW X7 Choosen"
+                    s:test="true">
+                    <conditions>
+                      <condition
+                        uid="B5909DCB7337467CAC8706CCCA91283D"
+                        s:id="{BE334DF8-9A0F-4FF3-A6D8-C396EC713809}"
+                        s:PageId="{52707705-F193-473B-AAA8-064AAAE8B690}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="7928056C2D3D47879BC3559473437BAD"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{52707705-F193-473B-AAA8-064AAAE8B690}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default"
+                    s:test="true">
+                    <conditions>
+                      <condition
+                        uid="1B96AD4D1459455780DCF057D209B8CA"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="EE3DFBFE2413443BB4328737A4D1F877"
+                        s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{F27E7335-3F85-41DD-8506-D3C71C8BAEF4}"
+              p:after="r[@uid='{30FC4FC1-9436-4893-82A0-A0F328014C55}']"
               s:ds=""
               s:id="{D67FE4A6-F41D-4A5D-8D04-2E728C22E1FF}"
               s:par="background-color=white"
               s:ph="header" />
             <r
               uid="{19569D92-7F3B-4A59-9D75-0A00FBD6BC5E}"
-              p:after="r[@uid='{F27E7335-3F85-41DD-8506-D3C71C8BAEF4}']"
+              p:after="*[1=2]"
               s:id="{F9FDED76-28E3-4EDB-B74F-A5353EC880AF}"
               s:ph="footer" />
-            <r
-              uid="{B6CB3615-0D04-4F29-89F6-CC3669D4EF22}"
-              p:after="*[1=2]"
-              s:id="{CA72E5F8-3531-4E7C-B293-2EA8792A0751}"
-              s:ph="banner" />
           </d>
         </r>
+    - ID: "0851f200-3cf2-4438-850b-92fc9bf178a1"
+      Hint: Page Title
+      Value: BMW Official
+    - ID: "1494909c-303a-4e81-803f-adffb9c2197e"
+      Hint: Footer Text
+      Value: |
+        <span style="text-align: center; color: #000000;">&copy; 2021 BMW Ltd.</span>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20211120T135005Z
+    - ID: "292809b1-f492-4b35-98c3-518806cd5059"
+      Hint: Header Logo
+      Value: |
+        <image mediaid="{A3EDA0B0-3979-4565-8456-7D21A6EC34B9}" />
     - ID: "7e82affc-5bc4-42f2-93a9-6eea6a9712a1"
       Hint: Banner Subtitle
       Value: 
@@ -205,6 +257,10 @@ Languages:
     - ID: "de194d06-50fe-4d6d-819d-fe00473f6735"
       Hint: Banner Image
       Value: 
+    - ID: "fddd2c13-ca9c-42f7-9004-899cd73e3f07"
+      Hint: Footer Logo
+      Value: |
+        <image mediaid="{A3EDA0B0-3979-4565-8456-7D21A6EC34B9}" />
 - Language: "ru-RU"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

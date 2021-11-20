@@ -14,7 +14,7 @@
     public const string RegistrationRendering = "{8BA71A71-CFB2-430E-8F73-4AA1C9311426}";
     
     // Banner
-    public const string BannerImageRendering = "{CA72E5F8-3531-4E7C-B293-2EA8792A0751}"; // [Previous version]
+    public const string BannerImageRendering = "{CA72E5F8-3531-4E7C-B293-2EA8792A0751}"; // [Archive]
     
     public const string BannerVideoRendering = "{3620B424-3C75-4617-A9C4-2A3BB37156E2}";
     
