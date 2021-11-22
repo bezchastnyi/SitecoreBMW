@@ -2,6 +2,29 @@
 {
   public static class Constants
   {
+    #region Parameters
+
+    // Country Parameter
+    public const string CountryParameter = "country=";
+
+    #endregion
+    
+    #region Fields
+
+    // Page Title
+    public const string PageTitleField = "Page Title";
+    
+    // Logo
+    public const string LogoField = "Logo";
+    
+    // Policy Text
+    public const string PolicyTextField = "Policy Text";
+    
+    // Country
+    public const string CountryField = "Country";
+
+    #endregion
+    
     #region Rendering
 
     // Header
@@ -30,6 +53,15 @@
     // Products by country
     public const string ProductsByCountryRendering = "{135DFBB9-B986-45FE-9241-28E6E4737FE5}";
     
+    // Available products
+    public const string AvailableProductsRendering = "{B5FE0F6C-0792-4BF4-84B1-551AE3A24C45}";
+    
+    // Archive products
+    public const string ArchiveProductsRendering = "{115BA530-FD67-4CF3-B884-CF425BC9BDA7}";
+    
+    // Products by country front
+    public const string ProductsByCountryFrontRendering = "{8A8C0BDD-01DD-49B6-98F2-986F104B9871}";
+    
     // Footer
     public const string FooterRendering = "{F9FDED76-28E3-4EDB-B74F-A5353EC880AF}";
 
@@ -39,6 +71,9 @@
 
     // Product
     public const string ProductPlaceholder = "product";
+    
+    // Content
+    public const string ContentPlaceholder = "content";
 
     #endregion
   }

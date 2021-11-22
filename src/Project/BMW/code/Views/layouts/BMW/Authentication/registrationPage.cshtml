@@ -1,18 +1,8 @@
 ﻿@using Sitecore.Mvc
+@{
+  Layout = "Base/_layout.cshtml";
+}
 
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="shortcut icon" href="../../../wwwroot/bmw_logo.ico">
-  <title>@Html.Sitecore().Field("Page Title", new {DisableWebEdit = true})</title>
-</head>
-<body>
-  <div>
-    @Html.Sitecore().Rendering(Project.BMW.Constants.RegistrationRendering)
-  </div>
-</body>
-</html>
+<div>
+  @Html.Sitecore().Rendering(Project.BMW.Constants.RegistrationRendering)
+</div>

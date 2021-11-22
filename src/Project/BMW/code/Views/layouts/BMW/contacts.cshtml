@@ -4,11 +4,13 @@
 }
 
 <div>
-  <h1 style="text-align: center;">@Html.Sitecore().Field("Page Title")</h1>
+  <h1 style="text-align: center;">
+    @Html.Sitecore().Field(Project.BMW.Constants.PageTitleField)
+  </h1>
   <br />
 </div>
 
 <div>
   @Html.Sitecore().Rendering(Project.BMW.Constants.ContactRendering)
+  <br />
 </div>
-<br />

@@ -1,0 +1,57 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Data.Items;
+@model RenderingModel
+@{
+  var allProductsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/content/BMW/All Products");
+  var products = new List<Item>(allProductsItem.Children);
+}
+
+<div>
+  <table id="data" class="display" style="width:100%">
+    <thead>
+    <tr>
+      <th>@Sitecore.Globalization.Translate.Text("Image")</th>
+      <th>@Sitecore.Globalization.Translate.Text("Mark")</th>
+      <th>@Sitecore.Globalization.Translate.Text("Price")</th>
+      <th>@Sitecore.Globalization.Translate.Text("Year")</th>
+      <th>@Sitecore.Globalization.Translate.Text("Country")</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    @foreach (var product in products)
+    {
+      if (Html.Sitecore().Field("Price", product).ToString().Contains("Not available 🛑") ||
+          string.IsNullOrEmpty(Html.Sitecore().Field("Mark", product).ToString()))
+      {
+        continue;
+      }
+
+      <tr>
+        <td style="text-align:center">@Html.Sitecore().Field("Image", product, new {mh = 200, mw = 300})</td>
+
+        <td style="text-align:center">
+          <a href="@Sitecore.Links.LinkManager.GetItemUrl(product)">@Html.Sitecore().Field("Mark", product)</a>
+        </td>
+
+        <td style="text-align:center">@Html.Sitecore().Field("Price", product)</td>
+        <td style="text-align:center">@Html.Sitecore().Field("Year", product)</td>
+        <td style="text-align:center">@Html.Sitecore().Field("Country", product)</td>
+      </tr>
+    }
+    </tbody>
+
+    <tfoot>
+    <tr>
+      <th>@Sitecore.Globalization.Translate.Text("Image")</th>
+      <th>@Sitecore.Globalization.Translate.Text("Mark")</th>
+      <th>@Sitecore.Globalization.Translate.Text("Price")</th>
+      <th>@Sitecore.Globalization.Translate.Text("Year")</th>
+      <th>@Sitecore.Globalization.Translate.Text("Country")</th>
+    </tr>
+    </tfoot>
+  </table>
+
+  <script src="../../../wwwroot/Js/pagination.js"></script>
+</div>

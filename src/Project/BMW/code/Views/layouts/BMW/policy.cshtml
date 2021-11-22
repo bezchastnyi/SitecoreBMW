@@ -1,27 +1,14 @@
 ﻿@using Sitecore.Mvc
+@{
+  Layout = "Base/_layout.cshtml";
+}
 
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="shortcut icon" href="../../../wwwroot/bmw_logo.ico">
-  <title>@Html.Sitecore().Field("Page Title", new { DisableWebEdit = true })</title>
-</head>
-
-<body>
 <div>
-  <h1 style="text-align: center">@Html.Sitecore().Field("Logo", new { mh = 100, mw = 100 })</h1>
+  <h1 style="text-align: center">@Html.Sitecore().Field(Project.BMW.Constants.LogoField, new { mh = 100, mw = 100 })</h1>
+  <h1 style="text-align: center">@Html.Sitecore().Field(Project.BMW.Constants.PageTitleField)</h1>
+  <br/>
 </div>
 
 <div>
-  <h1 style="text-align: center">@Html.Sitecore().Field("Page Title")</h1>
+  @Html.Sitecore().Field(Project.BMW.Constants.PolicyTextField)
 </div>
-
-<div>
-  @Html.Sitecore().Field("Policy Text")
-</div>
-</body>
-</html>

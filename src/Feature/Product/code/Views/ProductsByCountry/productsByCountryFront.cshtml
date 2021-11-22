@@ -1,0 +1,18 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+  var productsByCountry = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Products By Country");
+}
+
+@if (!string.IsNullOrEmpty(Html.Sitecore().Field("Page Title", productsByCountry).ToString()))
+{
+  <div style="text-align: center; margin-bottom: 50px">
+    <h1>@Html.Sitecore().Field("Page Title", productsByCountry)</h1>
+    <br/>
+
+    <a href="@Sitecore.Links.LinkManager.GetItemUrl(productsByCountry)">
+      @Html.Sitecore().Field("Country Flag", productsByCountry, new {mh = 100, mw = 100})
+    </a>
+  </div>
+}
