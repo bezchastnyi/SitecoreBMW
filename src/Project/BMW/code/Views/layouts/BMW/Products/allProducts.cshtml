@@ -6,18 +6,16 @@
 }
 
 <div>
-  <div>
-    <h1 style="text-align: center;">@Html.Sitecore().Field(Project.BMW.Constants.PageTitleField)</h1>
-    <br/>
-  </div>
-  
-  <div>
-    @Html.Sitecore().Rendering(Project.BMW.Constants.AvailableProductsRendering)
-    <br/>
-  </div>
+  <h1 style="text-align: center;">@Html.Sitecore().Field(Project.BMW.Constants.PageTitleField)</h1>
+  <br/>
+</div>
 
-  <div>
-    @Html.Sitecore().Rendering(Project.BMW.Constants.ProductsByCountryFrontRendering)
-    <br/>
-  </div>
+<div>
+  @Html.Sitecore().Rendering(Project.BMW.Constants.AvailableProductsRendering)
+  <br/>
+</div>
+
+<div>
+  @Html.Sitecore().Rendering(Project.BMW.Constants.ProductsByCountryFrontRendering)
+  <br/>
 </div>
