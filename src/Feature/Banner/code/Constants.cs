@@ -2,6 +2,6 @@
 {
   public static class Constants
   {
-    public const string BannerVideo = "../../../wwwroot/BMW_Banner.mp4";
+    public const string BannerVideo = "../../../wwwroot/Media/BMW_Banner.mp4";
   }
 }

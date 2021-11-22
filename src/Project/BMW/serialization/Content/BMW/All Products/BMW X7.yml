@@ -13,6 +13,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "0851f200-3cf2-4438-850b-92fc9bf178a1"
+      Hint: Page Title
+      Value: BMW X7
     - ID: "0d65ae3c-b681-4633-9492-b36d28aafa51"
       Hint: Description
       Value: |
@@ -40,7 +43,7 @@ Languages:
     - ID: "bab65988-1683-47b9-9a48-361ef862dcb5"
       Hint: Image
       Value: |
-        <image mediaid="{DE542EF9-E775-4B20-93A9-2989152F0A8D}" />
+        <image mediaid="{DE542EF9-E775-4B20-93A9-2989152F0A8D}" ></image>
     - ID: "f21d2c2e-efe0-4350-8624-85b7263bb662"
       Hint: Price
       Value: "89034 - 146602 $"
