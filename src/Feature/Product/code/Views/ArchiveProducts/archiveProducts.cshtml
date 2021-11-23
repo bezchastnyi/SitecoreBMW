@@ -3,7 +3,7 @@
 @using Sitecore.Data.Items;
 @model RenderingModel
 @{
-  var allProductsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/All Products");
+  var allProductsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Products Catalog/All Products");
   var products = new List<Item>(allProductsItem.Children);
 }
 

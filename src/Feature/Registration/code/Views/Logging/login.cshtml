@@ -1,6 +1,6 @@
 @using Sitecore.Mvc
 @{
-  var homeItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Home");
+  var homeItem = Sitecore.Context.Database.Items.GetItem(Feature.Authentication.Constants.HomeItem);
 }
 
 <style>

@@ -4,14 +4,20 @@
 }
 
 <div>
-  <h1 style="text-align: center;">@Html.Sitecore().Field(Project.BMW.Constants.PageTitleField)</h1>
-  <br/>
-</div>
+  <link rel="stylesheet" href="../../../../wwwroot/Css/style.css">
+  <link rel="stylesheet" href="../../../../wwwroot/FontAwesome/css/all.css">
+  <link rel="shortcut icon" href="../../../../wwwroot/Media/bmw_logo.ico">
 
-<div>
-  @Html.Sitecore().Rendering(Project.BMW.Constants.ProductsByCountryRendering, new
+  <div>
+    <h1 style="text-align: center;">@Html.Sitecore().Field(Project.BMW.Constants.PageTitleField)</h1>
+    <br/>
+  </div>
+
+  <div>
+    @Html.Sitecore().Rendering(Project.BMW.Constants.ProductsByCountryRendering, new
     {
       Parameters = Project.BMW.Constants.CountryParameter + Html.Sitecore().Field(Project.BMW.Constants.CountryField)
     })
-  <br />
+    <br/>
+  </div>
 </div>

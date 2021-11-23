@@ -1,0 +1,92 @@
+﻿---
+ID: "f13e55e3-4467-4030-a551-e811b8a9dc27"
+Parent: "2d930278-80fb-4176-b092-a94fcd6b8da6"
+Template: "12f55aa2-8338-4715-9d0c-fd67d066f45c"
+Path: /sitecore/content/BMW/Products Catalog/All Products/BMW 2 Series Active Tourer
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: BMW 2 Series Active Tourer
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0851f200-3cf2-4438-850b-92fc9bf178a1"
+      Hint: Page Title
+      Value: BMW 2 Series Active Tourer
+    - ID: "0d65ae3c-b681-4633-9492-b36d28aafa51"
+      Hint: Description
+      Value: |
+        <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW 2-series Active Tourer - car overview</h2>
+        <div class="text-left" style="color: #333333; background-color: #ffffff;">
+        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><span>&nbsp;</span></p>
+        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><span>Everyone is used to seeing BMW in the role of daring and very dynamic cars exclusively with rear wheel drive. The appearance of the BMW 2 series Active Tourer has somewhat shaken the sought-after traditions of the Bavarian brand. Not only is it a compact MPV body that is completely atypical for BMW, but also front-wheel drive. The cars of the second series with the Active Tourer attachment became the first in the BMW brand lineup with such a layout. According to BMW, this compact van is ideal for the city, where rear-wheel drive will not very well reveal the ideology of the Active Tourer. The Active Tourer 2 Series BMW shares the platform with the 2013 Mini Cooper. The main competitor of the BMW 2 series Active Tourer is the Mercedes-Benz B-Class.<br />
+        <br />
+        <br />
+        The air resistance in the BMW 2 Series Active Tourer has been very well addressed. The result depends on the modifications and varies from 0.26 to 0.29. Change of layout and increased height or functional and spacious interior. The wheelbase of the BMW 2 Series Active Tourer is only 140 mm smaller than the BMW sedan triplet. At the same time, the micro-minivan 2 of the series turned out to be very compact. Three modifications of 136, 150 and 231 hp are presented for the Active Tourer so far. Later, the Bavarians plan to optionally introduce the all-wheel drive scheme xDrive. The BMW 2 Series Active Tourer has become a family BMW with superior seating options and minivan comfort.<br />
+        <br />
+        The family micro van has several trim lines that will help make this vehicle more exclusive. In the Sport line package, the BMW 2-series Active Tourer features bumper elements in black, 17-inch Star Spoke wheels, aluminum sill trims, sports seats with body support in Race upholstery, leather multifunction steering wheel, exclusive LED illumination of door cards, decorative high-gloss trims ... The Luxury line features a chrome exterior package, 17 '' Multi Spoke wheels, anodized aluminum glass edging, Dakota leather upholstery and wood trim strips. The M Sport version has an extreme sports body kit, M trim components, a shortened gearshift lever, an anthracite headlining, a sport lowered suspension, and several exclusive body paint options. Climate control, premium music, navigation, dashboard with enhanced functionality, improved trim package, various driving and safety assistants are available for separate options.</span></p>
+        </div>
+    - ID: "0e55d625-aa08-4162-a358-13e007167e80"
+      Hint: Country
+      Value: Germany
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211030T082246Z
+    - ID: "3344572d-ecfe-4595-a2b9-21bcf585fbfe"
+      Hint: Year
+      Value: 2016
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "bab65988-1683-47b9-9a48-361ef862dcb5"
+      Hint: Image
+      Value: |
+        <image mediaid="{6009404E-B9C5-4716-96FE-2FBC53B13DB4}" />
+    - ID: "f21d2c2e-efe0-4350-8624-85b7263bb662"
+      Hint: Price
+      Value: "26704 - 32185 $"
+    - ID: "f486eb08-937b-4c9b-8568-b6788f76c198"
+      Hint: Mark
+      Value: "BMW 2-series Active Tourer"
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d65ae3c-b681-4633-9492-b36d28aafa51"
+      Hint: Description
+      Value: |
+        <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW 2-series Active Tourer - обзор автомобиля</h2>
+        <div class="text-left" style="color: #333333; background-color: #ffffff;">
+        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;">&nbsp;</p>
+        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;">Все привыкли видеть BMW в амплуа дерзких и очень динамичных автомобилей исключительно с задним приводом. Появление BMW 2 series Active Tourer несколько пошатнуло искомые традиции баварского бренда. Мало того, что это совершенно нетипичный для BMW кузов компактвэн, так и еще передний привод. Автомобили второй серии с приставкой Active Tourer стали первыми в линейке марки BMW с подобной компоновкой. Как утверждают в БМВ, этот компактвэн идеально подходит для города, где задний привод не очень хорошо раскроет идеологию Active Tourer. Актив Турер 2 серии БМВ делит платформу с Mini Cooper 2013-го модельного года. Основной конкурент BMW 2 series Active Tourer - это Мерседес-Бенц Б-класса.</p>
+        <p style="margin: 0px 0px 10px;">Сопротивление потокам воздуха на BMW 2 series Active Tourer решено очень хорошо. Результат зависит от модификаций и варьируется от 0.26 до 0.29. Смена компоновки и увеличенная высота позволили создать функциональный и просторный салон. Колесная база BMW 2 series Active Tourer всего лишь на 140 мм меньше &laquo;тройки&raquo; седана БМВ. При этом микроминивэн 2 серии получился очень компактным. Для Active Tourer пока предусмотрены три модификации 136, 150 и 231 hp. Позже баварцы планируют опционно внедрять полноприводную схему xDrive. BMW 2 series Active Tourer стал первым семейным БМВ с превосходными возможностями трансформации сидений и комфортом минивэна.<br />
+        <br />
+        Семейный микровэн имеет несколько линий отделки, которые помогут сделать этот автомобиль более эксклюзивным. В пакете Sport line BMW 2-sеries Active Tourer получил элементы бампера с черным цветом, 17-дюймовые колеса Star Spoke, алюминиевые накладки порогов, спортсиденья с поддержкой тела в обивке "Race", кожаный мультируль, эксклюзивную диодную подсветку дверных карт, декоративные глянцевые планки. Линия Luxury отличается хромированным пакетом внешней отделки, дисками Multi Spoke с диагональю 17 дюймов, отделанными анодированным алюминием окантовками стекол, обивкой салона кожей Dakota, деревянными планками декора. Версия M Sport имеет экстремальный спорт-обвес, компоненты отделки M, укороченный рычаг КПП, обивку потолка антрацитового цвета, спортивную заниженную подвеску, несколько эксклюзивных вариантов окраски кузова. В списке доступных за отдельную плату опций предусмотрены климатическая система, премиум-музыка, навигация, приборная панель с расширенным функционалом, улучшенный пакет отделки, различные помощники езды и ассистенты безопасности.</p>
+        </div>
+    - ID: "0e55d625-aa08-4162-a358-13e007167e80"
+      Hint: Country
+      Value: Германия
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211107T224416Z
+    - ID: "3344572d-ecfe-4595-a2b9-21bcf585fbfe"
+      Hint: Year
+      Value: 2016
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "bab65988-1683-47b9-9a48-361ef862dcb5"
+      Hint: Image
+      Value: |
+        <image mediaid="{6009404E-B9C5-4716-96FE-2FBC53B13DB4}" />
+    - ID: "f21d2c2e-efe0-4350-8624-85b7263bb662"
+      Hint: Price
+      Value: "1 900 000 - 2 290 000 ₽"
+    - ID: "f486eb08-937b-4c9b-8568-b6788f76c198"
+      Hint: Mark
+      Value: "BMW 2-series Active Tourer"

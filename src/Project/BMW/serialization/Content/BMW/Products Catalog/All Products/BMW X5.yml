@@ -1,0 +1,92 @@
+﻿---
+ID: "b75a0b4f-c517-4b19-b9be-06ffed90fb3b"
+Parent: "2d930278-80fb-4176-b092-a94fcd6b8da6"
+Template: "12f55aa2-8338-4715-9d0c-fd67d066f45c"
+Path: /sitecore/content/BMW/Products Catalog/All Products/BMW X5
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: BMW X5
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0851f200-3cf2-4438-850b-92fc9bf178a1"
+      Hint: Page Title
+      Value: BMW X5
+    - ID: "0d65ae3c-b681-4633-9492-b36d28aafa51"
+      Hint: Description
+      Value: |
+        <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW X5 - car overview</h2>
+        <div class="text-left" style="color: #333333; background-color: #ffffff;">
+        &nbsp;
+        <p style="margin: 0px 0px 10px;">The new BMW X5, shown to the world public in summer 2018, embodies the finest genes of the all-terrain X family and unprecedented functionality, brought to the highest level. In the fourth generation (index G05), the crossover received a modern CLAR platform, which is already used on the "latest" models of the 5th and 7th series. This helped to shed mass, optimize axle loads, and improve the already perfect handling. Compared to its predecessor, the dimensions have grown - the increase in length was 36 mm, in width plus 66 mm, the wheelbase stretched to 2975 mm (+42 mm). According to the Bavarians, the interior of the updated crossover has more space for rear passengers, while the designers have left the volume of the trunk at the same level (to be precise, minus 5 liters). The exterior of the BMW X5 shows the typical family traits of Bavarian crossovers. The most recognizable design elements are the significantly enlarged grille nostrils and revised headlights, slightly reminiscent of the styling of the younger BMW X3.<br />
+        <br />
+        The furnishings follow the trends of the latest models from the Bavarian brand. From the new - a fully digital Live Cockpit dashboard, a wider tunnel between the front seats, a revised gearshift knob design, a different climate control system, as well as original door opening handles. The multimedia functions are controlled by the innovative BMW 7.0 system with a convenient and intuitive interface; the car's capabilities can be controlled using voice commands, gestures, sensors or the iDrive controller. Several engines have been proposed for the new BMW X5. These are 3-liter turbodiesel units for 249 and 400 forces and gasoline power plants of 3 liters (340 hp) and 4.4 liters (462 hp). For all modifications of the "X-fifth", there is an uncontested 8-band automatic and an all-wheel drive system with an optional rear differential. For the first time in the history of the model, the crossover received an air suspension of the front and rear axles (optional), capable of automatically maintaining the height of the body when loading, as well as raising and lowering the car for a more comfortable fit.<br />
+        <br />
+        The basic equipment package of the BMW X5 includes LED headlights, LED fog lights, 19-inch wheels with RunFlat tires, a multifunctional BMW Live Cockpit system (12.3-inch digital instrument panel, 12.3-inch multimedia complex with navigation, 20 GB hard drive, control gestures, Connected Drive services), automatic climate control, HiFi-class audio system, atmospheric interior lighting package, electrically adjustable and heated comfortable seats, sports multifunction steering wheel in leather, a comprehensive set of airbags. For separate funds, you can get laser headlights with unique X-shaped elements, glass with acoustic coating, comfortable keyless entry, automatic door closers, a panoramic top, ventilated seats with improved adjustments, a climate system with 4 airflow zones, an aromatization function for the interior, premium Harman / Kardon audio, head-up projection, driving and parking assist, night vision, efficient M Sport brakes, adaptive chassis or all-wheel air suspension.</p>
+        </div>
+    - ID: "0e55d625-aa08-4162-a358-13e007167e80"
+      Hint: Country
+      Value: USA
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211030T082246Z
+    - ID: "3344572d-ecfe-4595-a2b9-21bcf585fbfe"
+      Hint: Year
+      Value: 2018
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "bab65988-1683-47b9-9a48-361ef862dcb5"
+      Hint: Image
+      Value: |
+        <image mediaid="{BF34BB36-853B-4C92-914A-84226D840F8A}" ></image>
+    - ID: "f21d2c2e-efe0-4350-8624-85b7263bb662"
+      Hint: Price
+      Value: "69139 - 119229 $"
+    - ID: "f486eb08-937b-4c9b-8568-b6788f76c198"
+      Hint: Mark
+      Value: BMW X5
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d65ae3c-b681-4633-9492-b36d28aafa51"
+      Hint: Description
+      Value: |
+        <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW X5 - обзор автомобиля</h2>
+        <div class="text-left" style="color: #333333; background-color: #ffffff;">
+        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;">&nbsp;</p>
+        <p style="margin: 0px 0px 10px;">Новый BMW X5, показанный мировой публике летом 2018-го, воплотил в себе самые отборные гены вседорожного семейства X и беспрецедентную функциональность, доведенную до самого высокого уровня. В четвертом по счету поколении (индекс G05) кроссовер получил современную платформу CLAR, которая уже используется на "последних" моделях 5-й и 7-серии. Это позволило сбросить массу, оптимизировать нагрузку по осям, а также повысить и без того совершенную управляемость. По сравнению с предшественником выросли габариты - в длину прибавка составила 36 мм, по ширине плюс 66 мм, колесная база растянулась до 2975 мм (+42 мм). Как утверждают баварцы, в салоне обновленного кроссовера стало больше места для задних пассажиров, при этом объем багажника конструкторы оставили на том же уровне (если быть точным минус 5 литров). Во внешности BMW X5 просматриваются типично фамильные черты баварских кроссоверов. Самые узнаваемые элементы дизайна - заметно увеличенные ноздри радиаторной решетки и пересмотренные фары светотехники, слегка напоминающие по стилистике младший BMW X3.<br />
+        <br />
+        Убранство интерьера следует тенденциям самых последних моделей баварской марки. Из нового - полностью цифровая приборная панель Live Cockpit, более широкий тоннель между передними креслами, пересмотренный дизайн рукоятки КПП, иное управление климатической системой, а также оригинальные ручки открывания дверей. Мультимедийными функциями заведует инновационная система BMW 7.0 с удобным и понятным интерфейсом, управлять возможностями автомобиля можно с помощью голосовых команд, жестов, сенсоров или контроллера iDrive. Двигателей для нового BMW X5 предложено несколько. Это 3-литровые турбодизельные агрегаты на 249 и 400 сил и бензиновые силовые установки 3 л (340 hp) и 4.4 л (462 hp). Для всех модификаций "Икс-пятого" предусмотрены безальтернативный 8-диапазонный автомат и полноприводная система с опциональным задним дифференциалом. Впервые в истории модели кроссовер получил пневмоподвеску передней и задней оси (опция), способную автоматически поддерживать высоту кузова при загрузке, а также поднимать и опускать автомобиль для более удобной посадки.<br />
+        <br />
+        В базовый пакет оснащения BMW X5 вошли LED-фары, диодные противотуманные фонари, 19-дюймовые колесные диски с шинами RunFlat, мультифункциональная система BMW Live Cockpit (цифровая панель приборов 12.3 дюйма, мультимедийный комплекс с навигацией 12.3 дюйма, жесткий диск на 20 Гб, управление жестами, сервисы Connected Drive), автоматическая климат-установка, аудиосистема HiFi-класса, пакет атмосферного освещения интерьера, комфортабельные кресла с электрорегулировками и обогревом, спортивный мультируль в коже, комплексный набор подушек безопасности. За отдельные средства можно получить лазерные фары с уникальными X-образными элементами, стекла с акустическим покрытием, комфортный бесключевой доступ, автоматические доводчики дверей, панорамный верх, вентилируемые кресла с улучшенными регулировками, климат-систему на 4 зоны обдува, функцию ароматизации салона, премиум-аудио Harman/Kardon, проекцию приборов на лобовое стекло, ассистенты вождения и парковки, систему ночного видения, эффективные тормоза M Sport, адаптивное шасси или пневматическую подвеску всех колес.</p>
+        </div>
+    - ID: "0e55d625-aa08-4162-a358-13e007167e80"
+      Hint: Country
+      Value: США
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211109T192522Z
+    - ID: "3344572d-ecfe-4595-a2b9-21bcf585fbfe"
+      Hint: Year
+      Value: 2018
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "bab65988-1683-47b9-9a48-361ef862dcb5"
+      Hint: Image
+      Value: |
+        <image mediaid="{BF34BB36-853B-4C92-914A-84226D840F8A}" />
+    - ID: "f21d2c2e-efe0-4350-8624-85b7263bb662"
+      Hint: Price
+      Value: "4 900 000 - 8 450 000 ₽"
+    - ID: "f486eb08-937b-4c9b-8568-b6788f76c198"
+      Hint: Mark
+      Value: BMW X5

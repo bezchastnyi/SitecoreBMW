@@ -1,0 +1,90 @@
+﻿---
+ID: "0cf8d1a0-cf20-49d6-84f1-e39b1c010348"
+Parent: "2d930278-80fb-4176-b092-a94fcd6b8da6"
+Template: "12f55aa2-8338-4715-9d0c-fd67d066f45c"
+Path: /sitecore/content/BMW/Products Catalog/All Products/BMW 8 Series
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "BMW 8-series"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0851f200-3cf2-4438-850b-92fc9bf178a1"
+      Hint: Page Title
+      Value: BMW 8 Series
+    - ID: "0d65ae3c-b681-4633-9492-b36d28aafa51"
+      Hint: Description
+      Value: |
+        <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW 8-series - car overview</h2>
+        <div class="text-left" style="color: #333333; background-color: #ffffff;">&nbsp;
+        <p style="margin: 0px 0px 10px;">With the newly minted BMW 8-series, the Bavarians are reviving the iconic car index that once belonged to BMW's flagship premium coupe in the 90s. Prior to this premiere, the role of the 2-door flagship was assigned to the 6-series, which went safely to retirement. From now on, the top of the lineup of the Bavarians will be occupied by the "eight". At the heart of the novelty, the engineers laid the modular architecture of the CLAR, which is used on modern generations of 5 and 7 series sedans, as well as on the X5 crossover. In length, height and wheelbase, the BMW 8-series Coupe came out slightly more compact than the 6 series (minus 43, 23 and 33 mm, respectively), but at the same time it was wider - the increase was a symbolic 8 mm. In the construction of the body of the BMW 8-series, engineers have used combined high-strength grades of steel, aluminum, magnesium and carbon fiber - similar solutions have also found their application in the representative "seven". Nevertheless, the sports coupe turned out to be slightly heavier than its predecessor - depending on the modification, the weight of the flagship is about 20-40 kg more.<br />
+        <br />
+        Engines at the first stage of sales for the supercar have been assigned so far 2. This is a supercharged diesel 3-liter version with 320 hp and a top-end V-shaped "eight" with a capacity of 530 hp. Both versions require an 8-speed automatic with a coasting function, there is no alternative. In addition, all BMW 8-series Coupes come with plug-in all-wheel drive as standard, as well as high-performance 4-block brake calipers. The Bavarians made the interior of the BMW 8-series Coupe almost completely original, some functional and design solutions can also be seen in the new BMW X5 (digital instrument panel, climate control system placed to the air ducts, electronic gearshift lever, new design of door handles). The centerpiece of the console is an innovative multimedia system with a 12-inch display. The updated BMW 7.0 operating system is designed to make it much easier to control the main functions of the car using sensors, gestures, voice commands or the convenient iDrive controller. The list of additional options includes multicontour chairs with massage and active ventilation, laser LED headlights, 360-degree view cameras, blind spot monitoring, night vision complex, premium Harman / Kardon acoustics.<br />
+        <br />
+        The basic equipment list of the flagship BMW 8-series coupe includes 18-inch alloy wheels, laser headlights, heat-insulating windshield, door closers, comfortable keyless entry, automatic boot lid drive, heating package (seats, steering wheel, armrests), seat ventilation, climate -control. The multi-functional complex BMW Live Cockpit Professional with two displays (navigation, telephony, integration with smartphones), as well as premium Harman / Kardon "music" are provided as media systems. For a fee, the Bavarian "2-door" relies on an advanced night vision function (identification of pedestrians and other moving objects), a parking aid, adaptive cruise control, a driving assistant, an M Sport brake system, an expensive Bowers &amp; Wilkins Diamond audio system. The exterior of the BMW 8-series Coupe can be personalized with a special M aerodynamic package, Shadow Line or Chrome Line styling, carbon fiber body components, an M rear spoiler and various wheel options.</p>
+        </div>
+    - ID: "0e55d625-aa08-4162-a358-13e007167e80"
+      Hint: Country
+      Value: Germany
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211030T082246Z
+    - ID: "3344572d-ecfe-4595-a2b9-21bcf585fbfe"
+      Hint: Year
+      Value: 2018
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "bab65988-1683-47b9-9a48-361ef862dcb5"
+      Hint: Image
+      Value: |
+        <image mediaid="{A7FDBB7D-AFD5-4996-A829-21111534134E}" />
+    - ID: "f21d2c2e-efe0-4350-8624-85b7263bb662"
+      Hint: Price
+      Value: "101733 - 132210 $"
+    - ID: "f486eb08-937b-4c9b-8568-b6788f76c198"
+      Hint: Mark
+      Value: "BMW 8-series"
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d65ae3c-b681-4633-9492-b36d28aafa51"
+      Hint: Description
+      Value: |
+        <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW 8-series - обзор автомобиля</h2>
+        <div class="text-left" style="color: #333333; background-color: #ffffff;">&nbsp;
+        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;">С новоявленным BMW 8-series баварцы возрождают культовый индекс автомобилей, который когда-то в 90-е принадлежал флагманскому&nbsp;<a href="https://avto-russia.ru/autos/bmw/bmw_8-series_e31.html" style="color: #1d6fa5; background-color: transparent;">премиум-купе BMW</a>. До этой премьеры роль 2-дверного флагмана была отведена&nbsp;<a href="https://avto-russia.ru/autos/bmw/bmw_6-series.html" style="color: #1d6fa5; background-color: transparent;">6-серии</a>, благополучно отправившейся на покой. Отныне же вершину модельного ряда баварцев займет "восьмерка". В основу новинки инженеры заложили модульную архитектуру CLAR, которая используется на современных поколениях седанов 5 и 7 серий, а также на кроссовере X5. По длине, высоте и базе колес BMW 8-series Coupe вышло чуть компактнее 6 серии (минус 43, 23 и 33 мм соответственно), но при этом шире - прибавка составила символические 8 мм. В конструкции корпуса BMW 8-series инженеры применили комбинированные высокопрочные сорта стали, алюминий, магний и углепластик - похожие решения нашли свое применение также на представительской "семерке". Тем не менее, спортивное купе оказалась немного тяжелее своего предшественника - в зависимости от модификации вес флагмана больше примерно на 20-40 кг.<br />
+        <br />
+        Двигателей на первом этапе продаж для суперкара отведено пока 2. Это наддувный дизельный 3-литровый вариант на 320 сил и топовая V-образная "восьмерка" с мощностью 530 сил. Обеим модификациям полагается 8-ступенчатый автомат с функцией движения накатом, альтернатива отсутствует. Кроме того, все BMW 8-series Coupe по умолчанию снабжаются подключаемым полным приводом, а также высокоэффективными 4-блочными тормозными суппортами. Интерьер BMW 8-series Coupe баварцы сделали практически полностью оригинальным, некоторые функциональные и дизайнерские решения можно увидеть также в новом&nbsp;<a href="https://avto-russia.ru/autos/bmw/bmw_x5.html" style="color: #1d6fa5; background-color: transparent;">BMW X5</a>&nbsp;(цифровая панель приборов, вынесенное к воздуховодам управление климатической системой, электронный рычаг КПП, новый дизайн дверных ручек). Центральное место на консоли заняла инновационная мультимедийная система c 12-дюймовым дисплеем. Обновленная операционная система BMW 7.0 призвана значительно упростить управление основными функциями автомобиля с помощью сенсора, жестов, голосовых команд или удобного контроллера iDrive. В списке дополнительных опций заявлены мультиконтурные кресла с массажем и активной вентиляцией, лазерные светодиодные фары, камеры обзора на 360 градусов, мониторинг слепых зон, комплекс ночного видения, премиальная акустика Harman/Kardon.<br />
+        <br />
+        В базовый список оснащения флагманского купе BMW 8-series включены легкосплавные диски на 18 дюймов, лазерные фары, теплоизоляционное лобовое стекло, дверные автодоводчики, комфортный бесключевой доступ, автоматический привод багажной двери, пакет обогрева (кресла, руль, подлокотники), вентиляция сидений, климат-контроль. В качестве медийных систем предусмотрены многофункциональный комплекс BMW Live Cockpit Professional с двумя дисплеями (навигация, телефония, интеграция со смартфонами), а также премиальная "музыка" Harman/Kardon. За отдельную плату баварской "2-дверке" полагаются продвинутая функция ночного видения (идентификация пешеходов и других движущихся объектов), парковочный ассистент, адаптивный круиз-контроль, помощник вождения, тормозная система M Sport, дорогой аудиокомплекс Bowers &amp; Wilkins Diamond. Внешний вид BMW 8-series Coupe можно персонализировать с помощью специального аэродинамического пакета отделки M, стилевых исполнений Shadow Line или Chrome Line, карбоновых компонентов кузова, заднего М-спойлера, а также различных вариантов колесных дисков.</p>
+        </div>
+    - ID: "0e55d625-aa08-4162-a358-13e007167e80"
+      Hint: Country
+      Value: Германия
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211109T211006Z
+    - ID: "3344572d-ecfe-4595-a2b9-21bcf585fbfe"
+      Hint: Year
+      Value: 2018
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "bab65988-1683-47b9-9a48-361ef862dcb5"
+      Hint: Image
+      Value: |
+        <image mediaid="{A7FDBB7D-AFD5-4996-A829-21111534134E}" />
+    - ID: "f21d2c2e-efe0-4350-8624-85b7263bb662"
+      Hint: Price
+      Value: "7 210 000 - 9 370 000 ₽"
+    - ID: "f486eb08-937b-4c9b-8568-b6788f76c198"
+      Hint: Mark
+      Value: "BMW 8-series"

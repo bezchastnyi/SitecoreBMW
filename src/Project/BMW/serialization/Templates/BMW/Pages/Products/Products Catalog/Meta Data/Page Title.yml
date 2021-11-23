@@ -1,0 +1,21 @@
+﻿---
+ID: "5c5e7495-0608-4d21-8f19-d3372915ca36"
+Parent: "44946585-2074-4646-9c7b-176d636d6e72"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/BMW/Pages/Products/Products Catalog/Meta data/Page Title
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211115T143238Z

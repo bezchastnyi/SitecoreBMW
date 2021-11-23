@@ -25,7 +25,7 @@ Languages:
     Fields:
     - ID: "0851f200-3cf2-4438-850b-92fc9bf178a1"
       Hint: Page Title
-      Value: __Display Name
+      Value: $name
     - ID: "1494909c-303a-4e81-803f-adffb9c2197e"
       Hint: Footer Text
       Value: |

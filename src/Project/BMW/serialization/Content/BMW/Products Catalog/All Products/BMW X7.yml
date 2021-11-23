@@ -1,0 +1,90 @@
+﻿---
+ID: "52707705-f193-473b-aaa8-064aaae8b690"
+Parent: "2d930278-80fb-4176-b092-a94fcd6b8da6"
+Template: "12f55aa2-8338-4715-9d0c-fd67d066f45c"
+Path: /sitecore/content/BMW/Products Catalog/All Products/BMW X7
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: BMW X7
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0851f200-3cf2-4438-850b-92fc9bf178a1"
+      Hint: Page Title
+      Value: BMW X7
+    - ID: "0d65ae3c-b681-4633-9492-b36d28aafa51"
+      Hint: Description
+      Value: |
+        <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW X7 - car overview</h2>
+        <div class="text-left" style="color: #333333; background-color: #ffffff;">&nbsp;
+        <p style="margin: 0px 0px 10px;">BMW unveils its largest flagship crossover, the 2019 X7. The novelty was in many ways similar to the previously shown concept car X7 iPerformance and develops the design philosophy of the latest Bavarian models with enlarged "nostrils", narrowed lighting technology and complex body lines. The BMW X7 is based on the modular CLAR platform, which is also used by the younger X5. But its configuration at BMW was lengthened and modified to suit the individual characteristics of the car. With a length of 5151 mm, the X7 outperformed its competitors from the German troika: the Audi Q7 (5005 mm) and the Mercedes GLS (5120 mm). In addition, thanks to the 3105 mm wheelbase, the X-seventh turned out to be the most spacious in the cabin - the Bavarian received a full-fledged third row of seats designed for two adults. At the same time, passengers have access to a solid reserve for luggage, which is 326 liters (with folded seats 2120 liters).<br />
+        <br />
+        Inside, the BMW X7 almost completely repeats the "X-fifth" of 2018 - both models have a common front panel architecture, an intelligent digital "instrument cluster", a multimedia package iDrive 7.0 with a 12.3-inch display. The list of basic equipment includes LED headlights, air suspension with electronically controlled shock absorbers, 4-zone climate control, "advanced" seats with memory and ventilation, a panoramic roof. Laser lights, multimedia with separate displays for the rear passengers, and Bower &amp; Wilkins premium music are options. In the standard version, the crossover has 7 seats, but for an additional fee they can be reduced to 6 by equipping the second row with two "captain's" seats with increased comfort. The BMW X7 engines are unified with the X5 (G05) - this is a 3-liter 340-horsepower gasoline engine and two diesel engines of 249 and 400 horsepower. All units are combined with uncontested 8-speed automatic.<br />
+        <br />
+        About the equipment of the flagship is more detailed. As standard, the BMW X7 has 20-inch alloy wheels, air suspension, adaptive LED headlights, noise-canceling glazing, Vernasca leather trim, 4-zone climate control, HiFi audio system, panoramic glass roof, virtual instrument panel, comfortable heated seats with electronic settings, a media complex with a gesture control function. For an additional fee, the crossover can be equipped with high-performance laser headlights, ventilation and massage of the front seats, heating of all seats, a Sky Lounge glass roof, an automatic door closer, a Bower &amp; Wilkins audio system, an entertainment media complex for rear passengers, a head-up display. For a fee, you can also get a number of auxiliary electronics - this is a parking aid, a driving assistant and adaptive cruise control. In addition, two design lines are available for the BMW X7 - Pure Excellence and M Sport, each of which is able to give the crossover a special touch.</p>
+        </div>
+    - ID: "0e55d625-aa08-4162-a358-13e007167e80"
+      Hint: Country
+      Value: USA
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211030T082246Z
+    - ID: "3344572d-ecfe-4595-a2b9-21bcf585fbfe"
+      Hint: Year
+      Value: 2019
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "bab65988-1683-47b9-9a48-361ef862dcb5"
+      Hint: Image
+      Value: |
+        <image mediaid="{DE542EF9-E775-4B20-93A9-2989152F0A8D}" ></image>
+    - ID: "f21d2c2e-efe0-4350-8624-85b7263bb662"
+      Hint: Price
+      Value: "89034 - 146602 $"
+    - ID: "f486eb08-937b-4c9b-8568-b6788f76c198"
+      Hint: Mark
+      Value: BMW X7
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d65ae3c-b681-4633-9492-b36d28aafa51"
+      Hint: Description
+      Value: |
+        <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW X7 - обзор автомобиля</h2>
+        <div class="text-left" style="color: #333333; background-color: #ffffff;">&nbsp;
+        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;">BMW представляет свой самый большой флагманский кроссовер X7 2019 модельного года. Новинка оказалась во многом похожей на показанный ранее концепт-кар X7 iPerformance и развивает философию дизайна последних баварских моделей с увеличенными "ноздрями", зауженной светотехникой и сложными кузовными линиями. В основу BMW X7 заложена модульная платформа CLAR, которую также использует&nbsp;<a href="~/link.aspx?_id=B75A0B4FC5174B19B9BE06FFED90FB3B&amp;_z=z">младший X5</a>. Но ее конфигурацию в BMW удлинили и модифицировали под индивидуальные особенности автомобиля. С длиной 5151 мм X7 превзошел своих конкурентов из немецкой тройки:&nbsp;<a href="https://avto-russia.ru/autos/audi/audi_q7.html" style="color: #1d6fa5; background-color: transparent;"></a>Audi Q7&nbsp;(5005 мм) и&nbsp;<a href="https://avto-russia.ru/autos/mercedes/mercedes_gls.html" style="color: #1d6fa5; background-color: transparent;"></a>Mersedes GLS&nbsp;(5120 мм). Кроме того, благодаря колесной базе 3105 мм "Икс седьмой" оказался самым просторным в салоне - "баварец" получил полноценный третий ряд сидений, рассчитанный на двух взрослых человек. При этом пассажирам доступен солидный запас для багажа, который составляет 326 л (при сложенных креслах 2120 л).<br />
+        <br />
+        Внутри BMW X7 практически полностью повторяет "Икс пятый" 2018 года - у обеих моделей общие архитектура передней панели, интеллектуальная цифровая "приборка", мультимедийный пакет iDrive 7.0 с 12.3-дюймовым дисплеем. В списке базового оснащения числятся светодиодные фары, пневмоподвеска с электронноуправляемыми амортизаторами, климатический контроль на 4 зоны, "продвинутые" сиденья с памятью и вентиляцией, панорамная крыша. Лазерные фары Laserlight, мультимедиа с раздельными дисплеями для задних пассажиров, а также премиум-музыка Bower&amp;Wilkins - опции. В стандартном исполнении кроссовер имеет 7 мест, но за дополнительную плату их можно сократить до 6, оснастив второй ряд двумя "капитанскими" креслами с повышенной комфортабельностью. Двигатели BMW X7 унифицированы с X5 (G05) - это 3-литровый 340-сильный бензиновый мотор и два дизеля 249 и 400 сил. Все агрегаты сочетаются с безальтернативной 8-скоростной автоматикой.<br />
+        <br />
+        Про оснащение флагмана более развернуто. В стандартном исполнении BMW X7 располагает 20-дюймовыми легкосплавными дисками, пневмоподвеской, адаптивными светодиодными фарами, шумоподавляющим остеклением, кожаной отделкой Vernasca, 4-зонной климатической установкой, аудиосистемой класса HiFi, панорамной стеклянной крышей, виртуальной приборной панелью, комфортабельными креслами с обогревом и электронастройками, медийным комплексом с функцией управления жестами. За дополнительную плату кроссовер можно доукомплектовать высокоэффективными лазерными фарами, вентиляцией и массажем передних кресел, обогревом всех сидений, стеклянной крышей Sky Lounge, автодоводчиком дверей, аудиосистемой Bower&amp;Wilkins, развлекательным медиакомплексом для задних пассажиров, проекционным дисплеем. За отдельную плату также можно получить ряд вспомогательной электроники - это парковочный ассистент, помощник вождения и адаптивный круиз-контроль. Кроме того, для BMW X7 доступны две линии дизайна - Pure Excellence и M Sport, каждая из которых способна придать внешнему виду кроссовера особые акценты.</p>
+        </div>
+    - ID: "0e55d625-aa08-4162-a358-13e007167e80"
+      Hint: Country
+      Value: США
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211109T191942Z
+    - ID: "3344572d-ecfe-4595-a2b9-21bcf585fbfe"
+      Hint: Year
+      Value: 2019
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "bab65988-1683-47b9-9a48-361ef862dcb5"
+      Hint: Image
+      Value: |
+        <image mediaid="{DE542EF9-E775-4B20-93A9-2989152F0A8D}" />
+    - ID: "f21d2c2e-efe0-4350-8624-85b7263bb662"
+      Hint: Price
+      Value: "6 310 000 - 10 390 000 ₽"
+    - ID: "f486eb08-937b-4c9b-8568-b6788f76c198"
+      Hint: Mark
+      Value: BMW X7

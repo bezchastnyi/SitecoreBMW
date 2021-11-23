@@ -1,0 +1,92 @@
+﻿---
+ID: "33fba601-feb0-45cc-8709-1ba133ed497b"
+Parent: "2d930278-80fb-4176-b092-a94fcd6b8da6"
+Template: "12f55aa2-8338-4715-9d0c-fd67d066f45c"
+Path: /sitecore/content/BMW/Products Catalog/All Products/BMW 8 Series Gran Coupe
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "BMW 8-series Gran Coupe"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0851f200-3cf2-4438-850b-92fc9bf178a1"
+      Hint: Page Title
+      Value: BMW 8 Series Gran Coupe
+    - ID: "0d65ae3c-b681-4633-9492-b36d28aafa51"
+      Hint: Description
+      Value: |
+        <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW 8-series Gran Coupe - car overview</h2>
+        <div class="text-left" style="color: #333333; background-color: #ffffff;">
+        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><span>&nbsp;</span></p>
+        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;">Following the coupe and convertible of the 8-series, BMW is launching a 5-door variation of the top-end "eight" to the masses. The newly-minted BMW 8-series Gran Coupe completely copies the 2-door BMW 8-Series shown in 2018, up to the front pillar, while it turned out to be, as expected, larger than its soplatform - in terms of length, the difference "plus" was 239 mm (5082 mm and 4843 mm), and the wheelbase has grown a decent 201 mm (3023 mm versus 2822 mm). During the development of the BMW 8-series Gran Coupe, much attention was paid to aerodynamics - the engineers made the bottom of the car almost flat, in addition, special aerodynamic dampers were introduced to optimize the downforce, and the side mirrors were installed on thin legs. Numerous aluminum body parts (doors, hood, roof, engine subframe, rear bumper supports) and a tailgate made of plastic are designed to reduce the weight of the Gran Coupe.<br />
+        <br />
+        The architecture of the front console, dashboard and controls of the BMW 8-series Gran Coupe are completely identical to the coupe model. On the second row, there are two full-fledged separate chairs with integrated headrests. Thanks to the extended wheelbase, the rear passengers in the Gran Coupe will be much more comfortable and spacious than inside the 2-door (+180 mm of legroom). The standard equipment list of the new items includes an adaptive M-suspension with electronic shock absorbers, high-performance 4-piston calipers and a Steptronic Sport transmission with paddle shifters. The BMW 8-series Gran Coupe arrived in Russia with a 320-horsepower diesel and two gasoline engines, with a power of 340 and 530 forces.<br />
+        <br />
+        The most affordable version of the BMW 8-series Gran Coupe in our market is equipped by default with 18-inch alloy wheels, laser headlights, a high-beam control system, an insulating windshield, a parking assistant, a comfortable keyless entry function, door closers, an automatic tailgate. For additional comfort, anatomical front seats with a heating package and active ventilation, an air conditioning system, a Harman Kardon premium audio system, and a BMW Live Cockpit Professional multimedia complex are responsible. For an additional fee, the BMW 8-series Gran Coupe features a panoramic glass roof, M Sport front seats, M Professional adaptive sports suspension, Bower &amp; Wilkins Diamond audio system, and night vision with pedestrian recognition.</p>
+        </div>
+    - ID: "0e55d625-aa08-4162-a358-13e007167e80"
+      Hint: Country
+      Value: Germany
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211030T082246Z
+    - ID: "3344572d-ecfe-4595-a2b9-21bcf585fbfe"
+      Hint: Year
+      Value: 2019
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "bab65988-1683-47b9-9a48-361ef862dcb5"
+      Hint: Image
+      Value: |
+        <image mediaid="{E66AE918-A73D-49AE-A794-B61C2A820903}" />
+    - ID: "f21d2c2e-efe0-4350-8624-85b7263bb662"
+      Hint: Price
+      Value: "97217 - 132210 $"
+    - ID: "f486eb08-937b-4c9b-8568-b6788f76c198"
+      Hint: Mark
+      Value: "BMW 8-series Gran Coupe"
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d65ae3c-b681-4633-9492-b36d28aafa51"
+      Hint: Description
+      Value: |
+        <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW 8-series Gran Coupe - обзор автомобиля</h2>
+        <div class="text-left" style="color: #333333; background-color: #ffffff;">
+        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;">&nbsp;</p>
+        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;">Вслед за купе и кабриолетом 8-й серии компания BMW выводит в массы 5-дверную вариацию топовой "восьмерки". Новоявленный BMW 8-series Gran Coupe до передней стойки полностью копирует показанный в 2018-м году 2-дверный BMW 8-Series, при этом он оказался ожидаемо крупнее своего соплатформенника - по длине разница "в плюс" составила 239 мм (5082 мм и 4843 мм), а колесная база нарастила приличные 201 мм (3023 мм против 2822 мм). При разработке BMW 8-series Gran Coupe много внимания было уделено аэродинамике - днище автомобиля инженеры сделали практически плоским, помимо этого для оптимизации прижимной силы внедрены специальные аэродинамические заслонки, а боковые зеркала установлены на тонких ножках. Снизить массу Гран Купе призваны многочисленные алюминиевые детали кузова (двери, капот, крыша, подрамник двигателя, опоры заднего бампера) и багажная дверь, сделанная из пластика.<br />
+        <br />
+        Архитектура передней консоли, панель приборов и органы управления BMW 8-series Gran Coupe полностью идентичны модели с кузовом купе. На втором ряду предусмотрены два полноценные раздельные кресла с интегрированными подголовниками. Благодаря удлиненной базе колес задним пассажирам в Гран Купе будет гораздо комфортнее и просторнее, чем внутри 2-дверки (+180 мм свободного пространства для ног). В списке стандартного оборудования новинки предусмотрены адаптивная M-подвеска с электронными амортизаторами, высокопроизводительные 4-поршневые суппорты и спортивная КПП Steptronic Sport с подрулевыми переключателями. В Россию BMW 8-series Gran Coupe пожаловал с 320-сильным дизельным и двумя бензиновыми двигателями, мощностью 340 и 530 сил.<br />
+        <br />
+        Самая доступная версия BMW 8-series Gran Coupe на нашем рынке комплектуется по умолчанию легкосплавными 18-дюймовыми колесами, лазерными фарами, системой управления дальним светом, теплоизоляционным ветровым стеклом, парковочным ассистентом, функцией комфортного бесключевого доступа, дверными автодоводчиками, автоприводом багажной двери. За дополнительный комфорт отвечают анатомичные передние кресла с пакетом обогрева и активной вентиляцией, климатическая установка, аудиосистема премиум-класса Harman Kardon, а также мультимедийный комплекс BMW Live Cockpit Professional. За отдельную плату BMW 8-series Gran Coupe полагаются панорамная стеклянная крыша, передние сиденья M Sport, спортивная адаптивная подвеска M Professional, аудиосистема Bower &amp; Wilkins Diamond, а также система ночного видения с функцией распознавания пешеходов.</p>
+        </div>
+    - ID: "0e55d625-aa08-4162-a358-13e007167e80"
+      Hint: Country
+      Value: Германия
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211109T205820Z
+    - ID: "3344572d-ecfe-4595-a2b9-21bcf585fbfe"
+      Hint: Year
+      Value: 2019
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "bab65988-1683-47b9-9a48-361ef862dcb5"
+      Hint: Image
+      Value: |
+        <image mediaid="{E66AE918-A73D-49AE-A794-B61C2A820903}" />
+    - ID: "f21d2c2e-efe0-4350-8624-85b7263bb662"
+      Hint: Price
+      Value: "6 890 000 - 9 370 000 ₽"
+    - ID: "f486eb08-937b-4c9b-8568-b6788f76c198"
+      Hint: Mark
+      Value: "BMW 8-series Gran Coupe"

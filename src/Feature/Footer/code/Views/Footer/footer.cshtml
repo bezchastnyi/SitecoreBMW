@@ -3,26 +3,72 @@
 @using Sitecore.Data.Items;
 @model RenderingModel
 @{
-  var contentItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW");
-  
-  var pages = new List<Item>(contentItem.Children);
+  const string pageTitle = Feature.Footer.Constants.PageTitleField;
+  var BMWItem = Sitecore.Context.Database.Items.GetItem(Feature.Footer.Constants.BMWItem);
+
+  List<Item> pages = null;
+  if (BMWItem.HasChildren)
+  {
+    pages = new List<Item>(BMWItem.Children.Where(
+      x => !Feature.Footer.Constants.MissingItems.Contains(x.Name)));
+  }
 }
 
 <footer>
   <div class="footer-container">
-    <div class="footer-logo">@Html.Sitecore().Field("Footer Logo")</div>
+    <div class="footer-logo">@Html.Sitecore().Field(Feature.Footer.Constants.FooterLogoField)</div>
 
     <div class="footer-navbar">
-      @foreach (var page in pages)
+      @if (pages != null)
       {
-        var pageName = Html.Sitecore().Field("Page Title", page);
-        if (!string.IsNullOrEmpty(pageName.ToString()))
+        foreach (var page in pages)
         {
-          <a href="@Sitecore.Links.LinkManager.GetItemUrl(page)">@pageName</a>
+          switch (page.Name)
+          {
+            case "Home":
+            {
+              <a href="@Sitecore.Links.LinkManager.GetItemUrl(page)">
+                <i class="fas fa-home"></i> &nbsp; @Html.Sitecore().Field(pageTitle, page)
+              </a>
+
+              break;
+            }
+
+            case "Contacts":
+            {
+              <a href="@Sitecore.Links.LinkManager.GetItemUrl(page)">
+                <i class="fas fa-address-book"></i> &nbsp; @Html.Sitecore().Field(pageTitle, page)
+              </a>
+
+              break;
+            }
+
+            default:
+            {
+              if (page.HasChildren)
+              {
+                var subpages = new List<Item>(page.Children);
+                foreach (var subpage in subpages.Where(subpage => subpage != null))
+                {
+                  <a href="@Sitecore.Links.LinkManager.GetItemUrl(subpage)">
+                    @Html.Sitecore().Field(pageTitle, subpage)
+                  </a>
+                }
+              }
+              else
+              {
+                <a href="@Sitecore.Links.LinkManager.GetItemUrl(page)">
+                  @Html.Sitecore().Field(pageTitle, page)
+                </a>
+              }
+
+              break;
+            }
+          }
         }
       }
     </div>
 
-    <div class="footer-text">@Html.Sitecore().Field("Footer Text")</div>
+    <div class="footer-text">@Html.Sitecore().Field(Feature.Footer.Constants.FooterTextField)</div>
   </div>
 </footer>

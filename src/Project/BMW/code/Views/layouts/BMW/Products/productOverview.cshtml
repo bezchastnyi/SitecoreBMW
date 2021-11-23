@@ -4,11 +4,17 @@
 }
 
 <div>
-  @Html.Sitecore().Rendering(Project.BMW.Constants.ProductBannerRendering)
-  <br />
-</div>
+  <link rel="stylesheet" href="../../../../wwwroot/Css/style.css">
+  <link rel="stylesheet" href="../../../../wwwroot/FontAwesome/css/all.css">
+  <link rel="shortcut icon" href="../../../../wwwroot/Media/bmw_logo.ico">
 
-<div>
-  @Html.Sitecore().Rendering(Project.BMW.Constants.ProductDescriptionRendering)
-  <br />
+  <div>
+    @Html.Sitecore().Rendering(Project.BMW.Constants.ProductBannerRendering)
+    <br/>
+  </div>
+
+  <div>
+    @Html.Sitecore().Rendering(Project.BMW.Constants.ProductDescriptionRendering)
+    <br/>
+  </div>
 </div>

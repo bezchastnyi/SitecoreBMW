@@ -1,0 +1,92 @@
+﻿---
+ID: "96e04bac-13b5-4119-b36f-3d8ed85393b3"
+Parent: "2d930278-80fb-4176-b092-a94fcd6b8da6"
+Template: "12f55aa2-8338-4715-9d0c-fd67d066f45c"
+Path: /sitecore/content/BMW/Products Catalog/All Products/BMW M5
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: BMW M5
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0851f200-3cf2-4438-850b-92fc9bf178a1"
+      Hint: Page Title
+      Value: BMW M5
+    - ID: "0d65ae3c-b681-4633-9492-b36d28aafa51"
+      Hint: Description
+      Value: |
+        <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW M5 - car overview</h2>
+        <div class="text-left" style="color: #333333; background-color: #ffffff;">
+        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;">&nbsp;</p>
+        <p style="margin: 0px 0px 10px;">All-wheel drive, superior performance, reduced weight, improved aerodynamics - this is not a complete list of the advantages of the new BMW M5, shown at the Frankfurt Motor Show 2017. In the sixth generation (F90), the Bavarian super sedan has changed significantly. External distinctive features of the novelty are aggressive bumpers, specific stampings, exciting body shapes, large wheels. Compared to its predecessor, the model turned out to be slightly larger (an increase in length - 55 mm), the difference in wheelbase was 18 mm (2982 mm versus 2964 mm), and the engineers also increased the ground clearance (132 mm instead of 117). But the main highlight of the new BMW M5 is all-wheel drive - for the first time on a passenger "M-ke" a multi-mode 4WD system with an electronically controlled multi-plate clutch is used. The all-wheel drive BMW M5 has 3 operating algorithms, including aggressive drift mode. Despite the 4WD system, the new M5 turned out to be lighter than the previous "M" by as much as 15 kg. This was due to the widespread use of carbon fiber and aluminum elements in the structure.<br />
+        <br />
+        Under the hood of the BMW M5 F90 is an improved V8 engine with the same volume of 4.4 liters. Revised components, redesigned turbochargers with boost pressure up to 350 bar and revised injection system allowed power to be increased to 600 hp (up from 560 hp for the predecessor model). The 7-speed "robot" was replaced by an optimized 8-range automatic M Steptronic. The claimed acceleration to a hundred - only 3.4 s (almost a whole second less than the last "M"). With such numbers, the new BMW M5 is able to effectively &ldquo;compete&rdquo; with its main competitor, the Mercedes E63 AMG S, which has almost the same performance and acceleration characteristics. The basic version of the super sedan has cast iron braking systems with 6-piston calipers at the front and single-piston calipers at the rear. For an extra charge, gold painted carbon-ceramic brakes can handle extreme loads without compromising performance.<br />
+        <br />
+        The sports sedan can be personalized with the optional M Special equipment and interior package, which includes 20-inch 2-color wheels, ceramic controls, Merino leather upholstery (6 variants), inlays (aluminum, carbon, pearl chrome), 4 -zonal climate, Harman / Kardon (or Bowers &amp; Wilkins) music system, comfortable keyless entry, door closers, multifunctional seats with ventilation and heating. The basic equipment list of the BMW M5 includes adaptive LED lights (including taillights), 2-zone climate, heated seats, heated steering wheel, HiFi premium audio system (12 speakers), Navigation Professional (10.25 inch display), screen projection of devices on the front glass. Optional extras include a rearview camera, adaptive cruise, night vision, Display key, sports exhaust, enhanced massage seats, M-style seat belts.</p>
+        </div>
+    - ID: "0e55d625-aa08-4162-a358-13e007167e80"
+      Hint: Country
+      Value: France
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211030T082246Z
+    - ID: "3344572d-ecfe-4595-a2b9-21bcf585fbfe"
+      Hint: Year
+      Value: 2017
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "bab65988-1683-47b9-9a48-361ef862dcb5"
+      Hint: Image
+      Value: |
+        <image mediaid="{22A5A427-E58E-4AD4-8259-A4D60B8A9004}" />
+    - ID: "f21d2c2e-efe0-4350-8624-85b7263bb662"
+      Hint: Price
+      Value: "116830 - 134609 $"
+    - ID: "f486eb08-937b-4c9b-8568-b6788f76c198"
+      Hint: Mark
+      Value: BMW M5
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d65ae3c-b681-4633-9492-b36d28aafa51"
+      Hint: Description
+      Value: |
+        <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW M5 - обзор автомобиля</h2>
+        <div class="text-left" style="color: #333333; background-color: #ffffff;">
+        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;">&nbsp;</p>
+        <p style="margin: 0px 0px 10px;">Полный привод, высочайшая производительность, сниженная масса, улучшенная аэродинамика - это далеко не полный список преимуществ нового BMW M5, показанного на Франкфуртском моторшоу 2017. В шестом поколении (F90) баварский суперседан изменился основательно. Внешние отличительные черты новинки - агрессивные бамперы, специфические выштамповки, волнующие формы кузова, большие колеса. По сравнению с&nbsp;<a href="https://avto-russia.ru/autos/bmw/bmw_m5_f10.html" style="color: #1d6fa5; background-color: transparent;">предшественником</a>&nbsp;модель оказалась немного крупнее (прирост в длину - 55 мм), по колесной базе разница составила 18 мм (2982 мм против 2964 мм), также инженеры увеличили дорожный просвет (132 мм вместо 117). Но главной изюминкой нового BMW M5 является полный привод - впервые на легковой &laquo;М-ке&raquo; применяется многорежимная система 4WD с электронноуправляемой многодисковой муфтой. Полный привод BMW M5 имеет 3 алгоритма работы, включая агрессивный режим для дрифта. Несмотря на систему 4WD новый M5 получился легче предыдущей &laquo;М-ки&raquo; на целых 15 кг. Это получилось благодаря широкому применению углепластика и алюминиевых элементов в конструкции.<br />
+        <br />
+        Под капотом BMW M5 F90 усовершенствованный двигатель V8 с прежним объемом 4.4 л. Пересмотренные компоненты, модернизированные турбонагнетатели с увеличенным до 350 бар давлением наддува и пересмотренная система впрыска позволили нарастить мощность до 600 hp (против 560 hp у предшествующей модели). На смену 7-скоростному &laquo;роботу&raquo; пришел оптимизированный 8-диапазонный автомат M Steptronic. Заявленный разгон до сотни - всего 3.4 с (почти на целую секунду меньше прошлой &laquo;М-ки&raquo;). С такими цифрами новый BMW M5 способен эффективно &laquo;потягаться&raquo; со своим главным конкурентом&nbsp;<a href="https://avto-russia.ru/autos/mercedes/mercedes_e-class.html" style="color: #1d6fa5; background-color: transparent;">Mercedes E63 AMG S</a>, у которого почти такие же характеристики производительности и разгонной динамики. В базовом исполнении суперседан располагает чугунными тормозными системами с 6-поршневыми суппортами спереди и однопоршневыми сзади. За доплату - окрашенные в золотистый цвет углеродокерамические тормоза, выдерживающие экстремальные нагрузки без снижения эффективности.<br />
+        <br />
+        Спортивный седан можно персонализировать с помощью опционального пакета оборудования и отделки M Special, в который входят 2-цветные колеса 20 дюймов, керамическая отделка органов управления, обивка салона кожей Merino (6 вариантов), декоративные вставки (алюминий, карбон, жемчужный хром), 4-зонный климат, музыкальная система Harman/Kardon (или Bowers&amp;Wilkins), комфортный бесключевой доступ, автодоводчики дверей, многофункциональные сиденья с вентиляцией и подогревом. В списке оборудования базовой комплектации BMW M5 имеются адаптивные светодиодные фонари (включая задние габаритные огни), 2-зонный климат, кресла с подогревом, функция обогрева руля, HiFi аудиосистема премиум-уровня (12 динамиков), навигация Professional (дисплей 10.25 дюйма), экран проекции приборов на переднее стекло. В списке дополнительных опций - камера заднегo обзора, адаптивный круиз, система ночного видения, интерактивный ключ Display key, спортивная выхлопная система, улучшенные сиденья с функцией массажа, ремни безопасности в стиле M.</p>
+        </div>
+    - ID: "0e55d625-aa08-4162-a358-13e007167e80"
+      Hint: Country
+      Value: Франция
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211109T204750Z
+    - ID: "3344572d-ecfe-4595-a2b9-21bcf585fbfe"
+      Hint: Year
+      Value: 2017
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "bab65988-1683-47b9-9a48-361ef862dcb5"
+      Hint: Image
+      Value: |
+        <image mediaid="{22A5A427-E58E-4AD4-8259-A4D60B8A9004}" ></image>
+    - ID: "f21d2c2e-efe0-4350-8624-85b7263bb662"
+      Hint: Price
+      Value: "8 280 000 - 9 540 000 ₽"
+    - ID: "f486eb08-937b-4c9b-8568-b6788f76c198"
+      Hint: Mark
+      Value: BMW M5

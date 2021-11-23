@@ -4,6 +4,10 @@ Parent: "b59cb9b2-a454-4d24-94e5-5431e42e6f6e"
 Template: "e4175860-3646-446c-a90f-a43aef34aadd"
 Path: /sitecore/content/BMW/Terms And Privacy Policy
 DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
 Languages:
 - Language: en
   Versions:

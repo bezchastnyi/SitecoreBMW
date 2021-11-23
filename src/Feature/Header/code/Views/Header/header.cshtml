@@ -1,128 +1,159 @@
 ﻿@using Sitecore.Mvc
 @using Sitecore.Mvc.Presentation
+@using Sitecore.Data.Items;
+@using System.Linq;
 @using AuthenticationManager = Sitecore.Security.Authentication.AuthenticationManager
 @model RenderingModel
 @{
-  var homeItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Home");
+  const string pageTitle = Feature.Header.Constants.PageTitleField;
+  var BMWItem = Sitecore.Context.Database.Items.GetItem(Feature.Header.Constants.BMWItem);
 
-  var productsCatalogItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Products Catalog");
-  var allProductsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/All Products");
-  var topProductsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Top Products");
-  var archiveProductsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Archive Products");
+  List<Item> pages = null;
+  if (BMWItem.HasChildren)
+  {
+    pages = new List<Item>(BMWItem.Children.Where(
+      x => !Feature.Header.Constants.MissingItems.Contains(x.Name)));
+  }
 
-  var contactsItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Contacts");
-
-  var registrationItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Authentication/Registration");
-  var loggingItem = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Authentication/Logging");
+  var registrationItem = Sitecore.Context.Database.Items.GetItem(Feature.Header.Constants.RegistrationItem);
+  var loggingItem = Sitecore.Context.Database.Items.GetItem(Feature.Header.Constants.LoggingItem);
 }
 
 <header>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
   <div class="header-container">
-    <div class="header-logo">@Html.Sitecore().Field("Header Logo")</div>
+    <div class="header-logo">@Html.Sitecore().Field(Feature.Header.Constants.HeaderLogoField)</div>
 
     <div class="header-navbar">
-      <a href="@Sitecore.Links.LinkManager.GetItemUrl(homeItem)">
-        <i class="fas fa-home"></i> &nbsp; @Html.Sitecore().Field("Page Title", homeItem)
-      </a>
-
-      <div class="header-dropdown">
-        <button class="header-dropbtn">
-          <i class="fas fa-car"></i> &nbsp; @Html.Sitecore().Field("Title", productsCatalogItem) &nbsp; <i class="fa fa-caret-down"></i>
-        </button>
-
-        <div class="header-dropdown-content">
-          @if (allProductsItem != null)
+      @if (pages != null)
+      {
+        foreach (var page in pages)
+        {
+          switch (page.Name)
           {
-            <a href="@Sitecore.Links.LinkManager.GetItemUrl(allProductsItem)">
-              @Html.Sitecore().Field("Page Title", allProductsItem)
-            </a>
-          }
-
-          @if (topProductsItem != null)
-          {
-            <a href="@Sitecore.Links.LinkManager.GetItemUrl(topProductsItem)">
-              @Html.Sitecore().Field("Page Title", topProductsItem)
-            </a>
-          }
-
-          @if (archiveProductsItem != null)
-          {
-            <a href="@Sitecore.Links.LinkManager.GetItemUrl(archiveProductsItem)">
-              @Html.Sitecore().Field("Page Title", archiveProductsItem)
-            </a>
-          }
-        </div>
-      </div>
-
-      <a href="@Sitecore.Links.LinkManager.GetItemUrl(contactsItem)">
-        <i class="fas fa-address-book"></i> &nbsp; @Html.Sitecore().Field("Page Title", contactsItem)
-      </a>
-    
-      <div class="header-auth-button">
-        <style>
-          .registration,
-          .logging-in,
-          .logging-out {
-              float: right;
-              font-size: 18px;
-              color: white;
-              text-align: center;
-              padding: 15px 50px;
-              margin-top: 10px;
-              margin-right: 10px;
-          }
-
-          .logging-in{
+            case "Home":
+            {
+              <a href="@Sitecore.Links.LinkManager.GetItemUrl(page)">
+                <i class="fas fa-home"></i> &nbsp; @Html.Sitecore().Field(pageTitle, page)
+              </a>
               
-          }
-        </style>
-        @if (!Request.IsAuthenticated)
-        {
-          <button class="registration btn btn-primary" onclick="openUrl('@Sitecore.Links.LinkManager.GetItemUrl(registrationItem)')">
-            <i class="fas fa-user"></i> &nbsp; Registration
-          </button>
-        
-          <button class="logging-in btn btn-primary" onclick="openUrl('@Sitecore.Links.LinkManager.GetItemUrl(loggingItem)')">
-            <i class="fas fa-sign-in-alt"></i> &nbsp; Log in
-          </button>
-        }
-        else
-        {
-          // TODO fix logout mechanism
-          /*<button class="logging-out" onclick="{(event) => this.refreshPage}">
-            Log out
-          </button>*/
-        }
-      </div>
+              break;
+            }
 
-      @*Html.Sitecore().Rendering("{2345DCD0-A8E9-476C-9C10-44C440EE66DF}"); 
-      <script>
-        function refreshPage(){
-            @Html.Sitecore().Rendering("{2345DCD0-A8E9-476C-9C10-44C440EE66DF}")
-            window.location.reload();
-        } 
-      </script>*@
+            case "Contacts":
+            {
+              <a href="@Sitecore.Links.LinkManager.GetItemUrl(page)">
+                <i class="fas fa-address-book"></i> &nbsp; @Html.Sitecore().Field(pageTitle, page)
+              </a>
+              
+              break;
+            }
 
-      <div>
-        <style>
-          .user-name {
-            color: white;
-            text-align: center;
+            default:
+            {
+              if (page.HasChildren)
+              {
+                <div class="header-dropdown">
+                  <button class="header-dropbtn">
+                    <i class="fas fa-car"></i> &nbsp; @Html.Sitecore().Field(pageTitle, page) &nbsp; <i class="fa fa-caret-down"></i>
+                  </button>
+
+                  <div class="header-dropdown-content">
+                    @{
+                      var subPages = new List<Item>(page.Children.Where(
+                        x => !Feature.Header.Constants.MissingItems.Contains(x.Name)));
+                    }
+                
+                    @foreach (var subpage in subPages)
+                    {
+                      if (subpage != null)
+                      {
+                        <a href="@Sitecore.Links.LinkManager.GetItemUrl(subpage)">
+                          @Html.Sitecore().Field(pageTitle, subpage)
+                        </a>
+                      }
+                    }
+                  </div>
+                </div>
+              }
+              else
+              {
+                <a href="@Sitecore.Links.LinkManager.GetItemUrl(page)">
+                  @Html.Sitecore().Field(pageTitle, page)
+                </a>
+              }
+              
+              break;
+            }
           }
-        </style>
-        @if (Request.IsAuthenticated)
-        {
-          <h2 class="user-name">@AuthenticationManager.GetActiveUser().LocalName</h2>
         }
-      </div>
+      }
       
-      <script>
+      <div class="header-auth-button">
+              <style>
+                .registration,
+                .logging-in,
+                .logging-out {
+                    float: right;
+                    font-size: 18px;
+                    color: white;
+                    text-align: center;
+                    padding: 15px 50px;
+                    margin-top: 10px;
+                    margin-right: 10px;
+                }
+      
+                .logging-in{
+                    
+                }
+              </style>
+              @if (!Request.IsAuthenticated)
+              {
+                <button class="registration btn btn-primary" onclick="openUrl('@Sitecore.Links.LinkManager.GetItemUrl(registrationItem)')">
+                  <i class="fas fa-user"></i> &nbsp; Registration
+                </button>
+      
+                <button class="logging-in btn btn-primary" onclick="openUrl('@Sitecore.Links.LinkManager.GetItemUrl(loggingItem)')">
+                  <i class="fas fa-sign-in-alt"></i> &nbsp; Log in
+                </button>
+              }
+              else
+              {
+                // TODO fix logout mechanism
+                /*<button class="logging-out" onclick="{(event) => this.refreshPage}">
+                  Log out
+                </button>*/
+              }
+            </div>
+      
+            @*Html.Sitecore().Rendering("{2345DCD0-A8E9-476C-9C10-44C440EE66DF}"); 
+            <script>
+              function refreshPage(){
+                  @Html.Sitecore().Rendering("{2345DCD0-A8E9-476C-9C10-44C440EE66DF}")
+                  window.location.reload();
+              } 
+            </script>*@
+      
+            <div>
+              <style>
+                .user-name {
+                  color: white;
+                  text-align: center;
+                }
+              </style>
+              @if (Request.IsAuthenticated)
+              {
+                <h2 class="user-name">@AuthenticationManager.GetActiveUser().LocalName</h2>
+              }
+            </div>
+    </div>
+
+    <script>
         function openUrl(url) {
           window.location = url;
           window.open(url);
         }
       </script>
-    </div>
   </div>
 </header>

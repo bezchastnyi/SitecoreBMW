@@ -2,6 +2,6 @@
 {
   public static class ItemConstants
   {
-    public const string AllProducts = "/sitecore/Content/BMW/All Products";
+    public const string AllProducts = "/sitecore/Content/BMW/Products Catalog/All Products";
   }
 }

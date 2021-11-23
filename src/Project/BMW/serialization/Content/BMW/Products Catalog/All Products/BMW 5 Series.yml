@@ -1,0 +1,90 @@
+﻿---
+ID: "fb3cbf86-45ba-4d34-b0eb-f93b3641f657"
+Parent: "2d930278-80fb-4176-b092-a94fcd6b8da6"
+Template: "12f55aa2-8338-4715-9d0c-fd67d066f45c"
+Path: /sitecore/content/BMW/Products Catalog/All Products/BMW 5 Series
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "BMW 5-series"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0851f200-3cf2-4438-850b-92fc9bf178a1"
+      Hint: Page Title
+      Value: BMW 5 Series
+    - ID: "0d65ae3c-b681-4633-9492-b36d28aafa51"
+      Hint: Description
+      Value: |
+        <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW 5-series - car overview</h2>
+        <div class="text-left" style="color: #333333; background-color: #ffffff;">&nbsp;
+        <p style="margin: 0px 0px 10px;">In terms of equipment and technology progressiveness, the Bavarian BMW 5-series sedan of the new generation (index G30), as expected, surpassed its predecessor. The new "five", which shares the platform with the flagship BMW 7-series, has received a number of improved electronic assistants and assistants, has become slightly larger in size, while the sedan's wheelbase has lengthened by 7 mm and the trunk volume has grown by 10 liters. In the power structure of the body of the BMW 5-series, lightweight composite materials were not used as in the older "seven", nevertheless, the engineers managed to reduce the weight of the car by an average of 100 kg. Even standing motionless, the "Bavarian" creates a strong impression of strong appearance. Visually, the new BMW 5-series can be recognized by the "redrawn" lighting technology, smoothly flowing into the enlarged nostrils of the radiator grill - this is the first time the Bavarian "five" has received such a stylistic solution. Other design features - decorative side "sticks" on the front fenders (like in the 7 series), new taillights, exhaust pipes that change depending on the engine. By the way, the drag coefficient has been significantly improved - 0.22 (versus 0.25 for the previous generation). To improve this indicator helped not only the features of the body, but also the controlled dampers in the radiator grilles.<br />
+        <br />
+        The CLAR modular platform has made its own changes to the suspension architecture of the 5 Series sedan. A 2-link design is now installed at the front, while at the rear, the massive lower arm has given way to two lightweight rods. The new BMW 5-series does not have air suspension (the closest competitor, the Mercedes E-class, for example, has this option). It uses a traditional spring arrangement with adaptive dampers and progressive roll control. In addition, the sedan boasts a rear-wheel steering system and variable-pitch active steering. The interior of the new "five" has received many innovations. This list includes a large information display with an increased diagonal, an updated Connected Drive system with wide communication capabilities, a gesture control system familiar from the flagship 7-series, an automatic parking option (available even for manual transmissions). The power range of the BMW 5-series is represented by advanced turbocharged engines of 190 - 340 forces, combined with an 8-speed automatic or 6-band manual gearbox.<br />
+        <br />
+        The German business sedan has three exterior packages: Sport line, Luxury line and M Sport. The Sport line is characterized by a combination of dark exterior components and exclusive Double spoke 634 wheels. In the BMW 5-series, the illuminated Sport Line lettering and pronounced lateral bolsters create a sporty ambience in the interior of the BMW 5-series. The luxury line brings noble, elegant lines to the sedan in the form of chrome trim components, high-gloss edging for the side windows and exclusive multi-spoke wheels. The interior of this version is distinguished by an improved package of finishing with leather materials and natural wood. The M Sport line creates a striking dynamic style and perfectly reflects the temperamental character of the car. The package features aerodynamic bumpers, exclusive leather and aluminum trim, and adaptive suspension. For the discerning driver, BMW Individual is available with a wide range of finishes for a unique personalization of the vehicle. For a fee, the BMW 5-series can be equipped with a satellite alarm system, a rear view camera, a parking assistant, a night vision function, a Harman &amp; Kardon audio system.</p>
+        </div>
+    - ID: "0e55d625-aa08-4162-a358-13e007167e80"
+      Hint: Country
+      Value: Russia
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211030T082246Z
+    - ID: "3344572d-ecfe-4595-a2b9-21bcf585fbfe"
+      Hint: Year
+      Value: 2017
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "bab65988-1683-47b9-9a48-361ef862dcb5"
+      Hint: Image
+      Value: |
+        <image mediaid="{060BF918-20E9-4DAD-9DDD-A3897D8B3CDB}" />
+    - ID: "f21d2c2e-efe0-4350-8624-85b7263bb662"
+      Hint: Price
+      Value: "44869 - 100745 $"
+    - ID: "f486eb08-937b-4c9b-8568-b6788f76c198"
+      Hint: Mark
+      Value: "BMW 5-series"
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d65ae3c-b681-4633-9492-b36d28aafa51"
+      Hint: Description
+      Value: |
+        <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW 5-series - обзор автомобиля</h2>
+        <div class="text-left" style="color: #333333; background-color: #ffffff;">&nbsp;
+        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;">По уровню оснащенности и прогрессивности технологий баварский седан BMW 5-series нового поколения (индекс G30) ожидаемо превзошел своего&nbsp;<a href="https://avto-russia.ru/autos/bmw/bmw_5-series_f10.html" style="color: #1d6fa5; background-color: transparent;"></a>предшественника. Новая "пятерка", разделяющая платформу с флагманской&nbsp;<a href="https://avto-russia.ru/autos/bmw/bmw_7-series.html" style="color: #1d6fa5; background-color: transparent;"></a>BMW 7-series, получила ряд усовершенствованных электронных ассистентов и помощников, стала незначительно крупнее в габаритах, при этом колесная база седана удлинилась на 7 мм и на 10 л "подрос" объем багажника. В силовой структуре кузова BMW 5-series облегченные композитные материалы не применялись как на старшей "семерке", тем не менее, инженерам удалось снизить вес автомобиля в среднем на целых 100 кг. Даже стоя неподвижно "баварец" создает сильное впечатление сильной внешностью. Визуально новый BMW 5-series можно опознать по "перерисованной" светотехнике, плавно перетекающей в увеличенные ноздри радиаторной решетки - такое стилистическое решение баварская "пятерка" получила впервые. Из других дизайнерских особенностей - декоративные боковые "клюшки" на передних крыльях (как у 7 серии), новые задние фонари, меняющиеся в зависимости от двигателя патрубки выхлопа. К слову, заметно улучшен коэффициент аэродинамического сопротивления - 0.22 (против 0.25 у прошлого поколения). Улучшить этот показатель помогли не только особенности кузова, но и управляемые заслонки в радиаторных решетках.<br />
+        <br />
+        Модульная платформа CLAR внесла свои изменения в архитектуру подвески седана 5 серии. Спереди теперь здесь установлена 2-рычажная конструкция, сзади массивный нижний рычаг уступил место двум облегченным тягам. Пневматическая подвеска новому BMW 5-series не положена (у ближайшего конкурента&nbsp;<a href="https://avto-russia.ru/autos/mercedes/mercedes_e-class.html" style="color: #1d6fa5; background-color: transparent;"></a>Mercedes E-class, например, эта опция имеется). Здесь применяется традиционная пружинная компоновка с адаптивными амортизаторами и прогрессивной системой подавления кренов. Кроме того, седан может похвастаться подруливающей системой задних колес и активным рулевым механизмом с переменным шагом зубьев. Интерьер новой "пятерки" получил много новшеств. В этом списке большой информационный дисплей с увеличенной диагональю, обновленная система Connected Drive с широкими коммуникационными возможностями, знакомая по флагманской 7-серии система управления жестами, опция автоматической парковки (доступно даже для механических коробок). Силовая гамма BMW 5-series представлена усовершенствованными турбонаддувными моторами 190 - 340 сил, сочетающимися с 8-скоростной автоматической или 6-диапазонной ручной коробками.<br />
+        <br />
+        Немецкий бизнес-седан имеет три пакета внешней отделки: Sport line, Luxury linе и M Sport. Линия Sport отличается сочетанием темных компонентов внешнего оформления и эксклюзивных колесных дисков Double spoke 634. В салоне BMW 5-series спортивную атмосферу создают подсвечиваемая надпись "Sport Line" и кресла с выраженной боковой поддержкой. Люксовая линия привносит в облик седана благородные элегантные черты в виде хромированных отделочных компонентов, блестящей окантовки боковых стекол, эксклюзивных колес с многоспицевым дизайном. Салон этого исполнения отличается улучшенным пакетом отделки кожаными материалами и натуральным деревом. Спортивная линия M Sport создает эффектный динамичный стиль и великолепно отражает темпераментный характер автомобиля. Особенностью пакета являются аэродинамичные бамперы, эксклюзивная отделка салона кoжаными материалами и алюминием, адаптивная подвеска. Для особо взыскательных водителей предусмотрена комплектация BMW Individual, предлагающая широкий спeктр отделки для уникальной персонализации автомобиля. За отдельную плату BMW 5-series можно доукомплектовать спутниковой системой сигнализации, камерой заднего вида, ассистентом парковки, функцией ночного видения, аудиосистемой Harman&amp;Kardon.</p>
+        </div>
+    - ID: "0e55d625-aa08-4162-a358-13e007167e80"
+      Hint: Country
+      Value: Россия
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211109T210434Z
+    - ID: "3344572d-ecfe-4595-a2b9-21bcf585fbfe"
+      Hint: Year
+      Value: 2017
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "bab65988-1683-47b9-9a48-361ef862dcb5"
+      Hint: Image
+      Value: |
+        <image mediaid="{060BF918-20E9-4DAD-9DDD-A3897D8B3CDB}" />
+    - ID: "f21d2c2e-efe0-4350-8624-85b7263bb662"
+      Hint: Price
+      Value: "3 180 000 - 7 140 000 ₽"
+    - ID: "f486eb08-937b-4c9b-8568-b6788f76c198"
+      Hint: Mark
+      Value: "BMW 5-series"

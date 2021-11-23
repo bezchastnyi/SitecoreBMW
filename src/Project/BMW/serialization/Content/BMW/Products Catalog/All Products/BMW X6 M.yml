@@ -1,0 +1,91 @@
+﻿---
+ID: "c8910053-6822-418b-af80-c3b31a97717e"
+Parent: "2d930278-80fb-4176-b092-a94fcd6b8da6"
+Template: "12f55aa2-8338-4715-9d0c-fd67d066f45c"
+Path: /sitecore/content/BMW/Products Catalog/All Products/BMW X6 M
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: BMW X6 M
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0851f200-3cf2-4438-850b-92fc9bf178a1"
+      Hint: Page Title
+      Value: BMW X6 M
+    - ID: "0d65ae3c-b681-4633-9492-b36d28aafa51"
+      Hint: Description
+      Value: |
+        <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW X6 M - car overview</h2>
+        <div class="text-left" style="color: #333333; background-color: #ffffff;">
+        &nbsp;
+        <p style="margin: 0px 0px 10px;">In early October 2019, German designers from Bavaria presented an updated coupe-like crossover BMW X6 M F96 and its advanced version with an addition to the name of the "Competition" prefix. The car is intended primarily for wealthy men who want to be the first on the road with comfort and safety. From the previous version, the updated crossover stands out with a more aggressive look of bumpers, a graceful design of rear-view mirrors, an enlarged spoiler at the stern and beautiful taillights that expand and curve upwards along the edges. On the &ldquo;Competition&rdquo; equipment, the mirrors, the radiator grille and the nameplates are painted in black. The interior of the BMW X6 M is distinguished by its "thoroughbred" design, exquisite finishes and quality workmanship. Highlighted sports multi-steering wheel, embossed front seats and especially three bright red elements: the engine start button and two buttons on the steering wheel (M1, M2). The boot volume with the rear seats folded down increases from 580 liters to 1530 liters.<br />
+        <br />
+        The crossover is equipped with three 8 / V petrol engines with a power of 520, 600 and 625 hp. and one diesel 6-row engine with a capacity of 400 hp. The torque to both axles is transmitted to all engines by an automatic transmission with 8 steps and an active differential equipped with electronic control. These motors accelerate the crossover to 100 km / h in 4.3, 3.9, 3.8 and 5.2 seconds, respectively. The BMW X6 M F96 has an adaptive suspension with rigid rubber-metal connections and unique settings. Ventilated disc brakes on all wheels. There are 6-piston mechanisms in front, and simple single-piston mechanisms on the rear wheels. The steering is a rack and pinion type with an electromechanical amplifier and a variable gear ratio.<br />
+        <br />
+        The basic configuration of the crossover includes door closers, all-round visibility, cruise control, front seats with ventilation and heating, headlights with laser high beam, excellent Bowers audio system and other standard and luxury options. Carbon ceramic brakes can be installed at an additional cost. In the salons of Russia, the BMW X6 M F96 will appear in May 2020.</p>
+        </div>
+    - ID: "0e55d625-aa08-4162-a358-13e007167e80"
+      Hint: Country
+      Value: USA
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211030T082246Z
+    - ID: "3344572d-ecfe-4595-a2b9-21bcf585fbfe"
+      Hint: Year
+      Value: 2019
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "bab65988-1683-47b9-9a48-361ef862dcb5"
+      Hint: Image
+      Value: |
+        <image mediaid="{341635EF-83BA-4A53-9D5A-C6032BF5EE05}" />
+    - ID: "f21d2c2e-efe0-4350-8624-85b7263bb662"
+      Hint: Price
+      Value: "95101 - 158173 $"
+    - ID: "f486eb08-937b-4c9b-8568-b6788f76c198"
+      Hint: Mark
+      Value: BMW X6 M
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d65ae3c-b681-4633-9492-b36d28aafa51"
+      Hint: Description
+      Value: |
+        <h2 style="color: #333333; background-color: #ffffff; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #3498db;">BMW X6 M - обзор автомобиля</h2>
+        <div class="text-left" style="color: #333333; background-color: #ffffff;">&nbsp;
+        <p style="margin-right: 0px; margin-bottom: 10px; margin-left: 0px;">В начале октября 2019 года немецкие конструкторы из Баварии представили обновленный купеобразный кроссовер BMW X6 M F96 и его продвинутую версию с дополнением к названию приставки &laquo;Competition&raquo;. Автомобиль предназначен в первую очередь состоятельным мужчинам, которые хотят с комфортом и безопасностью быть первыми на дороге. От предыдущей версии обновленный кроссовер выделяется более агрессивным видом бамперов, изящной конструкцией зеркал заднего вида, увеличенным спойлером на корме и красивыми задними фонарями, расширяющимися и изгибающимися по краям вверх. У комплектации &laquo;Competition&raquo; в черный цвет окрашены зеркала заднего вида, радиаторная решетка и шильдики. Интерьер BMW X6 M отличается &laquo;породистым&raquo; дизайном, изысканной отделкой и качественным исполнением. Выделяется спортивный мульти-руль, рельефные передние кресла и особенно три ярких элемента красного цвета: кнопка пуска двигателя и две клавиши на руле (М1, М2). Объем багажника при сложенных задних сиденьях увеличивается с 580 до 1530 литров.<br />
+        <br />
+        Кроссовер комплектуется тремя бензиновыми двигателями 8/V с мощностью 520, 600 и 625 л.с. и одним дизельным 6-ти рядным мотором мощностью в 400 л.с. Крутящий момент на обе оси передает для всех двигателей автоматическая коробка с 8-ю ступенями и активный дифференциал, снабженный электронным управлением. До 100 км/час эти моторы разгоняют кроссовер соответственно за 4.3, 3.9, 3.8 и 5.2 секунды. У BMW X6 M F96 установлена адаптивная подвеска, имеющая жесткие резинометаллические соединения и уникальные настройки. Тормоза на всех колесах дисковые вентилируемые. Спереди стоят 6-ти поршневые механизмы, а на задних колесах - простые однопоршневые. Рулевое управление реечного типа, имеющее электромеханический усилитель и изменяемое передаточное отношение.<br />
+        <br />
+        В базовую комплектацию кроссовера входят доводчики дверей, круговой обзор, круиз-контроль, передние сиденья с вентиляцией и обогревом, фары, имеющие лазерный дальний свет, отличная аудиосистема Bowers и другие стандартные и люксовые опции. За дополнительную плату можно установить углерод-керамические тормоза. В салонах России BMW X6 M F96 появится в мае 2020 года.</p>
+        </div>
+    - ID: "0e55d625-aa08-4162-a358-13e007167e80"
+      Hint: Country
+      Value: США
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211109T192348Z
+    - ID: "3344572d-ecfe-4595-a2b9-21bcf585fbfe"
+      Hint: Year
+      Value: 2019
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "bab65988-1683-47b9-9a48-361ef862dcb5"
+      Hint: Image
+      Value: |
+        <image mediaid="{341635EF-83BA-4A53-9D5A-C6032BF5EE05}" />
+    - ID: "f21d2c2e-efe0-4350-8624-85b7263bb662"
+      Hint: Price
+      Value: "6 740 000 - 11 210 000 ₽"
+    - ID: "f486eb08-937b-4c9b-8568-b6788f76c198"
+      Hint: Mark
+      Value: BMW X6 M

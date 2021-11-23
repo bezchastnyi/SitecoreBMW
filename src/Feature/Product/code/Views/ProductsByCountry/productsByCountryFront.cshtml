@@ -2,7 +2,7 @@
 @using Sitecore.Mvc.Presentation
 @model RenderingModel
 @{
-  var productsByCountry = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Products By Country");
+  var productsByCountry = Sitecore.Context.Database.Items.GetItem("/sitecore/Content/BMW/Products Catalog/Products By Country");
 }
 
 @if (!string.IsNullOrEmpty(Html.Sitecore().Field("Page Title", productsByCountry).ToString()))
